@@ -1,0 +1,1 @@
+Please [read the associated document](/docs/graph/paginated-requests) in the Graph API section for information on pagination.

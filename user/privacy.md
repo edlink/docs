@@ -1,0 +1,1 @@
+To read more about our hard stance on user privacy, please [read the associated document](/docs/graph/privacy) in the Graph API section.

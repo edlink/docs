@@ -1,0 +1,436 @@
+{
+    "$data": {
+        "version": "1.0.0",
+        "updated": "2019-07-28T18:06:00.271Z",
+        "sections": [
+            {
+                "slug": "graph",
+                "title": "Graph API",
+                "documents": [
+                    {
+                        "spacer": true,
+                        "title": "Getting Started"
+                    },
+                    {
+                        "slug": "introduction",
+                        "title": "Introduction"
+                    },
+                    {
+                        "slug": "authorization",
+                        "title": "Authorization"
+                    },
+                    {
+                        "slug": "privacy",
+                        "title": "Data Privacy"
+                    },
+                    {
+                        "slug": "paginated-requests",
+                        "title": "Paginated Requests"
+                    },
+                    {
+                        "slug": "design-considerations",
+                        "title": "Design Considerations"
+                    },
+                    {
+                        "slug": "data-model",
+                        "title": "Data Model"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "API Metadata"
+                    },
+                    {
+                        "slug": "providers",
+                        "title": "Providers"
+                    },
+                    {
+                        "slug": "permissions",
+                        "title": "Permissions"
+                    },
+                    {
+                        "slug": "webhooks",
+                        "title": "Webhooks"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "API Endpoints"
+                    },
+                    {
+                        "slug": "integrations",
+                        "title": "Integrations"
+                    },
+                    {
+                        "slug": "organizations",
+                        "title": "Organizations"
+                    },
+                    {
+                        "slug": "terms",
+                        "title": "Terms"
+                    },
+                    {
+                        "slug": "people",
+                        "title": "People"
+                    },
+                    {
+                        "slug": "enrollments",
+                        "title": "Enrollments"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "Events"
+                    },
+                    {
+                        "slug": "events-overview",
+                        "title": "Events Overview"
+                    }
+                ]
+            },
+            {
+                "slug": "user",
+                "title": "User Data API",
+                "documents": [
+                    {
+                        "slug": "introduction",
+                        "title": "Introduction"
+                    },
+                    {
+                        "slug": "authorization",
+                        "title": "Authorization"
+                    },
+                    {
+                        "slug": "privacy",
+                        "title": "Data Privacy"
+                    },
+                    {
+                        "slug": "paginated-requests",
+                        "title": "Paginated Requests"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "Getting Started"
+                    },
+                    {
+                        "slug": "permissions",
+                        "title": "Permissions"
+                    },
+                    {
+                        "slug": "authentication",
+                        "title": "Authentication"
+                    },
+                    {
+                        "slug": "lti-launch",
+                        "title": "LTI Launch"
+                    },
+                    {
+                        "slug": "classlink-launchpad",
+                        "title": "Classlink Launchpad"
+                    },
+                    {
+                        "slug": "clever-instant-login",
+                        "title": "Clever Instant Login"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "Endpoints"
+                    },
+                    {
+                        "slug": "people",
+                        "title": "People"
+                    },
+                    {
+                        "slug": "organizations",
+                        "title": "Organizations"
+                    },
+                    {
+                        "slug": "assignments",
+                        "title": "Assignments"
+                    },
+                    {
+                        "slug": "resources",
+                        "title": "Resources"
+                    },
+                    {
+                        "slug": "submissions",
+                        "title": "Submissions"
+                    }
+                ]
+            },
+            {
+                "slug": "dashboard",
+                "title": "Dashboard",
+                "documents": [
+                    {
+                        "slug": "creating-an-account",
+                        "title": "Creating An Account"
+                    },
+                    {
+                        "slug": "sign-in",
+                        "title": "Signing into an Account"
+                    },
+                    {
+                        "slug": "account-settings",
+                        "title": "Account Settings"
+                    },
+                    {
+                        "slug": "creating-a-team",
+                        "title": "Creating A Team"
+                    },
+                    {
+                        "slug": "switching-teams",
+                        "title": "Switching Teams"
+                    },
+                    {
+                        "slug": "team-settings",
+                        "title": "Team Settings"
+                    },
+                    {
+                        "slug": "inviting-team-members",
+                        "title": "Inviting Team Members"
+                    },
+                    {
+                      "slug": "billing",
+                      "title": "Billing Settings"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "For Educators"
+                    },
+                    {
+                        "slug": "connecting-sources",
+                        "title": "Connecting Data Sources"
+                    },
+                    {
+                        "slug": "school-integrations",
+                        "title": "Making Integrations"
+                    },
+                    {
+                        "slug": "managing-school-integrations",
+                        "title": "Managing Integrations"
+                    },
+                    {
+                        "slug": "application-permissions-school",
+                        "title": "Application Permissions"
+                    },
+                    {
+                        "slug": "marketplace",
+                        "title": "Marketplace"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "For Developers"
+                    },
+                    {
+                        "slug": "creating-applications",
+                        "title": "Creating Applications"
+                    },
+                    {
+                        "slug": "application-keys",
+                        "title": "Finding API Keys"
+                    },
+                    {
+                        "slug": "application-permissions-dev",
+                        "title": "Application Permissions"
+                    },
+                    {
+                        "slug": "application-webhooks",
+                        "title": "Application Webhooks"
+                    },
+                    {
+                        "slug": "dev-integrations",
+                        "title": "Developer Integrations"
+                    },
+                    {
+                        "slug": "application-settings",
+                        "title": "Application Settings"
+                    },
+                    {
+                        "slug": "application-approval",
+                        "title": "Application Approval"
+                    },
+                    {
+                        "slug": "data-sources-dev",
+                        "title": "School Data Sources"
+                    },
+                    {
+                        "slug": "changelog",
+                        "title": "Changelog"
+                    }
+                ]
+            },
+            {
+                "slug": "administrators",
+                "title": "Administrators",
+                "documents": [
+                    {
+                        "slug": "integration",
+                        "title": "Data Integration"
+                    },
+                    {
+                        "slug": "sso",
+                        "title": "Single Sign On"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "Data Providers"
+                    },
+                    {
+                        "slug": "google",
+                        "title": "G Suite Integration"
+                    },
+                    {
+                        "slug": "microsoft",
+                        "title": "Office 365 Integration"
+                    },
+                    {
+                        "slug": "canvas",
+                        "title": "Canvas Integration"
+                    },
+                    {
+                        "slug": "blackboard",
+                        "title": "Blackboard Integration"
+                    },
+                    {
+                        "slug": "schoology",
+                        "title": "Schoology Integration"
+                    },
+                    {
+                        "slug": "moodle",
+                        "title": "Moodle Integration"
+                    },
+                    {
+                        "slug": "brightspace",
+                        "title": "Brightspace Integration"
+                    },
+                    {
+                        "slug": "clever",
+                        "title": "Clever Integration"
+                    },
+                    {
+                        "slug": "classlink",
+                        "title": "Classlink Integration"
+                    },
+                    {
+                        "slug": "oneroster",
+                        "title": "OneRoster Integration"
+                    }
+                ]
+            },
+            {
+                "slug": "teachers",
+                "title": "Teachers",
+                "documents": [
+                    {
+                        "slug": "about-single-sign-on",
+                        "title": "About Single Sign On"
+                    },
+                    {
+                        "slug": "sign-in-issues",
+                        "title": "Sign In Issues"
+                    },
+                    {
+                        "spacer": true,
+                        "title": "Single Sign On Guides"
+                    },
+                    {
+                        "slug": "sign-in-with-google",
+                        "title": "Sign In With Google"
+                    },
+                    {
+                        "slug": "sign-in-with-microsoft-teams",
+                        "title": "Sign In With Microsoft Teams"
+                    },
+                    {
+                        "slug": "sign-in-with-canvas",
+                        "title": "Sign In With Canvas"
+                    },
+                    {
+                        "slug": "sign-in-with-schoology",
+                        "title": "Sign In With Schoology"
+                    },
+                    {
+                        "slug": "sign-in-with-brightspace",
+                        "title": "Sign In With Brightspace"
+                    },
+                    {
+                        "slug": "sign-in-with-blackboard",
+                        "title": "Sign In With Blackboard"
+                    },
+                    {
+                        "slug": "sign-in-with-moodle",
+                        "title": "Sign In With Moodle"
+                    },
+                    {
+                        "slug": "sign-in-with-clever",
+                        "title": "Sign In With Clever"
+                    },
+                    {
+                        "slug": "sign-in-with-classlink",
+                        "title": "Sign In With Classlink"
+                    },
+                    {
+                        "slug": "lti-launch",
+                        "title": "Launching With LTI"
+                    }
+                ]
+            },
+            {
+                "slug": "changes",
+                "title": "Change Logs",
+                "documents": [
+                    {
+                        "slug": "api",
+                        "title": "API Changelog"
+                    },
+                    {
+                        "slug": "dashboard",
+                        "title": "Dashboard Changelog"
+                    }
+                ]
+            },
+            {
+                "slug": "legal",
+                "title": "Legal Documents",
+                "documents": [
+                    {
+                        "slug": "terms",
+                        "title": "Terms & Conditions"
+                    },
+                    {
+                        "slug": "privacy",
+                        "title": "Privacy Policy"
+                    },
+                    {
+                        "slug": "developer-terms",
+                        "title": "Additional Developer Terms"
+                    },
+                    {
+                        "slug": "school-terms",
+                        "title": "Additional School Terms"
+                    },
+                    {
+                        "slug": "california-residents",
+                        "title": "California Residents"
+                    },
+                    {
+                        "slug": "gdpr",
+                        "title": "GDPR Policy"
+                    }
+                ]
+            },
+            {
+                "slug": "faq",
+                "title": "FAQ",
+                "documents": [
+                    {
+                        "slug": "companies",
+                        "title": "FAQ For Companies"
+                    },
+                    {
+                        "slug": "schools",
+                        "title": "FAQ For Schools"
+                    }
+                ]
+            }
+        ]
+    }
+}

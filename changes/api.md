@@ -1,0 +1,322 @@
+## Version 1.9.4
+
+- Fixed an issue where Edlink was trying to send an email to no contacts after a new integration was created.
+- Reduced the amount of information exposed publicly about certain applications and integrations to only what was 100% necessary.
+
+## Version 1.9.3
+
+- Integration analytics endpoint is now significantly faster and contains details about terms and enrollments.
+- Internal improvements for sharing rules bugfixes.
+
+## Version 1.9.2
+
+- SAML added as a login method for OneRoster sources.
+
+## Version 1.9.1
+
+- Fixed a bug that was preventing courses from being previewed.
+- Some User Data API endpoints were not properly observing sharing rules.
+
+## Version 1.9.0
+
+- Data can now be shared via rules.
+
+## Version 1.8.5
+
+- Edlink will now pre-handle a several common Microsoft Teams issues.
+    - When you try to create an assignment with a title greater than 70 characters, Edlink will throw a `400` error.
+    - When you try to update an assignment and set a title greater than 70 characters, Edlink will throw a `400` error.
+    - When you try to create an assignment without a due date, Edlink will throw a `400` error.
+- A bug has been fixed that was causing an inaccurate `organization.ancestry` array to be returned by the `/api/v1/my/courses` endpoint (and similar endpoints).
+
+## Version 1.8.4
+
+- Fixed an issue where expired access tokens were not being properly refreshed before making a GraphQL request.
+- You can now expand the details about course sections in the `/v1/my/courses` call.
+
+## Version 1.8.3
+
+- You are now able to filter Graph API data by a number of different parameters.
+
+## Version 1.8.2
+
+- You can now launch into an integration with your default application parameters already set.
+    - This is primarily targeted at use cases such as Microsoft MyApps tiles.
+    - While it is not true "SSO", it can streamline the process for teachers and students.
+- The Edlink Dashboard will no longer display teams that are marked as `inactive`.
+- The sync date will now be returned when you fetch or list enrollments through the Graph API.
+- The entity and team IDs will now be properly removed when you fetch details about a single integration by ID.
+
+## Version 1.8.1
+
+- Listing student submissions from Schoology will now return the entire class, rather than just students who have submitted the item.
+    - Students who have not submitted the item will be returned, but most properties will be `null`.
+    - This change should bring Schoology more into line with the behavior of other learning management systems.
+- The maximum page size on Graph API calls has been increased to 10,000. It was previously 1,000.
+
+## Version 1.8.0
+
+- Dramatic performance and scalability improvements for the impending back-to-school tsunami.
+
+## Version 1.7.11
+
+- You will no longer receive student submissions for those students who are "invalid" within our system (i.e. due to a faulty data sync).
+- We will now return a `404` error if you attempt to retrieve a submission from an "invalid" student.
+- Fixed assignment timezone issues with both Google Classroom and Schoology.
+- Fixed an assignment submission bug in Google Classroom.
+- Simplified the Google Classroom display date logic. Google Classroom assignments are now automatically marked as "unpublished" when a display date is provided, because Classroom will default to a `PUBLISHED` state otherwise (ignoring display date altogether).
+- Made dramatic improvements to performance on calls to retrieve student enrollments through the User Data API.
+
+## Version 1.7.10
+
+- Brightspace assignments will now properly create a gradebook column.
+- Brightspace feedback will now be properly posted to the aforementioned gradebook column.
+
+## Version 1.7.9
+
+- Clever integrations will no longer try to fetch data from scopes that are unauthorized.
+- All LMS requests will now retry up to 5 times upon `5XX` failure.
+- Classlink and OneRoster sources will no longer provide `inactive` items in API results.
+- Listing enrollments by organization via the Graph API will now return the correct results given enrollments in sub-organizations.
+- `person.properties` is now sent with the enrollment call described above.
+- We are now properly saving the Clever user role.
+- We removed the `district` object from Clever imports.
+    - District admins will now receive individual `administrator` enrollments to all of the component schools.
+- People will now have an enrollment object that associates them with their Classlink school.
+- Google Classroom assignments will now properly default to `description_plaintext` instead of the full HTML `description` property.
+
+## Version 1.7.8
+
+- The API will no longer import the school district from Clever as this was the only data source for which district information is readily available.
+- All sources (even external sources automatically created from Clever or Classlink) will now be tied to a team.
+    - External sources will have a team automatically generated for them.
+    - External sources may be moved over to the school district's "real" team upon request by an Edlink administrator.
+    - Any existing external sources have had a team created for them.
+- Schoology API maximum page sizes changed and as a result, some of our imports had triggered sources to become disabled.
+- Clever sources will now be disabled when they are disabled in Clever.
+
+## Version 1.7.7
+
+- Organizations of type `template` will now be returned by default when you call `/my/courses`.
+- Blackboard organization states are now decided more intelligently, instead of just relying on Blackboard.
+- Technical contacts for the school and developer will now receive a notification email when a new integration is created.
+- `Events` will no longer be generated for integrations that are paused.
+
+## Version 1.7.6
+
+- Made significant performance improvements to API call to list accounts by application & email address (for the SSO routing process).
+- The Brightspace sync process will assign more accurate user roles at the system level.
+- User access tokens are now invalidated (paused) when an integration is disabled for any reason. They are reactivated if an integration is reenabled.
+- Graph access tokens are now invalidated (paused) when an integration is disabled for any reason. They are reactivated if an integration is reenabled.
+- Several new email notifications are now available:
+    - Developers will receive an email when an integration has been requested.
+    - Schools will receive an email when their integration has been approved.
+    - Schools and developers will receive an email when a scheduled integration goes live.
+- Classes synced from OneRoster will now include the `identifier` property in the `properties` object, if it is available.
+- `Provider` objects will now contain a `help` object that may contain a series of configuration help videos.
+
+## Version 1.7.5
+
+- Google Classroom will now sync archived and provisioned courses.
+- A new endpoint was added to retrieve basic analytics about an integration. You can retrieve the number of schools, courses, and people shared by the school district.
+- Fixed a bug with the Microsoft Teams sync where teachers would also be enrolled as students in Edlink.
+- The endpoint to list your application's integrations now follows standard pagination rules and allows for the `$first`, `$after`, `$last`, and `$before` parameters.
+
+## Version 1.7.4
+
+- `application/x-www-form-urlencoded` requests will now be accepted for all requests in addition to the standard JSON body type.
+- Several new properties have been added to the `/my/profile` user data API request.
+- Fixed a bug that caused Microsoft submission scores to be returned in an incorrect format.
+- Improved permissions handling for Graph API endpoints.
+- Two new endpoints have been added to allow you to retrieve terms (grading periods) through the User Data API.
+
+## Version 1.7.3
+
+- Blackboard, Canvas, Schoology, and Brightspace custom URLs are now better able to handle trailing slashes or improper URL formats.
+- General improvements to OneRoster sync.
+    - The OneRoster organization identifier is now available as `organization.properties.identifier`.
+- The Canvas sync process will now handle some rather unusual edge cases with regard to enrollments.
+    - There can now be multiple enrollments between a user and an organization.
+    - There can be multiple enrollments *of the same enrollment type* between a user and an organization (yes, for some reason this happens in practice).
+- Although our database will now sync invalid items (e.g. an `enrollment` with no corresponding `person`), these items will not be returned through our API.
+
+## Version 1.7.2
+
+- Schoology assignment dates (e.g. due date, display date) will now correctly adjust for the time zone.
+
+## Version 1.7.1
+
+- All cookies are now set to `SameSite=true` and `Secure`.
+- The `/my/profile` call will now optionally return expanded data for the person's `Source`, `Provider`, `District`, and `Integration`.
+
+## Version 1.7.0
+
+- Microsoft users will now be imported with the correct system-level role.
+- Fixed a bug in Microsoft submission grading that would have prevented the API from submitting a grade of "0".
+- All API responses will now contain the HTTP Strict Transport Security (HSTS) header.
+    - You were not previously able to make non-HTTPs requests, but this header was not present.
+- People may now contain a properties object which may contain LMS-specific properties.
+- Organizations may now contain a properties object which may contain LMS-specific properties.
+- Major improvements to the LMS sync process.
+    - Targeted updates can be made on-the-fly for more timely data syncing.
+- Major internal changes have been made to the Events API.
+    - Externally, the API is very slightly different.
+
+## Version 1.6.3
+
+- Fixed a bug that was preventing the proper import of data from Brightspace. Certain organizations would not have their ancestry properly set, which would cause a number of errors later down the road (e.g. they would not appear when you asked to list a user's courses).
+- Fixed a bug with listing or fetching assignments from Brightspace. Items with no availability data were not being handled properly.
+- Properly processing Brightspace submissions with multiple attempts.
+- Force submissions method implemented for Schoology.
+- Fixed a bug that prevented initial login webhooks from firing properly.
+- Fixed a bug that was causing Schoology assignments to fail to create if they did not include a due date.
+- Improvements to Brightspace assignments, submissions, and grades.
+
+## Version 1.6.2
+
+- Added a new endpoint to retrieve details about a single integration.
+- Switched to updated entities table which includes far more detailed information.
+    - All entities will now include their full address and NCES IDs.
+
+## Version 1.6.1
+
+- Added a new endpoint to the Graph API to list the schools that are ancestors to the requested organization.
+
+## Version 1.6.0
+
+- Added webhook functionality.
+    - Webhooks can be configured on your application page.
+    - Webhooks will be attempted up to 10 times (with exponential time decay) in the event of failure.
+- Added first two webhook events.
+    - A webhook can be fired whenever a user signs into your application.
+    - A webhook can be fired whenever a user has signed into your application for the first time.
+
+## Version 1.5.3
+
+- Added a new endpoint to retrieve details about a user's data source.
+    - The endpoint can be found at `/v1/my/source` and contains details about the source, as well as the provider application.
+- Fixed a bug where whitespace was improperly handled within users' names in Canvas.
+
+## Version 1.5.2
+
+- Fixed several bugs related to Blackboard submissions and grades.
+    - Assignments are now properly deleted from Blackboard.
+- Fixed a bug where Blackboard refresh tokens were improperly saved, as apparently they can change.
+- The Blackboard refresh process now happens without a time buffer because Blackboard will not issue new access tokens until the very moment that the old one is expired (they have no issue changing the refresh token every time though, the *exact opposite* of what is supposed to happen) ¯\\\_(ツ)\_/¯.
+- Improved the Moodle import with the help of the new Moodle plugin.
+
+## Version 1.5.1
+
+- Fixed a login bug with anonymous Clever users who initiate the login process from the developer's application (as opposed to Clever Library).
+- Made improvements to the Moodle Sync and released a new version of the Edlink Moodle plugin.
+- Launch context is now available as a part of the OAuth 2.0 response when launching from an LTI application.
+    - Launch context includes the organization (e.g. course) in which the LTI application was opened.
+    - It also includes one or more enrollment objects that relate the user to the organization.
+    - Users are prevented from launching within contexts to which you (the developer) were not granted access by the school admin.
+- A bug with Schoology LTI launch was fixed. Schoology LTI user IDs are different from their standard user IDs.
+
+## Version 1.5.0
+
+- Changes were made to the organizations data model.
+    - `street_address`, `unit_number`, `city`, `state`, `zip`, `website`, and `banner_url` have been removed.
+    - Address information (when available) will now be contained exclusively on the organization's `Entity` object.
+    - Organizations now have a new property called `state` which indicates the organization's lifecycle state.
+    - At present, valid organization states are: `template`, `upcoming`, `inactive`, `active`, `completed`, and `archived`.
+- Performance improvements were made to the Canvas sync. Integrations should now be up to 10 times faster.
+
+## Version 1.4.2
+
+- Added an additional method to fetch Canvas submissions by ID.
+- Added support for teacher submission feedback for Canvas.
+- Added support for teacher submission feedback for Schoology.
+- Better support for Microsoft Teams assignment submissions / grades.
+- Better support for Google Classroom assignment submissions / grades.
+- Google Classroom now requests an additional permission when teachers and students sign on for the first time.
+
+## Version 1.4.1
+
+- Made improvements to the automatic entity matching system.
+- Expanded entities to provide array types for standard ID numbers.
+    - Some systems have duplicate entries for schools.
+    - Sometimes schools are combined or merged and we wish to preserve both numbers.
+
+## Version 1.4.0
+
+- Dramatically simplified the permissions structure for both schools and developers.
+    - The create, update, and delete permissions have been merged for each resource type into a single `write` type.
+    - Read-only permissions remain the same across the board.
+    - Scoped and unscoped permissions have been merged for clarity (and because they were largely redundant).
+
+## Version 1.3.3
+
+- Added `StudentViewEnrollment` type handler for Canvas.
+- Adjusted the internal expiration dates on source access tokens to provide a longer buffer. Access tokens are now refreshed earlier than their expiration date.
+- Additional endpoints were added to fetch various enrollment types for individual users requesting information about their organizations.
+    - The endpoint has been generalized to `/:organization_type/:organization_id/:enrollment_type`.
+- Updated the Canvas sync for performance improvements and to filter out unnecessary courses and enrollments.
+- Added a mechanism to activate scheduled integrations.
+- Both developers and school admins will now receive an email confirmation when an integration is created.
+    - Parties will receive a second email when scheduled integrations are activated.
+- Some internal improvements were made with regard to the expiry of events and requests, as per our data retention policy.
+
+## Version 1.3.2
+
+- Google Classroom assignments that have been deleted will now return a 404 error if they are accessed through our API.
+    - Google Classroom typically only performs a "soft delete" and still allows items to be accessed.
+    - This behavior is unique to their platform, so we will emulate a "hard delete" for API consistency.
+- Improvements to API consistency with Schoology and Canvas assignment submissions.
+
+## Version 1.3.1
+
+- Stable organization entities are now returned with teams and organizations.
+- Changed import queueing strategies for improved reliability and scalability.
+- There is now a method to cancel queued imports before they begin.
+
+## Version 1.3.0
+
+- Backward paging is now implemented for the Graph API.
+- Integrations now have a status and can be scheduled to start and end at a specific date.
+    - Integrations will now have the property `integration_status` which is set to either `inactive`, `active`, `error`, or `disabled`.
+    - Integrations will now have the property `integration_start_date` which is an ISO-8601 timestamp.
+    - Integrations will now have the optional property `integration_end_date` which is an ISO-8601 timestamp.
+    - Attempts to make API calls to inactive sources will result in a `403 Forbidden` error.
+- Integrations now have a configuration object of `integration_configuration`. This is unused at present, but in the future may store specific configuration data for your application.
+- Canvas email address support has been improved.
+- Calls to retrieved other organizations for an authenticated user have been added (e.g. schools).
+- All calls to retrieve information about a user's organizations will now include an enrollments array.
+    - For example, users may have more than one enrollment to a course as (in some LMS systems) they can be a teacher in one section and a student in another.
+- Calls to organizations endpoints will now include information about the real world entity that relates to the object (if available).
+    - For example, schools in Canvas or Schoology generally correspond to real-world locations.
+    - Entity IDs are stable and can be relied upon for managing school, district, or university objects.
+    - They provide a great way to handle schools who are transitioning between two different LMS systems.
+- Internal endpoints were added to list, fetch, and manage entities.
+
+## Version 1.2.1
+
+- The API call to retrieve a team was not returning data in the proper format.
+
+## Version 1.2.0
+
+- Fixed several endpoints that were not returning the $data property correctly.
+- SSO is now largely decoupled from the Dashboard and is self-contained within the API application.
+- The `edlink-api-key` header is no longer required if you are making calls using a user or integration access token.
+- Classlink and Clever are now able to perform full roster sync.
+- Clever Instant Login is now available as an authentication method.
+- OneRoster is now available as a data source provider.
+
+## Version 1.1.2
+
+- Fixed a bug in the password reset process that was preventing the new password from being saved properly.
+
+## Version 1.1.1
+
+- Made several minor bugfixes.
+
+## Version 1.1.0
+
+- All endpoints will now return an object with a `$data` property, and potentially information about pagination (when it is applicable).
+- You can now configure Clever and Classlink keys on an application.
+
+## Version 1.0.1
+
+- Fixed a bug that was preventing applications from being created.

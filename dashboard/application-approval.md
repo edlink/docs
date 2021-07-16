@@ -1,0 +1,3 @@
+Before your application can go live in the ***Marketplace***, you will have to submit the application to Edlink for approval. The approval process is in place so we can be assured that the submitter of the application belongs to the organization for which the application is advertised. We will respond within 24 hours of your request with an approval or with a request for additional information.
+
+In order to submit an application for approval, please reach out to your integration partner. If you do not have an integration partner, please send us an email at [developers@ed.link](mailto:developers@ed.link).
