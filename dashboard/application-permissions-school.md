@@ -2,7 +2,7 @@ Applications on the Edlink platform are created with specific permissions select
 
 The list of an application's requested permissions can be seen when viewing the ***Marketplace*** profile of the application.
 
-![permissions](/documentation/media/dashboard/dev/application-permissions-school.jpg)
+![permissions](https://edlink.github.io/docs/media/dashboard/dev/application-permissions-school.jpg)
 
 Below are the list of permissions you may see an application request:
 

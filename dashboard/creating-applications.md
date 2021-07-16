@@ -4,7 +4,7 @@ Before creating an application, [log into your account](/docs/dashboard/sign-in)
 - **Data Connector Applications**: An application that connects two [data sources](/docs/dashboard/data-sources-dev) to [integrate](/docs/dashboard/dev-integrations) the data between them.
 - **Service Applications**: An application that can modify your Edlink team. This does not access school data.
 
-![create application](/documentation/media/dashboard/dev/create-application-options.jpg)
+![create application](https://edlink.github.io/docs/media/dashboard/dev/create-application-options.jpg)
 
 After selecting the type of application you wish to create, enter the Name and Description of the application in the appropriate fields. Note that if you are making a **Data Consumer** application, you may also enter the list of valid URIs that you will redirect a user to when your application receives an oAUTH 2.0 token request. When finished, select **Create Application**. This will bring you to the *Application Overview* page.
 

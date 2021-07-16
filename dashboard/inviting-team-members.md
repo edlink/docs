@@ -1,7 +1,7 @@
 If you are the owner of a team, you can manage the membership of your team by accessing the [***Settings***](/docs/dashboard/team-settings) tab in the navigation header. You may add new members to your team by selecting **Invite Team Member**. In the pop-up that appears, enter the email address of the member you wish to invite and choose which permissions you would like to grant to the account. Select **Send Invitation** when completed. If the user has not created an account, they will receive instructions to create a new account and join your team. If the user has previously created an account, they will receive an email with instructions to join your team.
 
-![members](/documentation/media/dashboard/dev/team-settings-members.jpg)
+![members](https://edlink.github.io/docs/media/dashboard/dev/team-settings-members.jpg)
 
 If you would like to be added to a team, reach out to the owner of the team and for an invitation. Once you receive the invitation email, access your [***Account Settings***](/docs/dashboard/account-settings) by selecting your name at the top of the page. The ***Account Settings*** page will allow you to view your **Pending Invitations**. When a pending invitation appears, the name of the team and the user who invited you will be displayed. Select **Accept Invitation** to join the team. You may [switch teams](/docs/dashboard/switching-teams) by selecting the arrows next to your team name at the top of the page.
 
-![pending invitations](/documentation/media/dashboard/dev/account-settings-invite.jpg)
+![pending invitations](https://edlink.github.io/docs/media/dashboard/dev/account-settings-invite.jpg)

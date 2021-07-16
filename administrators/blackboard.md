@@ -19,7 +19,7 @@ that you grant):
 ## Confirm That You're a Blackboard Administrator
 
 Completing the Blackboard integration process requires a Blackboard Administrator. Confirming that you have administrative access is a simple. Blackboard administrators will have a `System Admin` tab on their top navigation bar. If you do not have a `System Admin` tab, similar to the picture below, then you will not be able to complete this process. Please reach out to the appropriate technology admin at your school or university and have them complete these steps instead.
-<img class="block framed" src="/documentation/media/administrators/blackboard-administrator.png" alt="Blackboard System Admin Tab" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/blackboard-administrator.png" alt="Blackboard System Admin Tab" />
 
 ## Add Edlink as a REST API Connection
 
@@ -48,7 +48,7 @@ You're all done and ready to move on to the final step.
 This step lets our system know that you want to connect your Blackboard and grant access to one of our partner applications. The integration flow is throughly documented
 elsewhere, so this section will focus only on the step where you connect your Blackboard district. When you get to the `Sources` page, select "Blackboard" from the dropdown.
 You will see the following form:
-<img class="block framed" src="/documentation/media/administrators/blackboard-connect.png" width="400" alt="Connect Blackboard to Edlink" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/blackboard-connect.png" width="400" alt="Connect Blackboard to Edlink" />
 
 1. **Source Nickname** - Create a nickname that your students and teachers will recognize. This name can be something like "Blackboard" or "My School's Blackboard". It does not have to be anything in particular, but it should be familiar to your users.
 2. **Blackboard Domain** The domain that you visit when you want to access Blackboard. Typically, this will be something like `https://myschool.blackboard.com` or `https://blackboard.myschool.edu`.

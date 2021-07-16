@@ -20,7 +20,7 @@ When you connect your district Brightspace to one of our partners, you can expec
 Completing the Brightspace integration process requires a Brightspace Administrator. Confirming that you have administrative access is a simple. Brightspace administrators will have an "Manage Extensibility" option in their settings menu. If you do not see this page, indicated in the picture below, then you will not be able to complete this
 process. Please reach out to the appropriate technology admin at your school or university and have them complete these steps instead.
 
-<img class="block framed" src="/documentation/media/administrators/brightspace-administrator.png" alt="Brightspace Administrator Tab" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/brightspace-administrator.png" alt="Brightspace Administrator Tab" />
 
 ## Register a New Application
 
@@ -53,7 +53,7 @@ You're all done and ready to move on to the final step.
 This step lets our system know that you want to connect your Brightspace and grant access to one of our partner applications. The integration flow is throughly documented
 elsewhere, so this section will focus only on the step where you connect your Brightspace district. When you get to the `Sources` page, select "Brightspace" from the dropdown.
 You will see the following form:
-<img class="block framed" src="/documentation/media/administrators/brightspace-configuration.png" width="400" alt="Connect Brightspace to Edlink" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/brightspace-configuration.png" width="400" alt="Connect Brightspace to Edlink" />
 
 1. **Source Nickname** - Create a nickname that your students and teachers will recognize. This name can be something like "Brightspace" or "My School's Brightspace". It does not have to be anything in particular, but it should be familiar to your users.
 2. **Brightspace Domain** The domain that you visit when you want to access Brightspace. Typically, this will be something like `https://myschool.brightspace.com` or `https://brightspace.myschool.edu`.

@@ -22,18 +22,18 @@ that you grant):
 
 In order to continue with the setup process, you must be a Moodle administrator. Figuring out whether or not you have the required permissions is pretty simple: You will need to have the ability to install Moodle plugins. To confirm this, you must first navigate to the "Site Administration" page. If you do not see this tab in your right-hand sidebar, then you are not a site administrator.
 
-<img class="block framed" src="/documentation/media/administrators/moodle-site-administration.png" alt="Moodle Site Administration Tab" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/moodle-site-administration.png" alt="Moodle Site Administration Tab" />
 
 Once on the site administration page, navigate to the plugin settings section by clicking on the "Plugins" tab. The first link under this section will bring you to the "Install Plugins" page. If you do not see this link then you will not have the permissions required to complete this process.
 
-<img class="block framed" src="/documentation/media/administrators/moodle-plugin-installation.png" alt="Moodle Plugin Installation Page" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/moodle-plugin-installation.png" alt="Moodle Plugin Installation Page" />
 
 ## Installing the Edlink Moodle Plugin
 
 Edlink connects to Moodle via a custom plugin, designed to supplement the functionality of the Moodle Webservices API. The plugin is easy to install and contains security features to protect data in the event of a security breach.
 
 <div class="flex flex-center">
-    <a class="card flex flex-align download-link" href="/documentation/media/administrators/edlink.zip" target="_blank">
+    <a class="card flex flex-align download-link" href="https://edlink.github.io/docs/media/administrators/edlink.zip" target="_blank">
         <div class="download-icon"></div>
         <div class="ff">
             Download the Edlink Moodle Plugin
@@ -50,7 +50,7 @@ On the Edlink settings page, click "Generate Edlink API Keys" and a new key pair
 This step lets our system know that you want to connect your Moodle instance. The integration flow is throughly documented
 elsewhere, so this section will focus only on the step where you actually configure Moodle. When you get to the `Sources` page, select "Moodle" from the dropdown.
 You will see the following form:
-<img class="block framed" src="/documentation/media/administrators/moodle-configuration.png" width="400" alt="Connect Moodle to Edlink" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/moodle-configuration.png" width="400" alt="Connect Moodle to Edlink" />
 
 1. **Source Nickname** - Create a nickname that your students and teachers will recognize. It does not have to be anything in particular, but it should be familiar to your users.
 2. **Moodle Domain** - The domain that you visit when you want to access Moodle. Typically, this will be something like `https://moodle.myschool.edu`.

@@ -4,15 +4,15 @@ If your school uses an LMS (e.g. Canvas, Schoology) or data provider (e.g. Cleve
 
 If you use a school-assigned email address, enter your address in the provided field. Note, if your school uses multiple LMS's or data providers, you will be prompted to select which one you intend to use. Select your account. You will then be brought to the sign in page of your LMS or data provider. Enter your credentials to sign into the application.
 
-![Login page](/documentation/media/dashboard/school/log-in-screen.jpg)
+![Login page](https://edlink.github.io/docs/media/dashboard/school/log-in-screen.jpg)
 
 If your school uses an LMS or data provider which you log into using a unique username and password, select **Click here to find your school.**
 
-![Find your school](/documentation/media/dashboard/school/find-your-school.jpg)
+![Find your school](https://edlink.github.io/docs/media/dashboard/school/find-your-school.jpg)
 
 Enter the name of your school and a list of matches will be returned. Select your school. You will then be brought to the sign in page of your LMS or data provider. Enter your credentials to sign into the application.
 
-![School results](/documentation/media/dashboard/school/edlink-school.jpg)
+![School results](https://edlink.github.io/docs/media/dashboard/school/edlink-school.jpg)
 
 If the administrator of your school's LMS has authorized Edlink, you will be able to log into the application successfully.
 

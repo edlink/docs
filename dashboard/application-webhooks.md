@@ -2,7 +2,7 @@ Webhooks allow Edlink to alert you of certain events that impacted your applicat
 
 You can access your Webhook Signing Secret by selecting ***Applications*** from the navigation header, choosing an application from the list under *Application*, and selecting ***Webhooks*** from the navigation sidebar. This page will also allow you to set your Webhook Endpoint and select which Webhook Events you wish to enable. Be sure to save your Endpoint and Webhook Events when finished.
 
-![webhook](/documentation/media/dashboard/dev/webhooks.jpg)
+![webhook](https://edlink.github.io/docs/media/dashboard/dev/webhooks.jpg)
 
 The Webhook Events Edlink supports include:
 

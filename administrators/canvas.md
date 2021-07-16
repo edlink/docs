@@ -23,7 +23,7 @@ that you grant):
 Completing the Canvas integration process requires a Canvas Administrator. Confirming that you have administrative access is a simple. Canvas administrators
 will have an "Admin" tab on their left-hand sidebar. If you do not have an Admin tab, similar to the picture below, then you will not be able to complete this
 process. Please reach out to the appropriate technology admin at your school or university and have them complete these steps instead.
-<img class="block framed" src="/documentation/media/administrators/canvas-admin.png" width="500" alt="Canvas Administrator Tab" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/canvas-admin.png" width="500" alt="Canvas Administrator Tab" />
 
 ## Create Canvas Developer Keys
 
@@ -48,7 +48,7 @@ developer keys (even when you wish to leverage Edlink's LTI capabilities). Here 
 6. Click the blue `Save` button in the bottom right-hand side of the screen.
 7. Toggle the `State` switch to "ON" next to the developer key that you just created.
 
-<img class="block" src="/documentation/media/administrators/canvas-key-state.png" alt="Connect G Suite to Edlink" />
+<img class="block" src="https://edlink.github.io/docs/media/administrators/canvas-key-state.png" alt="Connect G Suite to Edlink" />
 
 You're all done and ready to move on to the final step.
 
@@ -57,7 +57,7 @@ You're all done and ready to move on to the final step.
 This step lets our system know that you want to connect your Canvas and grant access to one of our partner applications. The integration flow is throughly documented
 elsewhere, so this section will focus only on the step where you connect your Canvas district. When you get to the `Sources` page, select "Canvas" from the dropdown.
 You will see the following form:
-<img class="block framed" src="/documentation/media/administrators/canvas-connect.png" width="400" alt="Connect Canvas to Edlink" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/canvas-connect.png" width="400" alt="Connect Canvas to Edlink" />
 
 1. **Source Nickname** - Create a nickname that your students and teachers will recognize. This name can be something like "Canvas" or "My School's Canvas". It does not have to be anything in particular, but it should be familiar to your users.
 2. **Canvas Domain** The domain that you visit when you want to access Canvas. Typically, this will be something like `https://myschool.instructure.com` or `https://canvas.myschool.edu`.
@@ -68,7 +68,7 @@ You will see the following form:
     2. Log into your Canvas account. You may already be logged in, in which case, skip to the next step.
     3. Canvas will prompt you to authorize Edlink. Click the blue "Authorize" button.
     4. Upon authorization, Canvas will send you back to Edlink and the box will change to say "Account Connected".
-<img class="block" src="/documentation/media/administrators/canvas-admin-connected.png" width="500" alt="Canvas Account Connected" />
+<img class="block" src="https://edlink.github.io/docs/media/administrators/canvas-admin-connected.png" width="500" alt="Canvas Account Connected" />
 
 If you are having trouble connecting, there is probably an error with your Canvas configuration. Most likely, you either incorrectly entered your school's Canvas domain, or improperly copied over the Developer Key / Secret. If you are still having trouble, don't hesitate to [contact us](/support) for more assistance.
 

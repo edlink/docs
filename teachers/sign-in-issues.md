@@ -26,11 +26,11 @@ Once the sync is performed, the information that appears in your LMS or data pro
 
 If you are trying to sign into an application using your credentials to your learning management system (LMS) or data provider and you do not use an email address, you must first select **Click here to find your school.** from the login page.
 
-![Login page](/documentation/media/dashboard/school/log-in-screen.jpg)
+![Login page](https://edlink.github.io/docs/media/dashboard/school/log-in-screen.jpg)
 
 On the subsequent screen, enter the name of your school and a list of matches will be returned. Select your school. You will then be brought to the sign in page of your LMS or data provider. Enter your credentials to sign into the application.
 
-![Find your school](/documentation/media/dashboard/school/find-your-school.jpg)
+![Find your school](https://edlink.github.io/docs/media/dashboard/school/find-your-school.jpg)
 
 If you cannot find your school or you are not shown the login page to your LMS or data provider after selecting a school, please contact your administrator.
 
@@ -42,11 +42,11 @@ Edlink does not store nor have access to the password that you use to log into y
 
 If you are trying to sign into an application using your credentials to your learning management system (LMS) or data provider and you do not use an email address, you must first select **Click here to find your school.** from the login page.
 
-![Login page](/documentation/media/dashboard/school/log-in-screen.jpg)
+![Login page](https://edlink.github.io/docs/media/dashboard/school/log-in-screen.jpg)
 
 On the subsequent screen, enter the name of your school and a list of matches will be returned. Select your school. You will then be brought to the sign in page of your LMS or data provider. Enter your credentials to sign into the application.
 
-![Find your school](/documentation/media/dashboard/school/find-your-school.jpg)
+![Find your school](https://edlink.github.io/docs/media/dashboard/school/find-your-school.jpg)
 
 If you cannot find your school or you are not shown the login page to your LMS or data provider after selecting a school, please contact your administrator.
 

@@ -26,7 +26,7 @@ This step lets our system know that you want to connect your OneRoster source an
 elsewhere, so this section will focus only on the step where you connect your SIS. When you get to the `Sources` page, select "OneRoster" from the dropdown.
 You will see the following form:
 
-<img class="block framed" src="/documentation/media/administrators/oneroster-configuration.png" width="400" alt="Connect Your OneRoster Source to Edlink" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/oneroster-configuration.png" width="400" alt="Connect Your OneRoster Source to Edlink" />
 
 1. **Source Nickname** - Create a nickname that your students and teachers will recognize. This name can be something like "Canvas" or "My School's Canvas". It does not have to be anything in particular, but it should be familiar to your users.
 2. **OneRoster Server URL** The URL that your OneRoster server is located at.

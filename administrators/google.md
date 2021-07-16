@@ -22,10 +22,10 @@ that you grant):
 
 Completing the G Suite integration process requires a Google Administrator. Confirming that you have administrative access is a simple process.
 To do so, simply try to visit the [Google Admin Console](https://admin.google.com). If you are an administrator, you will see a page that looks like this:
-<img class="block framed" src="/documentation/media/administrators/g-suite-console.png" alt="G Suite Admin Console Error" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/g-suite-console.png" alt="G Suite Admin Console Error" />
 
 If you do not have admin access, you will see the following error page:
-<img class="block framed" src="/documentation/media/administrators/g-suite-admin-error.png" width="500" alt="G Suite Admin Console Error" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/g-suite-admin-error.png" width="500" alt="G Suite Admin Console Error" />
 Once you have confirmed that you are an administrator, you may proceed to the next step.
 
 ## Whitelist the Edlink Application
@@ -47,20 +47,20 @@ Whitelisting Edlink is required for G Suite integrations. Here are the steps req
 
 You're all done and ready to move on to the final step.
 
-<img class="block framed" src="/documentation/media/administrators/g-suite-client-id.png" width="500" alt="G Suite Admin Client ID Pop Up" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/g-suite-client-id.png" width="500" alt="G Suite Admin Client ID Pop Up" />
 
 ## Complete the Integration
 
 This step lets our system know that you want to connect your G Suite and grant access to one of our partner applications. The integration flow is throughly documented
 elsewhere, so this section will focus only on the step where you connect your G Suite. When you get to the `Sources` page, select "Google" from the dropdown.
 You will see the following form:
-<img class="block framed" src="/documentation/media/administrators/g-suite-connect.png" width="400" alt="Connect G Suite to Edlink" />
+<img class="block framed" src="https://edlink.github.io/docs/media/administrators/g-suite-connect.png" width="400" alt="Connect G Suite to Edlink" />
 
 1. **Source Nickname** - Create a nickname that your students and teachers will recognize. This name can be something like "Google Classroom" or "My School G Suite". It does not have to be anything in particular, but it should be familiar to your users.
 2. **Administrator Account** - This is the final step and connects the application we just whitelisted to your Edlink account.
     1. Click the `Connect` button on the right side of the box.
     2. Choose the correct Google Account. It **must** match the one you used earlier to whitelist Edlink.
     3. Review the permissions and click the blue "Allow" button at the bottom of the page. Teachers and students will not see the same permissions requested that you see as the admin.
-<img class="block" src="/documentation/media/administrators/g-suite-admin-connected.png" width="500" alt="G Suite Account Connected" />
+<img class="block" src="https://edlink.github.io/docs/media/administrators/g-suite-admin-connected.png" width="500" alt="G Suite Account Connected" />
 
 You are now finished and can click the black "Connect Source" button at the bottom of the screen.

@@ -10,4 +10,4 @@ To enable an integration between an application and your organization's data sou
 
 Select **Enable Application** if you wish to enable the integration between the application and your data source.
 
-![profile](/documentation/media/dashboard/dev/school-integrations.jpg)
+![profile](https://edlink.github.io/docs/media/dashboard/dev/school-integrations.jpg)
