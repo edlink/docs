@@ -1,0 +1,164 @@
+{
+    "$data": {
+        "documents": [
+            {
+                "slug": "introduction",
+                "title": "Introduction"
+            },
+            {
+                "type": "section",
+                "slug": "graph",
+                "title": "Graph API",
+                "documents": [
+                    {
+                        "type":"spacer",
+                        "title": "Getting Started"
+                    },
+                    {
+                        "slug": "introduction",
+                        "title": "Introduction"
+                    },
+                    {
+                        "slug": "authorization",
+                        "title": "Authorization"
+                    },
+                    {
+                        "slug": "privacy",
+                        "title": "Data Privacy"
+                    },
+                    {
+                        "slug": "paginated-requests",
+                        "title": "Paginated Requests"
+                    },
+                    {
+                        "slug": "design-considerations",
+                        "title": "Design Considerations"
+                    },
+                    {
+                        "slug": "data-model",
+                        "title": "Data Model"
+                    },
+                    {
+                        "type":"spacer",
+                        "title": "API Metadata"
+                    },
+                    {
+                        "slug": "providers",
+                        "title": "Providers"
+                    },
+                    {
+                        "slug": "permissions",
+                        "title": "Permissions"
+                    },
+                    {
+                        "slug": "webhooks",
+                        "title": "Webhooks"
+                    },
+                    {
+                        "type":"spacer",
+                        "title": "API Endpoints"
+                    },
+                    {
+                        "slug": "integrations",
+                        "title": "Integrations"
+                    },
+                    {
+                        "slug": "organizations",
+                        "title": "Organizations"
+                    },
+                    {
+                        "slug": "terms",
+                        "title": "Terms"
+                    },
+                    {
+                        "slug": "people",
+                        "title": "People"
+                    },
+                    {
+                        "slug": "enrollments",
+                        "title": "Enrollments"
+                    },
+                    {
+                        "type":"spacer",
+                        "title": "Events"
+                    },
+                    {
+                        "slug": "events-overview",
+                        "title": "Events Overview"
+                    }
+                ]
+            },
+            {
+                "type": "section",
+                "slug": "user",
+                "title": "User Data API",
+                "documents": [
+                    {
+                        "slug": "introduction",
+                        "title": "Introduction"
+                    },
+                    {
+                        "slug": "authorization",
+                        "title": "Authorization"
+                    },
+                    {
+                        "slug": "privacy",
+                        "title": "Data Privacy"
+                    },
+                    {
+                        "slug": "paginated-requests",
+                        "title": "Paginated Requests"
+                    },
+                    {
+                        "type":"spacer",
+                        "title": "Getting Started"
+                    },
+                    {
+                        "slug": "permissions",
+                        "title": "Permissions"
+                    },
+                    {
+                        "slug": "authentication",
+                        "title": "Authentication"
+                    },
+                    {
+                        "slug": "lti-launch",
+                        "title": "LTI Launch"
+                    },
+                    {
+                        "slug": "classlink-launchpad",
+                        "title": "Classlink Launchpad"
+                    },
+                    {
+                        "slug": "clever-instant-login",
+                        "title": "Clever Instant Login"
+                    },
+                    {
+                        "type":"spacer",
+                        "title": "Endpoints"
+                    },
+                    {
+                        "slug": "people",
+                        "title": "People"
+                    },
+                    {
+                        "slug": "organizations",
+                        "title": "Organizations"
+                    },
+                    {
+                        "slug": "assignments",
+                        "title": "Assignments"
+                    },
+                    {
+                        "slug": "resources",
+                        "title": "Resources"
+                    },
+                    {
+                        "slug": "submissions",
+                        "title": "Submissions"
+                    }
+                ]
+            }
+        ]
+    }
+}
