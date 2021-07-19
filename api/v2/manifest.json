@@ -1,7 +1,7 @@
 {
     "$data": {
-        "slug": "api/v1",
-        "title": "API Version 1.0",
+        "slug": "api/v2",
+        "title": "API Version 2.0",
         "documents": [
             {
                 "slug": "introduction",
