@@ -1,0 +1,104 @@
+{
+    "$data": {
+        "slug": "dashboard",
+        "title": "Edlink Dashboard",
+        "documents": [
+            {
+                "slug": "creating-an-account",
+                "title": "Creating An Account"
+            },
+            {
+                "slug": "sign-in",
+                "title": "Signing into an Account"
+            },
+            {
+                "slug": "account-settings",
+                "title": "Account Settings"
+            },
+            {
+                "slug": "creating-a-team",
+                "title": "Creating A Team"
+            },
+            {
+                "slug": "switching-teams",
+                "title": "Switching Teams"
+            },
+            {
+                "slug": "team-settings",
+                "title": "Team Settings"
+            },
+            {
+                "slug": "inviting-team-members",
+                "title": "Inviting Team Members"
+            },
+            {
+              "slug": "billing",
+              "title": "Billing Settings"
+            },
+            {
+                "type": "spacer",
+                "title": "For Educators"
+            },
+            {
+                "slug": "connecting-sources",
+                "title": "Connecting Data Sources"
+            },
+            {
+                "slug": "school-integrations",
+                "title": "Making Integrations"
+            },
+            {
+                "slug": "managing-school-integrations",
+                "title": "Managing Integrations"
+            },
+            {
+                "slug": "application-permissions-school",
+                "title": "Application Permissions"
+            },
+            {
+                "slug": "marketplace",
+                "title": "Marketplace"
+            },
+            {
+                "type": "spacer",
+                "title": "For Developers"
+            },
+            {
+                "slug": "creating-applications",
+                "title": "Creating Applications"
+            },
+            {
+                "slug": "application-keys",
+                "title": "Finding API Keys"
+            },
+            {
+                "slug": "application-permissions-dev",
+                "title": "Application Permissions"
+            },
+            {
+                "slug": "application-webhooks",
+                "title": "Application Webhooks"
+            },
+            {
+                "slug": "dev-integrations",
+                "title": "Developer Integrations"
+            },
+            {
+                "slug": "application-settings",
+                "title": "Application Settings"
+            },
+            {
+                "slug": "application-approval",
+                "title": "Application Approval"
+            },
+            {
+                "slug": "data-sources-dev",
+                "title": "School Data Sources"
+            },
+            {
+                "slug": "changelog",
+                "title": "Changelog"
+            }
+        ]
+    }
+}
