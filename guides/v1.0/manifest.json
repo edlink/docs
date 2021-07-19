@@ -1,7 +1,8 @@
 {
     "$data": {
-        "slug": "legal",
-        "title": "Legal Documents",
+        "slug": "guides/v1.0",
+        "title": "Developer Guides",
+        "version": "v1.0",
         "documents": [
             {
                 "slug": "terms",
