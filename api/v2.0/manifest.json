@@ -193,17 +193,29 @@
                                 "title": "Grade"
                             },
                             {
+                                "type": "spacer",
+                                "title": "Common Types"
+                            },
+                            {
+                                "slug": "address",
+                                "title": "Address"
+                            },
+                            {
                                 "type": "section",
                                 "slug": "enums",
                                 "title": "Enumerated Types",
                                 "documents": [
                                     {
-                                        "slug": "role",
-                                        "title": "Role"
-                                    },
-                                    {
                                         "slug": "enrollment-state",
                                         "title": "Enrollment State"
+                                    },
+                                    {
+                                        "slug": "grade-level",
+                                        "title": "Grade Level"
+                                    },
+                                    {
+                                        "slug": "role",
+                                        "title": "Role"
                                     }
                                 ]
                             }

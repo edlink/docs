@@ -2,6 +2,8 @@
 An **Enrollment State** describes the state of an
 **[Enrollment](../enrollment.md)**.
 
+The values of this enum are of type `string`.
+
 ## Values
 | Value | Description |
 | ----- | ----------- |

@@ -1,8 +1,10 @@
 # Role
 A **Role** describes a **[Person](../person.md)**'s role or duty 
-within a **[Class](../class.md)**. The values you will receive from
-our API depend heavily on the type of provider you're using. For
-instance, few providers will support the `aide` type.
+within a **[Class](../class.md)** or **[District](../district.md)**. 
+The values you will receive from our API depend heavily on the type
+of provider you're using. For instance, few providers will support the `aide` type.
+
+The values of this enum are of type `string`.
 
 ## Values
 | Value | Description |
@@ -11,10 +13,11 @@ instance, few providers will support the `aide` type.
 | `district-administrator` | A district-level administrator. |
 | `administrator` | A school-level administrator. |
 | `teacher` | A teacher. |
-| `ta` | A teaching assistant. |
-| `aide` | Someone who provides assistance to a student, such as a sign language interpreter. |
 | `observer` | Someone who is observing the class, but is not a student. |
 | `parent` | A parent. |
 | `guardian` | A guardian. |
-| `designer` | Someone who adds or edits class content. |
-| `member` | Used when a role is not definable by other values. |
+| `ta`<sup>&dagger;</sup> | A teaching assistant. |
+| `aide`<sup>&dagger;</sup> | Someone who provides assistance to a student, such as a sign language interpreter. |
+| `designer`<sup>&dagger;</sup> | Someone who adds or edits class content. |
+
+<sup>&dagger; These values are uncommon.</sup>

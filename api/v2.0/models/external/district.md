@@ -3,11 +3,6 @@ An Edlink **District** is the highest level object in
 a source. There will always be exactly one **District**
 for a source.
 
-## Methods
-| Method | Description |
-| ------ | ----------- |
-| [List districts]() | Get all of the districts for a source. |
-
 ## Properties
 | Property | Type | Description |
 | -------- | ---- | ----------- |
@@ -17,10 +12,10 @@ for a source.
 | `name` | `string` | The name of the object. |
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
-| `location` | [Address]() | The address location of the object.
+| `location` | [`Address`](address.md) | The address location of the object.
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
 
-## JSON Representation
+## JSON Example
 ```json
 {
   "id": "00000000-0000-0000-0000-000000000000",
