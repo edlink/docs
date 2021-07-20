@@ -170,7 +170,7 @@
                     {
                         "type": "section",
                         "slug": "external",
-                        "title": "School Data",
+                        "title": "External Data",
                         "documents": [
                             {
                                 "slug": "organization",
@@ -220,7 +220,7 @@
                     {
                         "type": "section",
                         "slug": "models",
-                        "title": "Internal",
+                        "title": "Internal Data",
                         "documents": [
                             {
                                 "slug": "overview",

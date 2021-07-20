@@ -142,7 +142,7 @@
                     {
                         "type": "section",
                         "slug": "external",
-                        "title": "School Data",
+                        "title": "External Data",
                         "documents": [
                             {
                                 "slug": "district",
@@ -236,7 +236,7 @@
                     {
                         "type": "section",
                         "slug": "internal",
-                        "title": "Internal",
+                        "title": "Internal Data",
                         "documents": [
                             {
                                 "slug": "team",
@@ -274,21 +274,6 @@
                                 ]
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "type": "section",
-                "slug": "user",
-                "title": "User Data API",
-                "documents": [
-                    {
-                        "slug": "introduction",
-                        "title": "Introduction"
-                    },
-                    {
-                        "slug": "authorization",
-                        "title": "Authorization"
                     }
                 ]
             }
