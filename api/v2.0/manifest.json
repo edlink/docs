@@ -200,6 +200,10 @@
                                     {
                                         "slug": "role",
                                         "title": "Role"
+                                    },
+                                    {
+                                        "slug": "enrollment-state",
+                                        "title": "Enrollment State"
                                     }
                                 ]
                             }
