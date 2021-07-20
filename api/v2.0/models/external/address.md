@@ -1,5 +1,5 @@
 # Address
-Any representation of the location of something in the 
+A representation of the location of something in the 
 world.
 
 ## Properties

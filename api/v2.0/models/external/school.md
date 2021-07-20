@@ -18,7 +18,7 @@ a school.
 | `grade_levels` | **[`GradeLevel[]`](enums/grade-level.md)** | The grade levels this school is associated with. |
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
-| `location` | [`Address`](address.md) | The address location of the object.
+| `location` | **[`Address`](address.md)** | The address location of the object.
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
 | `district_id` | `string` | The UUID of the associated **[District](district.md)**. |
 

@@ -201,6 +201,10 @@
                                 "title": "Address"
                             },
                             {
+                                "slug": "demographics",
+                                "title": "Demographics"
+                            },
+                            {
                                 "type": "section",
                                 "slug": "enums",
                                 "title": "Enumerated Types",
