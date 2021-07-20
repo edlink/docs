@@ -1,7 +1,7 @@
 {
     "$data": {
         "slug": "api/v1.0",
-        "title": "Edlink API Reference",
+        "title": "API Reference",
         "version": "v1.0",
         "documents": [
             {
