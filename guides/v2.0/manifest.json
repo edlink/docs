@@ -5,28 +5,60 @@
         "version": "v2.0",
         "documents": [
             {
-                "slug": "terms",
-                "title": "Terms & Conditions"
+                "slug": "quickstart",
+                "title": "Quickstart"
             },
             {
-                "slug": "privacy",
-                "title": "Privacy Policy"
+                "slug": "authorization",
+                "title": "Authorization"
             },
             {
-                "slug": "developer-terms",
-                "title": "Additional Developer Terms"
+                "slug": "handling-tokens",
+                "title": "Handling Tokens"
             },
             {
-                "slug": "school-terms",
-                "title": "Additional School Terms"
+                "slug": "lti-configuration",
+                "title": "LTI Configuration"
             },
             {
-                "slug": "california-residents",
-                "title": "California Residents"
+                "slug": "sso-launches",
+                "title": "SSO Launches"
             },
             {
-                "slug": "gdpr",
-                "title": "GDPR Policy"
+                "slug": "paginated-requests",
+                "title": "Paginated Requests"
+            },
+            {
+                "slug": "class-rostering",
+                "title": "Class Rostering"
+            },
+            {
+                "slug": "events-api",
+                "title": "Events API"
+            },
+            {
+                "slug": "receiving-webhooks",
+                "title": "Receiving Webhooks"
+            },
+            {
+                "slug": "design-considerations",
+                "title": "Design Considerations"
+            },
+            {
+                "slug": "external-data-model",
+                "title": "School Data Model"
+            },
+            {
+                "slug": "internal-data-model",
+                "title": "Internal Data Model"
+            },
+            {
+                "slug": "data-pipeline",
+                "title": "Data Pipeline"
+            },
+            {
+                "slug": "recommended-data-model",
+                "title": "Recommended Data Model"
             }
         ]
     }

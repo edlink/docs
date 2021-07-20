@@ -161,6 +161,74 @@
                         "title": "Submissions"
                     }
                 ]
+            },
+            {
+                "type": "section",
+                "slug": "models",
+                "title": "Models",
+                "documents": [
+                    {
+                        "type": "section",
+                        "slug": "external",
+                        "title": "School Data",
+                        "documents": [
+                            {
+                                "slug": "organization",
+                                "title": "Organization"
+                            },
+                            {
+                                "slug": "person",
+                                "title": "Person"
+                            },
+                            {
+                                "slug": "term",
+                                "title": "Term"
+                            },
+                            {
+                                "slug": "enrollment",
+                                "title": "Enrollment"
+                            },
+                            {
+                                "slug": "assignment",
+                                "title": "Assignment"
+                            },
+                            {
+                                "slug": "submission",
+                                "title": "Submission"
+                            },
+                            {
+                                "slug": "grade",
+                                "title": "Grade"
+                            },
+                            {
+                                "type": "section",
+                                "slug": "enums",
+                                "title": "Enumerated Types",
+                                "documents": [
+                                    {
+                                        "slug": "organization-type",
+                                        "title": "Organization Type"
+                                    },
+                                    {
+                                        "slug": "role",
+                                        "title": "Role"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "section",
+                        "slug": "models",
+                        "title": "Internal",
+                        "documents": [
+                            {
+                                "slug": "overview",
+                                "title": "Overview"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

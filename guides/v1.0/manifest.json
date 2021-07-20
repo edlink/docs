@@ -5,28 +5,24 @@
         "version": "v1.0",
         "documents": [
             {
-                "slug": "terms",
-                "title": "Terms & Conditions"
+                "slug": "introduction",
+                "title": "Introduction"
             },
             {
-                "slug": "privacy",
-                "title": "Privacy Policy"
+                "slug": "authorization",
+                "title": "Authorization"
             },
             {
-                "slug": "developer-terms",
-                "title": "Additional Developer Terms"
+                "slug": "data-privacy",
+                "title": "Data Privacy"
             },
             {
-                "slug": "school-terms",
-                "title": "Additional School Terms"
+                "slug": "paginated-requests",
+                "title": "Paginated Requests"
             },
             {
-                "slug": "california-residents",
-                "title": "California Residents"
-            },
-            {
-                "slug": "gdpr",
-                "title": "GDPR Policy"
+                "slug": "data-model",
+                "title": "Data Model"
             }
         ]
     }

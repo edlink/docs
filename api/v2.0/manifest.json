@@ -15,34 +15,6 @@
                 "documents": [
                     {
                         "type":"spacer",
-                        "title": "Getting Started"
-                    },
-                    {
-                        "slug": "introduction",
-                        "title": "Introduction"
-                    },
-                    {
-                        "slug": "authorization",
-                        "title": "Authorization"
-                    },
-                    {
-                        "slug": "privacy",
-                        "title": "Data Privacy"
-                    },
-                    {
-                        "slug": "paginated-requests",
-                        "title": "Paginated Requests"
-                    },
-                    {
-                        "slug": "design-considerations",
-                        "title": "Design Considerations"
-                    },
-                    {
-                        "slug": "data-model",
-                        "title": "Data Model"
-                    },
-                    {
-                        "type":"spacer",
                         "title": "API Metadata"
                     },
                     {
@@ -159,6 +131,136 @@
                     {
                         "slug": "submissions",
                         "title": "Submissions"
+                    }
+                ]
+            },
+            {
+                "type": "section",
+                "slug": "models",
+                "title": "Models",
+                "documents": [
+                    {
+                        "type": "section",
+                        "slug": "external",
+                        "title": "School Data",
+                        "documents": [
+                            {
+                                "slug": "district",
+                                "title": "District"
+                            },
+                            {
+                                "slug": "school",
+                                "title": "School"
+                            },
+                            {
+                                "slug": "class",
+                                "title": "Class"
+                            },
+                            {
+                                "slug": "section",
+                                "title": "Section"
+                            },
+                            {
+                                "slug": "course",
+                                "title": "Course"
+                            },
+                            {
+                                "slug": "person",
+                                "title": "Person"
+                            },
+                            {
+                                "slug": "agent",
+                                "title": "Agent"
+                            },
+                            {
+                                "slug": "session",
+                                "title": "Session"
+                            },
+                            {
+                                "slug": "enrollment",
+                                "title": "Enrollment"
+                            },
+                            {
+                                "slug": "assignment",
+                                "title": "Assignment"
+                            },
+                            {
+                                "slug": "submission",
+                                "title": "Submission"
+                            },
+                            {
+                                "slug": "grade",
+                                "title": "Grade"
+                            },
+                            {
+                                "type": "section",
+                                "slug": "enums",
+                                "title": "Enumerated Types",
+                                "documents": [
+                                    {
+                                        "slug": "role",
+                                        "title": "Role"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "section",
+                        "slug": "internal",
+                        "title": "Internal",
+                        "documents": [
+                            {
+                                "slug": "team",
+                                "title": "Team"
+                            },
+                            {
+                                "slug": "user",
+                                "title": "User"
+                            },
+                            {
+                                "slug": "application",
+                                "title": "Application"
+                            },
+                            {
+                                "slug": "source",
+                                "title": "Source"
+                            },
+                            {
+                                "slug": "integration",
+                                "title": "Integration"
+                            },
+                            {
+                                "slug": "request",
+                                "title": "Request"
+                            },
+                            {
+                                "type": "section",
+                                "slug": "enums",
+                                "title": "Enumerated Types",
+                                "documents": [
+                                    {
+                                        "slug": "application-status",
+                                        "title": "Application Status"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "section",
+                "slug": "user",
+                "title": "User Data API",
+                "documents": [
+                    {
+                        "slug": "introduction",
+                        "title": "Introduction"
+                    },
+                    {
+                        "slug": "authorization",
+                        "title": "Authorization"
                     }
                 ]
             }
