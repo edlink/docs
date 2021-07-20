@@ -214,8 +214,16 @@
                                         "title": "Enrollment State"
                                     },
                                     {
+                                        "slug": "gender-identity",
+                                        "title": "Gender Identity"
+                                    },
+                                    {
                                         "slug": "grade-level",
                                         "title": "Grade Level"
+                                    },
+                                    {
+                                        "slug": "public-school-residence-status",
+                                        "title": "Public School Residence Status"
                                     },
                                     {
                                         "slug": "role",

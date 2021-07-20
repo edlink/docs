@@ -1,5 +1,5 @@
 # Grade Level
-These values are based on the [Common Education Data Standards](https://ceds.ed.gov/element/000177/).
+These values are from the [Common Education Data Standards](https://ceds.ed.gov/element/000177/).
 
 The values of this enum are of type `string`.
 
