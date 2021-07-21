@@ -226,6 +226,10 @@
                                         "title": "Public School Residence Status"
                                     },
                                     {
+                                        "slug": "relationship",
+                                        "title": "Relationship"
+                                    },
+                                    {
                                         "slug": "role",
                                         "title": "Role"
                                     }

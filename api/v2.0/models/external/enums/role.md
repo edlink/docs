@@ -13,11 +13,11 @@ The values of this enum are of type `string`.
 | `district-administrator` | A district-level administrator. |
 | `administrator` | A school-level administrator. |
 | `teacher` | A teacher. |
-| `observer` | Someone who is observing the class, but is not a student. |
+| `observer` | Someone who is observing the class, but not participating. |
 | `parent` | A parent. |
 | `guardian` | A guardian. |
-| `ta`<sup>&dagger;</sup> | A teaching assistant. |
+| `ta`<sup>&dagger;</sup> | A teaching assistant or grader. |
 | `aide`<sup>&dagger;</sup> | Someone who provides assistance to a student, such as a sign language interpreter. |
-| `designer`<sup>&dagger;</sup> | Someone who adds or edits class content. |
+| `designer`<sup>&dagger;</sup> | Someone who can create or modify class content within the source system. |
 
 <sup>&dagger; These values are uncommon.</sup>
