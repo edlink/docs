@@ -1,9 +1,9 @@
 # Class
-A **Class** is ...
+A **Class** is
 
 > In previous versions of the Edlink API, this concept was called a **Course**.
 > In v2.0, we've corrected some of our terminology to be more accurate and universal.
-> Please view our **[Migration Guide]()** for more information.
+> Please view **[Migration from v1.0](../../migration)** for more information.
 
 ## Properties
 | Property | Type | Description |

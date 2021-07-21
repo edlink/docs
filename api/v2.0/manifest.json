@@ -9,6 +9,10 @@
                 "title": "Introduction"
             },
             {
+                "slug": "migration",
+                "title": "Migrating from v1.0"
+            },
+            {
                 "type": "section",
                 "slug": "graph",
                 "title": "Graph API",
