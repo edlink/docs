@@ -15,34 +15,6 @@
                 "documents": [
                     {
                         "type":"spacer",
-                        "title": "Getting Started"
-                    },
-                    {
-                        "slug": "introduction",
-                        "title": "Introduction"
-                    },
-                    {
-                        "slug": "authorization",
-                        "title": "Authorization"
-                    },
-                    {
-                        "slug": "privacy",
-                        "title": "Data Privacy"
-                    },
-                    {
-                        "slug": "paginated-requests",
-                        "title": "Paginated Requests"
-                    },
-                    {
-                        "slug": "design-considerations",
-                        "title": "Design Considerations"
-                    },
-                    {
-                        "slug": "data-model",
-                        "title": "Data Model"
-                    },
-                    {
-                        "type":"spacer",
                         "title": "API Metadata"
                     },
                     {
@@ -52,10 +24,6 @@
                     {
                         "slug": "permissions",
                         "title": "Permissions"
-                    },
-                    {
-                        "slug": "webhooks",
-                        "title": "Webhooks"
                     },
                     {
                         "type":"spacer",
@@ -86,8 +54,8 @@
                         "title": "Events"
                     },
                     {
-                        "slug": "events-overview",
-                        "title": "Events Overview"
+                        "slug": "events",
+                        "title": "Event Deltas"
                     }
                 ]
             },
@@ -97,48 +65,8 @@
                 "title": "User Data API",
                 "documents": [
                     {
-                        "slug": "introduction",
-                        "title": "Introduction"
-                    },
-                    {
-                        "slug": "authorization",
-                        "title": "Authorization"
-                    },
-                    {
-                        "slug": "privacy",
-                        "title": "Data Privacy"
-                    },
-                    {
-                        "slug": "paginated-requests",
-                        "title": "Paginated Requests"
-                    },
-                    {
-                        "type":"spacer",
-                        "title": "Getting Started"
-                    },
-                    {
-                        "slug": "permissions",
-                        "title": "Permissions"
-                    },
-                    {
                         "slug": "authentication",
                         "title": "Authentication"
-                    },
-                    {
-                        "slug": "lti-launch",
-                        "title": "LTI Launch"
-                    },
-                    {
-                        "slug": "classlink-launchpad",
-                        "title": "Classlink Launchpad"
-                    },
-                    {
-                        "slug": "clever-instant-login",
-                        "title": "Clever Instant Login"
-                    },
-                    {
-                        "type":"spacer",
-                        "title": "Endpoints"
                     },
                     {
                         "slug": "people",
@@ -153,10 +81,6 @@
                         "title": "Assignments"
                     },
                     {
-                        "slug": "resources",
-                        "title": "Resources"
-                    },
-                    {
                         "slug": "submissions",
                         "title": "Submissions"
                     }
@@ -168,63 +92,57 @@
                 "title": "Models",
                 "documents": [
                     {
-                        "type": "section",
-                        "slug": "external",
-                        "title": "External Data",
-                        "documents": [
-                            {
-                                "slug": "organization",
-                                "title": "Organization"
-                            },
-                            {
-                                "slug": "person",
-                                "title": "Person"
-                            },
-                            {
-                                "slug": "term",
-                                "title": "Term"
-                            },
-                            {
-                                "slug": "enrollment",
-                                "title": "Enrollment"
-                            },
-                            {
-                                "slug": "assignment",
-                                "title": "Assignment"
-                            },
-                            {
-                                "slug": "submission",
-                                "title": "Submission"
-                            },
-                            {
-                                "slug": "grade",
-                                "title": "Grade"
-                            },
-                            {
-                                "type": "section",
-                                "slug": "enums",
-                                "title": "Enumerated Types",
-                                "documents": [
-                                    {
-                                        "slug": "organization-type",
-                                        "title": "Organization Type"
-                                    },
-                                    {
-                                        "slug": "role",
-                                        "title": "Role"
-                                    }
-                                ]
-                            }
-                        ]
+                        "slug": "organization",
+                        "title": "Organization"
+                    },
+                    {
+                        "slug": "person",
+                        "title": "Person"
+                    },
+                    {
+                        "slug": "term",
+                        "title": "Term"
+                    },
+                    {
+                        "slug": "enrollment",
+                        "title": "Enrollment"
+                    },
+                    {
+                        "slug": "assignment",
+                        "title": "Assignment"
+                    },
+                    {
+                        "slug": "submission",
+                        "title": "Submission"
+                    },
+                    {
+                        "slug": "grade",
+                        "title": "Grade"
+                    },
+                    {
+                        "slug": "provider",
+                        "title": "Provider"
+                    },
+                    {
+                        "slug": "permission",
+                        "title": "Permission"
+                    },
+                    {
+                        "slug": "integration",
+                        "title": "Integration"
                     },
                     {
                         "type": "section",
-                        "slug": "models",
-                        "title": "Internal Data",
+                        "slug": "enums",
+                        "title": "Enumerated Types",
                         "documents": [
                             {
-                                "slug": "overview",
-                                "title": "Overview"
+                                "slug": "organization-type",
+                                "title": "Organization Type"
+                            },
+                            {
+                                "slug": "role",
+                                "title": "Role"
                             }
                         ]
                     }
