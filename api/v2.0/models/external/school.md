@@ -1,6 +1,6 @@
 # School
 An Edlink **School** represents a school within a data source.
-There will always be at least one **School**. 
+There will always be at least one school.
 
 If no schools are present within a data source, we will create 
 a district office placeholder school. For example, `Edlink 
@@ -15,12 +15,12 @@ a school.
 | `created_date` | `Date` | When the object was first seen by Edlink. |
 | `updated_date` | `Date` | When the object was last changed in Edlink. |
 | `name` | `string` | The name of the object. |
-| `grade_levels` | **[`GradeLevel[]`](enums/grade-level.md)** | The grade levels this school is associated with. |
+| `grade_levels` | **[`GradeLevel[]`](enums/grade-level)** | The grade levels this school is associated with. |
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
-| `location` | **[`Address`](address.md)** | The address location of the object.
+| `location` | **[`Address`](address)** | The address location of the object.
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
-| `district_id` | `string` | The UUID of the associated **[District](district.md)**. |
+| `district_id` | `string` | The UUID of the associated **[District](district)**. |
 
 ## JSON Example
 ```json

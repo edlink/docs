@@ -1,5 +1,5 @@
 # Relationship
-A **Relationship** is used by an **Agent** to describe the
+A **Relationship** is used by an **[Agent](../agent)** to describe the
 type of link between two people.
 
 The values of this enum are of type `string`.

@@ -1,6 +1,6 @@
 # Role
-A **Role** describes a **[Person](../person.md)**'s role or duty 
-within a **[Class](../class.md)** or **[District](../district.md)**. 
+A **Role** describes a **[Person](../person)**'s role or duty 
+within a **[Class](../class)** or **[District](../district)**. 
 The values you will receive from our API depend heavily on the type
 of provider you're using. For instance, few providers will support the `aide` type.
 

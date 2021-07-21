@@ -1,5 +1,5 @@
 # Public School Residence Status
-An indication of the location of a **[Person](../person.md)**'s 
+An indication of the location of a **[Person](../person)**'s 
 legal residence relative to (within or outside) the boundaries of
 the public school attended and its administrative unit.
 

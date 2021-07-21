@@ -210,6 +210,10 @@
                                 "title": "Enumerated Types",
                                 "documents": [
                                     {
+                                        "slug": "class-state",
+                                        "title": "Class State"
+                                    },
+                                    {
                                         "slug": "enrollment-state",
                                         "title": "Enrollment State"
                                     },
@@ -232,6 +236,10 @@
                                     {
                                         "slug": "role",
                                         "title": "Role"
+                                    },
+                                    {
+                                        "slug": "subject",
+                                        "title": "Subject"
                                     }
                                 ]
                             }

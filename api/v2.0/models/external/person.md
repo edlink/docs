@@ -13,17 +13,17 @@ A **Person** within a data source.
 | `last_name` | `string` | The person's last name. | 
 | `display_name` | `string` | The person's display name. |
 | `picture_url` | `string` | The URL for the person's profile picture. |
-| `roles` | **[`Role[]`](enums/role.md)** | The person's roles. |
+| `roles` | **[`Role[]`](enums/role)** | The person's roles. |
 | `email` | `string` | The person's email address. |
 | `phone` | `string` | The person's phone number. |
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
 | `graduation_year` | `number` | The person's expected graduation year. |
-| `grade_levels` | **[`GradeLevel[]`](enums/grade-level.md)** | The grade levels this school is associated with. |
-| `demographics` | **[`Demographics`](demographics.md)** | The person's demographics. |
+| `grade_levels` | **[`GradeLevel[]`](enums/grade-level)** | The grade levels this school is associated with. |
+| `demographics` | **[`Demographics`](demographics)** | The person's demographics. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
-| `district_id` | `string` | The UUID of the associated **[District](district.md)**. |
-| `school_ids` | `string[]` | The UUIDs of the associated **[Schools](school.md)**. |
+| `district_id` | `string` | The UUID of the associated **[District](district)**. |
+| `school_ids` | `string[]` | The UUIDs of the associated **[Schools](school)**. |
 
 ## JSON Example
 
