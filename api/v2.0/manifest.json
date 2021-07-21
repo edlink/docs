@@ -242,6 +242,18 @@
                                         "title": "Role"
                                     },
                                     {
+                                        "slug": "section-state",
+                                        "title": "Section State"
+                                    },
+                                    {
+                                        "slug": "session-state",
+                                        "title": "Session State"
+                                    },
+                                    {
+                                        "slug": "session-type",
+                                        "title": "Session Type"
+                                    },
+                                    {
                                         "slug": "subject",
                                         "title": "Subject"
                                     }

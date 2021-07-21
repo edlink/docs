@@ -1,9 +1,11 @@
 # Class
-A **Class** is
+A **Class** is an instance of a **[Course](course)**.
+Many **[People](person)** can be **[Enrolled](enrollment)** in a **Class**.
 
-> In previous versions of the Edlink API, this concept was called a **Course**.
+> In previous versions of the Edlink API, this concept was called a **[Course](course)**.
+> 
 > In v2.0, we've corrected some of our terminology to be more accurate and universal.
-> Please view **[Migration from v1.0](../../migration)** for more information.
+> Please review **[Migration from v1.0](../../migration)** for more information.
 
 ## Properties
 | Property | Type | Description |
@@ -24,7 +26,6 @@ A **Class** is
 | `session_ids` | `string[]` | The UUIDs of the associated **[Sessions](session)**. |
 | `course_id` | `string` | The UUID of the associated **[Course](course)**. |
 | `school_id` | `string` | The UUID of the associated **[School](school)**. |
-
 
 ## JSON Example
 ```json
