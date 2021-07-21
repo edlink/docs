@@ -5,6 +5,10 @@
         "version": "v1.0",
         "documents": [
             {
+                "type":"spacer",
+                "title": "Getting Started"
+            },
+            {
                 "slug": "introduction",
                 "title": "Introduction"
             },
@@ -13,16 +17,44 @@
                 "title": "Authorization"
             },
             {
-                "slug": "data-privacy",
-                "title": "Data Privacy"
+                "slug": "data-model",
+                "title": "Data Model"
             },
             {
                 "slug": "paginated-requests",
                 "title": "Paginated Requests"
             },
             {
-                "slug": "data-model",
-                "title": "Data Model"
+                "slug": "permissions",
+                "title": "Permissions"
+            },
+            {
+                "type":"spacer",
+                "title": "Single Sign On"
+            },
+            {
+                "slug": "authentication",
+                "title": "Authentication"
+            },
+            {
+                "slug": "lti-launch",
+                "title": "LTI Launch"
+            },
+            {
+                "slug": "classlink-launchpad",
+                "title": "Classlink Launchpad"
+            },
+            {
+                "slug": "clever-instant-login",
+                "title": "Clever Instant Login"
+            },
+            {
+                "type":"spacer",
+                "title": "Other Information"
+            },
+            {
+                "slug": "privacy",
+                "title": "Data Privacy"
             }
         ]
     }

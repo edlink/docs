@@ -1,9 +1,6 @@
-<div class="card notice">
-    <p>
-        This document details authorization for Graph API requests. If you are looking to implement Single-Sign-On (SSO) for your users,
-        the document your are looking for is <a href="/docs/user/authentication">Authentication</a>, under the User Data API.
-    </p>
-</div>
+# Authorization
+
+## Authorizing Graph API Requests
 
 Accessing the Edlink Graph API requires your secret key, which is available after you create an application in your Edlink Dashboard.
 Your secret key acts as a bearer token and conveys your identity to Edlink. Therefore, all requests must be made over HTTPS to avoid exposing the key to the public.
@@ -28,3 +25,7 @@ const sources = await axios.get('https://ed.link/api/v1/graph/integrations', {
     }
 });
 ```
+
+## Authorizing User API Requests
+
+With all requests to Edlink, we require that you provide your Edlink secret key. You can read more about the API key and how to properly attach it to your requests [on the equivalent document in the Graph API section](/docs/graph/authorization). The primary reason that we require this API key, even when making requests with a [user's bearer token](/docs/user/authentication), is to safeguard user data and ensure that a token is only being used the application to which it was issued.
