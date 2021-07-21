@@ -1,3 +1,5 @@
+# Assignments
+
 ## List Assignments By Course
 ### *GET* https://ed.link/api/v1/my/courses/:course\_id/assignments
 

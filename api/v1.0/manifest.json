@@ -55,7 +55,7 @@
                     },
                     {
                         "slug": "events",
-                        "title": "Event Deltas"
+                        "title": "Events"
                     }
                 ]
             },
@@ -116,10 +116,6 @@
                         "title": "Submission"
                     },
                     {
-                        "slug": "grade",
-                        "title": "Grade"
-                    },
-                    {
                         "slug": "provider",
                         "title": "Provider"
                     },
@@ -132,6 +128,10 @@
                         "title": "Integration"
                     },
                     {
+                        "slug": "event",
+                        "title": "Event"
+                    },
+                    {
                         "type": "section",
                         "slug": "enums",
                         "title": "Enumerated Types",
@@ -141,8 +141,16 @@
                                 "title": "Organization Type"
                             },
                             {
+                                "slug": "enrollment-type",
+                                "title": "Enrollment Type"
+                            },
+                            {
                                 "slug": "role",
                                 "title": "Role"
+                            },
+                            {
+                                "slug": "event-type",
+                                "title": "Event Type"
                             }
                         ]
                     }

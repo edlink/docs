@@ -1,9 +1,4 @@
-<div class="card notice">
-    <p>
-        Although the Edlink Events API is not restricted, events must be enabled for your application. They are non-trivial to generate and therefore, we do not enable them
-        by default. If you wish to use events, please contact us. If your application does not have events enabled, you will receive a 400 error.
-    </p>
-</div>
+# Events
 
 The events API allows you to sync only data that has changed (deltas). Events are automatically generated when people, enrollments, terms, and organizations are created, updated, or deleted. Events are scoped to a single integration
 

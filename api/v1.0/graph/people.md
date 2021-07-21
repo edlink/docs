@@ -1,3 +1,5 @@
+# People
+
 ## List All People
 ### *GET* https://ed.link/api/v1/graph/people
 
