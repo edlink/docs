@@ -1,11 +1,4 @@
-<div class="card notice">
-    <p>
-        This document details requests that are scoped to a single user.
-        A user <a href="/docs/user/authentication">access token</a> is required to make these requests.
-        If you are looking for unscoped requests (i.e. requests to retrieve data about all users in a course, school, or district),
-        please visit the <a href="/docs/graph/people">corresponding document</a> under the Graph API section.
-    </p>
-</div>
+# People
 
 These endpoints help you retrieve details about users who have logged into your platform with Edlink. For more details on the data model,
 visit the [People](/docs/graph/people) document on the Graph API. The information retrieved from these endpoints will be identical

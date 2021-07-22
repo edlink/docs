@@ -1,7 +1,9 @@
 # Person
+
 Students, teachers, parents, and administrators are represented within Edlink as `People`. People do not have a set type or role - instead, they are connected to organizations (e.g. courses) through a set of [enrollments](/api/v1.0/graph/models/external/enrollments).
 
 ## Properties
+
 | Property | Type | Description |
 |---|---|---|
 | `id` | UUID | A stable UUID representing this term. |

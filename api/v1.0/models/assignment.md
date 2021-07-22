@@ -5,6 +5,7 @@ An assignment is a piece of course work inside of the LMS. Typically assignments
 Assignments have a variety of properties that can be used to achieve the learning experience that you're looking for within the LMS. These properties are available in all systems that support content integration, unless otherwise noted. Some source systems may not support all values (e.g. some systems may not allow file upload submissions to an assignment). Occasionally, we will also provide special properties unique to only one system, if the functionality achieved is important enough to create a special case.
 
 ## Properties
+
 | Property | Type | Description |
 |---|---|---|
 | `id` | String | A string (not a UUID) that corresponds to this assignment. These IDs are the LMS ID and are **not** guaranteed to be unique (even within the same source system). |
