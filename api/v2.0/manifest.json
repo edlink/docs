@@ -152,6 +152,10 @@
                                 "title": "Enrollment"
                             },
                             {
+                                "type": "spacer",
+                                "title": "Class Content"
+                            },
+                            {
                                 "slug": "assignment",
                                 "title": "Assignment"
                             },
@@ -162,6 +166,10 @@
                             {
                                 "slug": "grade",
                                 "title": "Grade"
+                            },
+                            {
+                                "slug": "tag",
+                                "title": "Tag"
                             },
                             {
                                 "type": "spacer",
@@ -181,8 +189,20 @@
                                 "title": "Enumerated Types",
                                 "documents": [
                                     {
+                                        "slug": "assignee-type",
+                                        "title": "Assignee Type"
+                                    },
+                                    {
                                         "slug": "class-state",
                                         "title": "Class State"
+                                    },
+                                    {
+                                        "slug": "content-type",
+                                        "title": "Content Type"
+                                    },
+                                    {
+                                        "slug": "content-state",
+                                        "title": "Content State"
                                     },
                                     {
                                         "slug": "enrollment-state",
@@ -195,6 +215,10 @@
                                     {
                                         "slug": "grade-level",
                                         "title": "Grade Level"
+                                    },
+                                    {
+                                        "slug": "grading-type",
+                                        "title": "Grading Type"
                                     },
                                     {
                                         "slug": "public-school-residence-status",
@@ -223,6 +247,14 @@
                                     {
                                         "slug": "subject",
                                         "title": "Subject"
+                                    },
+                                    {
+                                        "slug": "submission-state",
+                                        "title": "Submission State"
+                                    },
+                                    {
+                                        "slug": "submission-type",
+                                        "title": "Submission Type"
                                     }
                                 ]
                             }
