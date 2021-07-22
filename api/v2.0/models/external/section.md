@@ -1,5 +1,5 @@
 # Section
-A **Section** is
+A **Section** is 
 
 ## Properties
 | Property | Type | Description |
