@@ -1,12 +1,5 @@
 # Submissions
 
-<div class="card notice">
-    <p>
-        This document details requests that are scoped to a single user.
-        A user <a href="/docs/user/authentication">access token</a> is required to make these requests.
-    </p>
-</div>
-
 ## Listing Submissions for an Assignment
 ### *GET* https://ed.link/api/v1/my/courses/:course\_id/assignments/:assignment\_id/submissions
 

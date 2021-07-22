@@ -1,26 +1,6 @@
 # Events
 
-The events API allows you to sync only data that has changed (deltas). Events are automatically generated when people, enrollments, terms, and organizations are created, updated, or deleted. Events are scoped to a single integration
-
-### The Event Object
-
-| Property | Type | Description |
-|---|---|---|
-| `id` | UUID | A stable UUID corresponding to this event. |
-| `created_date` | Date | The date this event was created. |
-| `type` | String (Enum) | The object type concatenated with either `created`, `updated`, or `deleted`. |
-| `data` | String | The new object as it exists after this event (unless it has been deleted). |
-
-### Event Types
-
-The following event types are available. Please note, more event types may be aviailable in the future. Your application should simply skip or disregard any unknown event types so it does not break if further event types are added.
-
-| Object Type | Available Events |
-|---|---|
-| Terms | `term.created`, `term.updated`, `term.deleted` |
-| Organizations | `organization.created`, `organization.updated`, `organization.deleted` |
-| People | `person.created`, `person.updated`, `person.deleted` |
-| Enrollments | `enrollment.created`, `enrollment.updated`, `enrollment.deleted` |
+The events API allows you to sync only data that has changed (deltas). Events are automatically generated when people, enrollments, terms, and organizations are created, updated, or deleted. Events are scoped to a single integration.
 
 ## List Events
 ### *GET* https://ed.link/api/v1/graph/events

@@ -1,14 +1,5 @@
 # Organizations
 
-<div class="card notice">
-    <p>
-        This document details requests that are scoped to a single user.
-        A user <a href="/docs/user/authentication">access token</a> is required to make these requests.
-        If you are looking for unscoped requests (i.e. requests to retrieve data about all sections, courses, schools),
-        please visit the <a href="/docs/graph/organizations">corresponding document</a> under the Graph API section.
-    </p>
-</div>
-
 These endpoints help you retrieve details about the organization enrollments for users who have logged into your platform with Edlink.
 For more details on the data model, visit the [Organizations](/docs/graph/organizations) document on the Graph API. The information retrieved from these
 endpoints will be identical to the corresponding organization objects in the Graph API, however, they may be augmented with a `enrollment` field, if
