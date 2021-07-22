@@ -14,12 +14,12 @@
             },
             {
                 "type": "section",
-                "slug": "graph",
-                "title": "Graph API",
+                "slug": "meta",
+                "title": "Meta API",
                 "documents": [
                     {
-                        "type":"spacer",
-                        "title": "API Metadata"
+                        "slug": "integrations",
+                        "title": "Integrations"
                     },
                     {
                         "slug": "providers",
@@ -32,22 +32,29 @@
                     {
                         "slug": "webhooks",
                         "title": "Webhooks"
+                    }
+                ]
+            },
+            {
+                "type": "section",
+                "slug": "graph",
+                "title": "Graph API",
+                "documents": [
+                    {
+                        "slug": "districts",
+                        "title": "Districts"
                     },
                     {
-                        "type":"spacer",
-                        "title": "API Endpoints"
+                        "slug": "schools",
+                        "title": "Schools"
                     },
                     {
-                        "slug": "integrations",
-                        "title": "Integrations"
+                        "slug": "classes",
+                        "title": "Classes"
                     },
                     {
-                        "slug": "organizations",
-                        "title": "Organizations"
-                    },
-                    {
-                        "slug": "terms",
-                        "title": "Terms"
+                        "slug": "sections",
+                        "title": "Sections"
                     },
                     {
                         "slug": "people",
@@ -58,12 +65,32 @@
                         "title": "Enrollments"
                     },
                     {
+                        "slug": "courses",
+                        "title": "Courses"
+                    },
+                    {
+                        "slug": "sessions",
+                        "title": "Sessions"
+                    },
+                    {
+                        "slug": "agents",
+                        "title": "Agents"
+                    },
+                    {
                         "type":"spacer",
+                        "title": "Integration Metadata"
+                    },
+                    {
+                        "slug": "events",
                         "title": "Events"
                     },
                     {
-                        "slug": "events-overview",
-                        "title": "Events Overview"
+                        "slug": "requests",
+                        "title": "Requests"
+                    },
+                    {
+                        "slug": "materializations",
+                        "title": "Materializations"
                     }
                 ]
             },
@@ -75,66 +102,6 @@
                     {
                         "slug": "introduction",
                         "title": "Introduction"
-                    },
-                    {
-                        "slug": "authorization",
-                        "title": "Authorization"
-                    },
-                    {
-                        "slug": "privacy",
-                        "title": "Data Privacy"
-                    },
-                    {
-                        "slug": "paginated-requests",
-                        "title": "Paginated Requests"
-                    },
-                    {
-                        "type":"spacer",
-                        "title": "Getting Started"
-                    },
-                    {
-                        "slug": "permissions",
-                        "title": "Permissions"
-                    },
-                    {
-                        "slug": "authentication",
-                        "title": "Authentication"
-                    },
-                    {
-                        "slug": "lti-launch",
-                        "title": "LTI Launch"
-                    },
-                    {
-                        "slug": "classlink-launchpad",
-                        "title": "Classlink Launchpad"
-                    },
-                    {
-                        "slug": "clever-instant-login",
-                        "title": "Clever Instant Login"
-                    },
-                    {
-                        "type":"spacer",
-                        "title": "Endpoints"
-                    },
-                    {
-                        "slug": "people",
-                        "title": "People"
-                    },
-                    {
-                        "slug": "organizations",
-                        "title": "Organizations"
-                    },
-                    {
-                        "slug": "assignments",
-                        "title": "Assignments"
-                    },
-                    {
-                        "slug": "resources",
-                        "title": "Resources"
-                    },
-                    {
-                        "slug": "submissions",
-                        "title": "Submissions"
                     }
                 ]
             },
