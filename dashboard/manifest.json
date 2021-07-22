@@ -4,6 +4,10 @@
         "title": "Edlink Dashboard",
         "documents": [
             {
+                "slug": "introduction",
+                "title": "Introduction"
+            },
+            {
                 "slug": "creating-an-account",
                 "title": "Creating An Account"
             },
