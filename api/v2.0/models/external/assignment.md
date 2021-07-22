@@ -1,6 +1,8 @@
 # Assignment
 An **Assignment** can accept a **[Submission](submission)**.
 
+> This page is under construction.
+
 ## Properties
 | Property | Type | Description |
 | -------- | ---- | ----------- |
@@ -24,7 +26,3 @@ An **Assignment** can accept a **[Submission](submission)**.
 | `submission_types` | **[`SubmissionType`](enums/submission-type)** | The types of submissions accepted by the assignment. |
 | `max_attempts` | `number` | The maximum number of **[`SubmissionAttempt`](submission-attempt)** that a **[`Submission`](submission)** for this assignment can have. |
 
-## JSON Example
-```json
-{}
-```

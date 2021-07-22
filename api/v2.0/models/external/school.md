@@ -6,7 +6,7 @@ If no schools are present within a data source, we will create
 a district office placeholder school. For example, `Edlink 
 University (District Office)`. In some cases, this school will
 be generated to store any classes that are not associated with
-a school.
+a school within the data source.
 
 ## Properties
 | Property | Type | Description |
