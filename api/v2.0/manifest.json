@@ -275,8 +275,8 @@
                                 "title": "Enumerated Types",
                                 "documents": [
                                     {
-                                        "slug": "application-status",
-                                        "title": "Application Status"
+                                        "slug": "source-state",
+                                        "title": "Source State"
                                     }
                                 ]
                             }
