@@ -1,6 +1,6 @@
 # Agent
 An **Agent** describes the relationship between two people, and is typically used to represent a connection between a
-student and their parent or guardian. If a provider supports emergency contacts, this is typically how they are
+student and their parent or guardian. If a data source provides emergency contacts, this is how they are
 represented in Edlink.
 
 ## Properties

@@ -1,5 +1,5 @@
 # Assignee Type
-An **Assignee Type** describes the type of a
+An **Assignee Type** describes the type of an
 **[Assignment](../assignment)**'s assignees.
 
 The values of this enum are of type `string`.
