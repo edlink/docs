@@ -267,28 +267,12 @@
                         "title": "Internal Data",
                         "documents": [
                             {
-                                "slug": "team",
-                                "title": "Team"
-                            },
-                            {
-                                "slug": "user",
-                                "title": "User"
-                            },
-                            {
-                                "slug": "application",
-                                "title": "Application"
-                            },
-                            {
                                 "slug": "source",
                                 "title": "Source"
                             },
                             {
                                 "slug": "integration",
                                 "title": "Integration"
-                            },
-                            {
-                                "slug": "request",
-                                "title": "Request"
                             },
                             {
                                 "type": "section",
