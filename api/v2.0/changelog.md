@@ -1,4 +1,9 @@
+# Changelog
+
+This document covers all V2 releases of the Edlink API. If you're looking for changes to the V1 system, please visit the [corresponding document](/docs/api/v1.0/changelog).
+
 ## Version 2.0.0
+#### July 21st, 2021
 
 - Initial release of 2.0.0.
     - We **do not** have plans to deprecate V1 at this time.

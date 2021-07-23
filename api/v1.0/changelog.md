@@ -1,3 +1,7 @@
+# Changelog
+
+This document covers all V1 releases of the Edlink API. If you're looking for changes to the V2 system, please visit the [corresponding document](/docs/api/v2.0/changelog).
+
 ## Version 1.9.4
 
 - Fixed an issue where Edlink was trying to send an email to no contacts after a new integration was created.
