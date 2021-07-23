@@ -8,12 +8,11 @@ Retrieve a list of all **[Districts](../models/external/district)**. There shoul
 
 #### Request Parameters
 
-This query allows for [standard paging parameters](/graph/paginated-requests).
+This query allows for [standard paging parameters](paginated-requests).
 
 #### Sample Request
 
 ```javascript
-// List all districts.
 axios.get('https://ed.link/api/v2/graph/districts', {
 	headers: {
 		authorization: `Bearer ${integration_access_token}`
@@ -56,7 +55,6 @@ Retrieve information about a specific **[District](../models/external/district)*
 #### Sample Request
 
 ```javascript
-// List all districts.
 axios.get('https://ed.link/api/v2/graph/districts/00000000-0000-0000-0000-000000000000', {
 	headers: {
 		authorization: `Bearer ${integration_access_token}`
@@ -80,4 +78,20 @@ axios.get('https://ed.link/api/v2/graph/districts/00000000-0000-0000-0000-000000
   },
   "$request": "00000000-0000-0000-0000-000000000000"
 }
+```
+
+## List District Administrators
+
+### *GET* https://ed.link/api/v2/graph/districts/:district\_id/administrators
+
+Retrieve a list of all **[People](../models/external/person)** with the [district-administrator role](../models/external/enums/role) in the specified **[District](../models/external/district)**.
+
+#### Sample Request
+
+```javascript
+axios.get('https://ed.link/api/v2/graph/districts/00000000-0000-0000-0000-000000000000/administrators', {
+	headers: {
+		authorization: `Bearer ${integration_access_token}`
+	}
+});
 ```
