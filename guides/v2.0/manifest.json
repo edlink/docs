@@ -5,40 +5,20 @@
         "version": "v2.0",
         "documents": [
             {
+                "slug": "introduction",
+                "title": "Introduction"
+            },
+            {
+                "type": "spacer",
+                "title": "Getting Started"
+            },
+            {
                 "slug": "quickstart",
                 "title": "Quickstart"
             },
             {
                 "slug": "authorization",
                 "title": "Authorization"
-            },
-            {
-                "slug": "handling-tokens",
-                "title": "Handling Tokens"
-            },
-            {
-                "slug": "lti-configuration",
-                "title": "LTI Configuration"
-            },
-            {
-                "slug": "sso-launches",
-                "title": "SSO Launches"
-            },
-            {
-                "slug": "paginated-requests",
-                "title": "Paginated Requests"
-            },
-            {
-                "slug": "class-rostering",
-                "title": "Class Rostering"
-            },
-            {
-                "slug": "events-api",
-                "title": "Events API"
-            },
-            {
-                "slug": "receiving-webhooks",
-                "title": "Receiving Webhooks"
             },
             {
                 "slug": "design-considerations",
@@ -49,16 +29,56 @@
                 "title": "School Data Model"
             },
             {
+                "slug": "security",
+                "title": "Security"
+            },
+            {
+                "slug": "bug-reports",
+                "title": "Bug Reports"
+            },
+            {
+                "type": "spacer",
+                "title": "In Depth Guides"
+            },
+            {
+                "slug": "paginated-requests",
+                "title": "Paginated Requests"
+            },
+            {
+                "slug": "class-rostering",
+                "title": "Class Rostering"
+            },
+            {
+                "slug": "events",
+                "title": "Events API"
+            },
+            {
+                "slug": "filtering-results",
+                "title": "Filtering Results"
+            },
+            {
+                "slug": "lti-configuration",
+                "title": "LTI Configuration"
+            },
+            {
+                "slug": "sso-launches",
+                "title": "SSO Launches"
+            },
+            {
+                "type": "spacer",
+                "title": "Further Possibilities"
+            },
+            {
                 "slug": "internal-data-model",
                 "title": "Internal Data Model"
             },
             {
-                "slug": "data-pipeline",
-                "title": "Data Pipeline"
+                "slug": "receiving-webhooks",
+                "title": "Receiving Webhooks"
             },
             {
-                "slug": "recommended-data-model",
-                "title": "Recommended Data Model"
+                "slug": "data-pipeline",
+                "title": "Data Pipeline"
             }
         ]
     }

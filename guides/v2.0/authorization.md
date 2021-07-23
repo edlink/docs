@@ -1,5 +1,11 @@
 # Authorization
 
+## Authorizing OAuth 2.0 (and Most Internal Requests)
+
+Accessing the Edlink Graph API requires your secret key, which is available after you create an application in your Edlink Dashboard.
+Your secret key acts as a bearer token and conveys your identity to Edlink. Therefore, all requests must be made over HTTPS to avoid exposing the key to the public.
+We will redirect or reject all requests not made via HTTPS.
+
 ## Authorizing Graph API Requests
 
 Accessing the Edlink Graph API requires your secret key, which is available after you create an application in your Edlink Dashboard.
@@ -19,7 +25,7 @@ Edlink uses this header to identify incoming requests. Set the `Authorization` h
 Here is a sample request that loads a list of the data sources to which you have been granted access.
 
 ``` javascript
-const classes = await axios.get('https://ed.link/api/v1/graph/classes', {
+const classes = await axios.get('https://ed.link/api/v2/graph/classes', {
     headers: {
         'Authorization': 'Bearer XxYUqqrxHBo6yWBqcry8b73GhibnrQyq'
     }
@@ -38,7 +44,7 @@ Edlink uses this header to identify incoming requests. Set the `Authorization` h
 Here is a sample request that loads a list of the data sources to which you have been granted access.
 
 ``` javascript
-const sources = await axios.get('https://ed.link/api/v1/my/profile', {
+const sources = await axios.get('https://ed.link/api/v2/my/profile', {
     headers: {
         'Authorization': 'Bearer GhibYUqqrxHBo6yWBqnrQXxcry8b73yq'
     }
