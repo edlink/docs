@@ -1,4 +1,4 @@
-# Integration State
+# Integration Scope
 An **Integration Scope** describes the scope of an
 **[Integration](../integration)**.
 
@@ -9,6 +9,6 @@ The values of this enum are of type `string`.
 ## Values
 | Value | Description |
 | ----- | ----------- |
-| `full` |
+| `all` | 
 | `rules` |
 | `limited` |
