@@ -165,7 +165,7 @@ axios.get('https://ed.link/api/v2/graph/classes/00000000-0000-0000-0000-00000000
 
 ## List a Class's Enrollments
 
-### *GET* https://ed.link/api/v2/graph/classes/:class\_id/enrollment
+### *GET* https://ed.link/api/v2/graph/classes/:class\_id/enrollments
 
 Retrieve a list of **[Enrollments](../models/external/enrollment)** associated with the
 specified **[Class](../models/external/class)**.
