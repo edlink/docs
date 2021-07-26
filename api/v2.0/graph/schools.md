@@ -4,7 +4,7 @@
 
 ### *GET* https://ed.link/api/v2/graph/schools
 
-Retrieve a list of all **[Schools](../models/external/school)**. There should always be exactly one district.
+Retrieve a list of all **[Schools](../models/external/school)**.
 
 #### Request Parameters
 
@@ -100,7 +100,8 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id/classes
 
-Retrieve a list of **[Classes](../models/external/class)** associated with the specified **[School](../models/external/school)**.
+Retrieve a list of **[Classes](../models/external/class)** associated with the
+specified **[School](../models/external/school)**.
 
 #### Request Parameters
 
@@ -160,7 +161,8 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id/courses
 
-Retrieve a list of **[Courses](../models/external/course)** associated with the specified **[School](../models/external/school)**.
+Retrieve a list of **[Courses](../models/external/course)** associated with the
+specified **[School](../models/external/school)**.
 
 #### Request Parameters
 
@@ -209,7 +211,8 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id/sessions
 
-Retrieve a list of **[Sessions](../models/external/session)** associated with the specified **[School](../models/external/school)**.
+Retrieve a list of **[Sessions](../models/external/session)** associated with the
+specified **[School](../models/external/school)**.
 
 #### Request Parameters
 
@@ -256,7 +259,8 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id/people
 
-Retrieve a list of **[People](../models/external/session)** associated with the specified **[School](../models/external/school)**.
+Retrieve a list of **[People](../models/external/person)** associated with the
+specified **[School](../models/external/school)**.
 
 #### Request Parameters
 
@@ -298,11 +302,15 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
       "locale": "en",
       "time_zone": "America/Los_Angeles",
       "graduation_year": 1996,
-      "grade_levels": [ "PS" ],
+      "grade_levels": [
+        "PS"
+      ],
       "demographics": {},
       "properties": {},
       "district_id": "00000000-0000-0000-0000-000000000000",
-      "school_ids": [ "00000000-0000-0000-0000-000000000000" ]
+      "school_ids": [
+        "00000000-0000-0000-0000-000000000000"
+      ]
     }
   ],
   "$request": "00000000-0000-0000-0000-000000000000"
@@ -313,7 +321,9 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id/administrators
 
-Retrieve a list of **[People](../models/external/session)** with the [`administrator` role](../models/external/enums/role) associated with the specified **[School](../models/external/school)**.
+Retrieve a list of **[People](../models/external/person)** with
+the [`administrator` role](../models/external/enums/role) associated with the
+specified **[School](../models/external/school)**.
 
 #### Request Parameters
 
@@ -355,11 +365,15 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
       "locale": "en",
       "time_zone": "America/Los_Angeles",
       "graduation_year": 1996,
-      "grade_levels": [ "PS" ],
+      "grade_levels": [
+        "PS"
+      ],
       "demographics": {},
       "properties": {},
       "district_id": "00000000-0000-0000-0000-000000000000",
-      "school_ids": [ "00000000-0000-0000-0000-000000000000" ]
+      "school_ids": [
+        "00000000-0000-0000-0000-000000000000"
+      ]
     }
   ],
   "$request": "00000000-0000-0000-0000-000000000000"
@@ -370,7 +384,8 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id/teachers
 
-Retrieve a list of **[People](../models/external/session)** with the [`teacher` role](../models/external/enums/role) associated with the specified **[School](../models/external/school)**.
+Retrieve a list of **[People](../models/external/person)** with the [`teacher` role](../models/external/enums/role)
+associated with the specified **[School](../models/external/school)**.
 
 #### Request Parameters
 
@@ -412,11 +427,15 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
       "locale": "en",
       "time_zone": "America/Los_Angeles",
       "graduation_year": 1996,
-      "grade_levels": [ "PS" ],
+      "grade_levels": [
+        "PS"
+      ],
       "demographics": {},
       "properties": {},
       "district_id": "00000000-0000-0000-0000-000000000000",
-      "school_ids": [ "00000000-0000-0000-0000-000000000000" ]
+      "school_ids": [
+        "00000000-0000-0000-0000-000000000000"
+      ]
     }
   ],
   "$request": "00000000-0000-0000-0000-000000000000"
@@ -427,7 +446,8 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id/students
 
-Retrieve a list of **[People](../models/external/session)** with the [`student` role](../models/external/enums/role) associated with the specified **[School](../models/external/school)**.
+Retrieve a list of **[People](../models/external/person)** with the [`student` role](../models/external/enums/role)
+associated with the specified **[School](../models/external/school)**.
 
 #### Request Parameters
 
@@ -469,11 +489,15 @@ axios.get('https://ed.link/api/v2/graph/schools/00000000-0000-0000-0000-00000000
       "locale": "en",
       "time_zone": "America/Los_Angeles",
       "graduation_year": 1996,
-      "grade_levels": [ "PS" ],
+      "grade_levels": [
+        "PS"
+      ],
       "demographics": {},
       "properties": {},
       "district_id": "00000000-0000-0000-0000-000000000000",
-      "school_ids": [ "00000000-0000-0000-0000-000000000000" ]
+      "school_ids": [
+        "00000000-0000-0000-0000-000000000000"
+      ]
     }
   ],
   "$request": "00000000-0000-0000-0000-000000000000"
