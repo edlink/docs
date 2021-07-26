@@ -1,6 +1,8 @@
 # Migration from v1.0
 So, you're thinking about making the move to v2.0— congratulations!
 
+> This page is under construction.
+
 ## Lexical Updates
 As you know, naming is one of the most important parts of
 software development. A good name can be the difference between
