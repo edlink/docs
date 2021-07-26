@@ -266,6 +266,10 @@
                         "title": "Internal Data",
                         "documents": [
                             {
+                                "slug": "event",
+                                "title": "Event"
+                            },
+                            {
                                 "slug": "source",
                                 "title": "Source"
                             },
