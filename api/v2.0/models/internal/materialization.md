@@ -2,8 +2,8 @@
 
 Our system schedules a **Materialization** when any of the following things happen:
 
-* An **[Integration](../models/internal/integration)**'s sharing rules change
-* Updated data is available for a **[Source](../models/internal/source)** via our syncs
+* An **[Integration](integration)**'s sharing rules change
+* Updated data is available for a **[Source](source)** via our syncs
 
 During a materialization, the data returned by the Graph API updates.
 
