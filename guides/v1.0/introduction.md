@@ -4,7 +4,7 @@ The Edlink API is organized around REST. Our API has predictable, resource-orien
 
 Edlink data connections create an instant bi-directional data flow between your platform and the school's LMS, SIS, or related system. By drawing information from, and sending information to the LMS, your developers can build rich experiences that fit seamlessly into existing classroom environments, with virtually no setup time on the part of the teacher or administrator.
 
-We strive to support as many different data sources and standards as possible. By doing the heavy-lifting up front, we can provide our partners with integration capabilities that are far beyond what any given standard can currently provide. Currently, we are compatible with various API, LTI, and OneRoster implementations.
+We strive to support as many data sources and standards as possible. By doing the heavy-lifting up front, we can provide our partners with integration capabilities that are far beyond what any given standard can currently provide. Currently, we are compatible with various API, LTI, and OneRoster implementations.
 
 ## Graph API Overview
 
