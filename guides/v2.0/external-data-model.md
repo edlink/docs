@@ -10,8 +10,11 @@ Solid lines indicate required references. A **[Section](../../api/v2.0/models/ex
 
 Dotted lines indicate optional references. All providers might not support certain features. For example, it's not guaranteed that a **[Class](../../api/v2.0/models/external/class)** will reference a **[Course](../../api/v2.0/models/external/course)**.
 
-![Diagram](../../media/school-data-model.png)
+<img class="block" src="https://edlink.github.io/docs/media/school-data-model.png" width="500" alt="School Data Model Diagram" />
 
-### Footnotes
-1. There will always be exactly one **[District](../../api/v2.0/models/external/district)** in a source.
-2. There will always be at least one **[School](../../api/v2.0/models/external/school)** in a source.
+<sup>
+<ol>
+<li>There will always be exactly one District in a source.</li>
+<li>There will always be at least one School in a source.</li>
+</ol>
+</sup>
