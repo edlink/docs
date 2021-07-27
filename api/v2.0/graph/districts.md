@@ -8,7 +8,7 @@ Retrieve a list of all **[Districts](../models/external/district)**. There shoul
 
 #### Request Parameters
 
-This query allows for [standard paging parameters](paginated-requests).
+This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
 #### Sample Request
 
