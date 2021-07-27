@@ -65,7 +65,7 @@ Retrieve information about a specific request.
 
 | Parameter | Type | Description |
 |---|---|---|
-| `request` | `string` | The UUID of the desired request. |
+| `request_id` | `string` | The UUID of the desired request. |
 
 #### Sample Request
 

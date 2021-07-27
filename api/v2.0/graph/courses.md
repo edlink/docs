@@ -25,7 +25,7 @@ axios.get('https://ed.link/api/v2/graph/courses', {
 ```json
 {
   "$data": [
-    {{
+    {
       "id": "00000000-0000-0000-0000-000000000000",
       "created_date": "2021-07-13T17:45:27.570Z",
       "updated_date": "2021-07-13T17:45:27.570Z",

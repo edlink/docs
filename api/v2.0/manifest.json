@@ -270,18 +270,30 @@
                                 "title": "Event"
                             },
                             {
-                                "slug": "source",
-                                "title": "Source"
-                            },
-                            {
                                 "slug": "integration",
                                 "title": "Integration"
+                            },
+                            {
+                                "slug": "materialization",
+                                "title": "Materialization"
+                            },
+                            {
+                                "slug": "source",
+                                "title": "Source"
                             },
                             {
                                 "type": "section",
                                 "slug": "enums",
                                 "title": "Enumerated Types",
                                 "documents": [
+                                    {
+                                        "slug": "event-target",
+                                        "title": "Event Target"
+                                    },
+                                    {
+                                        "slug": "event-type",
+                                        "title": "Event Type"
+                                    },
                                     {
                                         "slug": "integration-scope",
                                         "title": "Integration Scope"
@@ -293,6 +305,10 @@
                                     {
                                         "slug": "source-state",
                                         "title": "Source State"
+                                    },
+                                    {
+                                        "slug": "materialization-state",
+                                        "title": "Materialization State"
                                     }
                                 ]
                             }

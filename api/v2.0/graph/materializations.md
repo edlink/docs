@@ -1,17 +1,10 @@
 # Materializations
 
-Our system schedules a **Materialization** when any of the following things happen:
-
- * An **[Integration](../models/internal/integration)**'s sharing rules change
- * Updated data is available from a **[Source](../models/internal/source)** via our syncs
-
-During a materialization, the data returned by the Graph API updates.
-
 ## List Materializations
 
 ### *GET* https://ed.link/api/v2/graph/materializations
 
-Retrieve a list of all materializations.
+Retrieve a list of all **[Materializations](../models/internal/materialization)**.
 
 #### Request Parameters
 
@@ -51,13 +44,13 @@ axios.get('https://ed.link/api/v2/graph/materializations?$last=5', {
 
 ### *GET* https://ed.link/api/v2/graph/materialization/:materialization\_id
 
-Retrieve information about a specific materialization.
+Retrieve information about a specific **[Materialization](../models/internal/materialization)**.
 
 #### Request Parameters
 
 | Parameter | Type | Description |
 |---|---|---|
-| `materialization_id` | `string` | The UUID of the desired **[Materialization](../models/external/materialization)**. |
+| `materialization_id` | `string` | The UUID of the desired **[Materialization](../models/internal/materialization)**. |
 
 #### Sample Request
 
