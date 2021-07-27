@@ -49,13 +49,13 @@ https://ed.link/sso/login
 
 | Parameter | Description |
 |---|---|
-| `client_id` | This should be set to the **Application ID** listed in the **Application
-
-Keys** section of your application configuration. | `redirect_uri` | This is where we'll send users after a login
-attempt. This URI must be explicitly specified in your application settings, or we won't allow it. | `state` | While not
-required, it's good practice to set a random variable here and check that it's the same in the next step.
+| `client_id` | This should be set to the **Application ID** listed in the **Application Keys** section of your application configuration. 
+| `redirect_uri` | This is where we'll send users after a login attempt. This URI must be explicitly specified in your application settings, or we won't allow it. 
+| `state` | While not required, it's good practice to set a random variable here and check that it's the same in the next step.
 
 ### 2. Receiving a Response from Edlink
+
+Next, we'll see how to process the response received from Edlink after a user signs in or fails to sign in.
 
 #### Receiving an Authorization Code
 
@@ -114,10 +114,8 @@ application's secret key.
 | Field | Description |
 | --- | --- |
 | `code` | This should be set to the authorization code you received in step 2. |
-| `client_id` | This should be set to the **Application ID** listed in the **Application
-Keys** section of your application configuration. |
-| `client_secret` | This should be set to the **Secret Key** listed in the **Application
-Keys** section of your application configuration. |
+| `client_id` | This should be set to the **Application ID** listed in the **Application Keys** section of your application configuration. |
+| `client_secret` | This should be set to the **Secret Key** listed in the **Application Keys** section of your application configuration. |
 | `redirect_uri` | This should be set to the `redirect_uri` you used in step 1. |
 | `grant_type` | This should be set to `authorization_code`. |
 
