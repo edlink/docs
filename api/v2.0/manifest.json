@@ -22,20 +22,8 @@
                 "title": "Meta API",
                 "documents": [
                     {
-                        "slug": "integrations",
-                        "title": "Integrations"
-                    },
-                    {
-                        "slug": "providers",
-                        "title": "Providers"
-                    },
-                    {
-                        "slug": "permissions",
-                        "title": "Permissions"
-                    },
-                    {
-                        "slug": "webhooks",
-                        "title": "Webhooks"
+                        "slug": "introduction",
+                        "title": "Introduction"
                     }
                 ]
             },
