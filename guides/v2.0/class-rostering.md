@@ -1,7 +1,6 @@
 # Class Rostering
 
-Using Edlink's Graph API, you can extract mass amounts of provider data at a time, and use it to populate your own
-database. We typically call the procedure of retrieving *all* of the data for an integration a "full sync."
+Using Edlink's Graph API, you can extract mass amounts of provider data at a time, and use it to populate your own database. We typically call the procedure of retrieving *all* of the data for an integration a "full sync."
 
 > You'll want to make sure you've read the "Graph API Authorization" section of the [authorization guide](authorization) to prepare to fetch data from Edlink.
 >
@@ -9,8 +8,7 @@ database. We typically call the procedure of retrieving *all* of the data for an
 
 ## Extracting Data
 
-In order to extract data, we'll paginate through various endpoints in the Graph API that correspond to each of our
-primary external data models.
+In order to extract data, we'll paginate through various endpoints in the Graph API that correspond to each of our primary external data models.
 
 ```javascript
 // Create an axios request config with our token
@@ -26,12 +24,12 @@ const schools = [];
 
 // This field will hold the url for our next request
 // We'll get 10000 items at a time for maximum efficiency
-let url = 'https://ed.link/api/v2/graph/schools?$first=10000'
+let url = 'https://ed.link/api/v2/graph/schools?$first=10000';
 
 // While our url is not undefined or empty
 while (url) {
 	// Wait for the result of the api call to edlink
-	const result = await axios.get(url, config);
+	const result = await axios.get(url, config).then(res => res.data);
 
 	// Push all of the resulting data to our schools array
 	schools.push(...result.$data);

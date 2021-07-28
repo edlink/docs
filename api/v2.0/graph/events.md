@@ -1,10 +1,18 @@
 # Events
 
+The Events API allows you to sync only data that has changed (deltas). Events are automatically generated when people, enrollments, terms, and organizations are created, updated, or deleted. Events are scoped to a single integration.
+
+> Check out our full guide on the [Events API](../../../guides/v2.0/events) for in-depth instructions and examples.
+
 ## List Events
 
 ### *GET* https://ed.link/api/v2/graph/events
 
-Retrieve a list of all **[Events](../models/internal/event)**.
+Retrieve a list of all available **[Events](../models/internal/event)**.
+
+Events go back in time up to 30 days, in accordance with our data retention policy. Events should always be processed in the order in which they are returned. When paging through events, it is always recommended to page forward using `$first` and `$after`. 
+
+While backward paging is supported, there is really no good reason to do so, and it may result in corrupted data (due to events being applied in reverse order).
 
 #### Request Parameters
 
