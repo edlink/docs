@@ -28,7 +28,7 @@ let url = 'https://ed.link/api/v2/graph/schools?$first=10000';
 
 // While our url is not undefined or empty
 while (url) {
-	// Wait for the result of the api call to edlink
+	// Wait for the result of the api call to Edlink
 	const result = await axios.get(url, config).then(res => res.data);
 
 	// Push all of the resulting data to our schools array
