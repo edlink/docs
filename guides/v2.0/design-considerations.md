@@ -18,9 +18,9 @@ Some systems do not have a concept of a **[School](../../api/v2.0/models/externa
 
 ## Syncing Data from Edlink
 
-You should ensure your system has a mechanism to do a full sync of data from Edlink. This would involve [paginating](paginated-requests) through the data you need for each **[Integration](../../api/v2.0/models/internal/integration)** via our Graph API. 
+You should ensure your system has a mechanism to do a [full sync](class-rostering) of data from Edlink. This would involve [paginating](paginated-requests) through the data you need for each **[Integration](../../api/v2.0/models/internal/integration)** via our Graph API. 
 
-This is especially important if your primary sync mechanism relies on our **[Events](../../api/v2.0/graph/events)** endpoints. In case either system accidentally drops important information (e.g. due to an outage) it's useful to be able to run a full sync to get back to a good state.
+This is especially important if your primary sync mechanism relies on our [events API](events). In case either system accidentally drops important information (e.g. due to an outage) it's useful to be able to run a full sync to get back to a good state.
 
 A full sync is also the preferred way to retrieve all data from Edlink for a new integration.
 
