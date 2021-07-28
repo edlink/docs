@@ -2,6 +2,8 @@
 
 ## Not All Systems are Created Equal
 
+Not every system provides the same breadth or depth of data to Edlink. As such, there are some quirks you might want to take into consideration for your implementation.
+
 ### Roles
 
 Not every system gives us the data needed to determine a **[Person](../../api/v2.0/models/external/person)**'s roles. In these cases, `roles` will be an empty array. 
