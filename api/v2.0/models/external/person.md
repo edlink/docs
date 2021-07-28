@@ -13,7 +13,7 @@ A **Person** within a data source.
 | `last_name` | `string` | The person's last name. | 
 | `display_name` | `string` | The person's display name. |
 | `picture_url` | `string` | The URL for the person's profile picture. |
-| `roles` | **[`Role[]`](enums/role)** | The person's roles. |
+| `roles` | **[`Role[]`](enums/role)** | The person's roles. Note that not every data source has roles for a person. |
 | `email` | `string` | The person's email address. |
 | `phone` | `string` | The person's phone number. |
 | `locale` | `string` | The locale of the object. |

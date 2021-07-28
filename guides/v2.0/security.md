@@ -22,7 +22,7 @@ To ensure best security practices, we encourage the following:
 
 ## Don't Rely On Email Addresses
 
-> **[Click here to read our blog post about why email addresses aren't a good way to match users.](https://ed.link/community/why-you-shouldnt-match-users-by-email-address/)**
+**[Click here to read our blog post about why email addresses aren't a good way to match users.](https://ed.link/community/why-you-shouldnt-match-users-by-email-address/)**
 
 In short, we recommend the following:
  1. **DON'T use email addresses to identify a user.** Most LMS and SIS systems do not verify email addresses for an account. This means you can't trust that whoever is logging in really owns the email address associated with their **[Person](../../api/v2.0/models/external/person)**.
