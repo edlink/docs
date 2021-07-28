@@ -18,21 +18,19 @@ primary external data models.
 const config = {
 	headers: {
 		'Authorization': 'Bearer XxYUqqrxHBo6yWBqcry8b73GhibnrQyq'
-	},
-	params: {
-		$first: 10000
 	}
 };
 
 // Create an array to hold all of our schools
 const schools = [];
 
-// This field will hold the variable for our next request
-let url = 'https://ed.link/api/v2/graph/schools'
+// This field will hold the url for our next request
+// We'll get 10000 items at a time for maximum efficiency
+let url = 'https://ed.link/api/v2/graph/schools?$first=10000'
 
 // While our url is not undefined or empty
 while (url) {
-	// Wait for the result of the API call
+	// Wait for the result of the api call to edlink
 	const result = await axios.get(url, config);
 
 	// Push all of the resulting data to our schools array
