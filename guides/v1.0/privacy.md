@@ -1,10 +1,8 @@
-<div class="card notice">
-    <p>
-        This document contains a summary of some of our data privacy practices and information. You can find our full legal <a href="/docs/legal/terms">Terms &amp; Conditions</a> and <a href="/docs/legal/privacy">Privacy Policy</a>, as well as a number of additional legal disclosures in a different section of this documentation.
-    </p>
-</div>
+# Privacy
 
-Edlink takes user data privacy extremely seriously. We give school administrators several tools and controls to keep student data safe and secure. These processes and controls also limit unnecessary exposure to developers. We have written at length about the importance of privacy in the [Edlink Community](/community/privacy).
+> This document contains a summary of some of our data privacy practices and information. You can find our full legal [Terms & Conditions](../../legal/terms) and [Privacy Policy](../../legal/privacy), as well as a number of additional legal disclosures in the Legal Documents section.
+
+Edlink takes user data privacy extremely seriously. We give school administrators several tools and controls to keep student data safe and secure. These processes and controls also limit unnecessary exposure to developers. We have written at length about the importance of privacy in the [Edlink Community](https://ed.link/community/privacy).
 
 ## Requests
 
@@ -17,7 +15,7 @@ Edlink takes user data privacy extremely seriously. We give school administrator
 
 ## Encryption
 
-* Edlink data is stored in a managed database in the DigitalOcean NYC1 region.
+* Edlink data is stored in a managed Google Cloud Platform database.
 * Access is restricted to only our production servers, which are located in the same region.
 * All data is encrypted in transit, and at rest, via the LUKS encryption specification.
 * All data is backed up daily, with a 7 day retention policy, after which it is destroyed completely.
