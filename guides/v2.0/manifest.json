@@ -63,6 +63,14 @@
             {
                 "slug": "sso-launches",
                 "title": "SSO Launches"
+            },
+            {
+                "type":"spacer",
+                "title": "Other Information"
+            },
+            {
+                "slug": "privacy",
+                "title": "Data Privacy"
             }
         ]
     }
