@@ -123,6 +123,8 @@ specified **[Person](../models/external/person)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -172,6 +174,8 @@ specified **[Person](../models/external/person)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -216,6 +220,8 @@ specified **[Person](../models/external/person)**.
 | `person_id` | `string` | The UUID of the desired **[Person](../models/external/person)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 
@@ -269,6 +275,8 @@ specified **[Person](../models/external/person)**.
 | `person_id` | `string` | The UUID of the desired **[Person](../models/external/person)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 
@@ -331,6 +339,8 @@ specified **[Person](../models/external/person)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -379,6 +389,8 @@ specified **[Person](../models/external/person)**.
 | `person_id` | `string` | The UUID of the desired **[Person](../models/external/person)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 

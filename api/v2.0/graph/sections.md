@@ -10,6 +10,8 @@ Retrieve a list of all **[Sections](../models/external/section)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -103,6 +105,8 @@ specified **[Section](../models/external/section)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -151,6 +155,8 @@ specified **[Section](../models/external/section)**.
 | `section_id` | `string` | The UUID of the desired **[Section](../models/external/section)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 
@@ -210,6 +216,8 @@ specified **[Section](../models/external/section)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -267,6 +275,8 @@ specified **[Section](../models/external/section)**.
 | `section_id` | `string` | The UUID of the desired **[Section](../models/external/section)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 

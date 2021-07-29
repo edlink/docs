@@ -10,6 +10,8 @@ Retrieve a list of all **[Sessions](../models/external/session)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript

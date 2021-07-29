@@ -10,6 +10,8 @@ Retrieve a list of all **[Classes](../models/external/class)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -127,6 +129,8 @@ specified **[Class](../models/external/class)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -178,6 +182,8 @@ specified **[Class](../models/external/class)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -226,6 +232,8 @@ specified **[Class](../models/external/class)**.
 | `class_id` | `string` | The UUID of the desired **[Class](../models/external/class)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 
@@ -285,6 +293,8 @@ specified **[Class](../models/external/class)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -342,6 +352,8 @@ specified **[Class](../models/external/class)**.
 | `class_id` | `string` | The UUID of the desired **[Class](../models/external/class)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 
