@@ -38,8 +38,7 @@ At present, the following models support filtering. Any endpoint which returns t
     * [Syncs](../../api/v2.0/models/internal/sync)
     * [Materializations](../../api/v2.0/models/internal/materialization)
 
-### Strings
-#### `equals`
+### `equals`
 The field's value must equal the provided `value`. Case sensitive.
 
 ```json
@@ -49,11 +48,43 @@ The field's value must equal the provided `value`. Case sensitive.
 }
 ```
 
-#### `starts_with`
+### `starts with`
+The field's value must start with the provided `value`. Case insensitive.
 
-| Operator | Description |
-| -------- | ----------- |
-| `starts with` | The field's value must start with the provided `value`. Case insensitive. |
-| `contains` | The field's value must contain the provided `value`. Case insensitive. |
-| `in` | The field's value must exist within the provided `value`. Case sensitive. |
-| `not in` | The field's value must not exist within the provided `value`. Case insensitive.
+```json
+{
+  "operator": "starts with",
+  "value": "chr"
+}
+```
+
+### `contains`
+The field's value must contain the provided `value`. Case insensitive.
+
+```json
+{
+  "operator": "contains",
+  "value": "test"
+}
+```
+
+### `in`
+The field's value must exactly match one of the comma-separated provided `value`s. Case sensitive.
+
+```json
+{
+  "operator": "in",
+  "value": "a,set,of,comma,separated,values"
+}
+```
+
+### `not in`
+The field's value must not exactly match any of the comma-separated provided `value`s. Case sensitive.
+
+```json
+{
+  "operator": "not in",
+  "value": "some,other,comma,separated,values"
+}
+```
+
