@@ -19,16 +19,16 @@ actually **[Enrolled](enrollment)** in during the class registration period.
 ## Properties
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `created_date` | `Date` | When the object was first seen by Edlink. |
-| `updated_date` | `Date` | When the object was last changed in Edlink. |
+| `updated_date` | `Date` | When the object was last changed in Edlink.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `gt` `lt` `gte` `lte` |
 | `name` | `string` | The name of the object. |
-| `code` | `string` | The course code. |
+| `code` | `string` | The course code.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` `is known` `is unknown` |
 | `grade_levels` | **[`GradeLevel[]`](enums/grade-level)** | The grade levels this course is associated with. |
 | `subjects` | **[`Subject[]`](enums/subject)** | The subjects this course is associated with. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
 | `session_id` | `string` | The UUID of the associated **[Session](session)**. |
-| `school_id` | `string` | The UUID of the associated **[School](school)**. |
+| `school_id` | `string` | The UUID of the associated **[School](school)**.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `district_id` | `string` | The UUID of the associated **[District](district)**. |
 
 ## JSON Example

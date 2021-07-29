@@ -5,12 +5,12 @@ a semester, term, or school year.
 ## Properties
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `created_date` | `Date` | When the object was first seen by Edlink. |
-| `updated_date` | `Date` | When the object was last changed in Edlink. |
-| `name` | `string` | The name of the object. |
-| `start_date` | `Date` | When the session is scheduled to start. |
-| `end_date` | `Date` | When the session is scheduled to end. |
+| `updated_date` | `Date` | When the object was last changed in Edlink.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `gt` `lt` `gte` `lte` |
+| `name` | `string` | The name of the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
+| `start_date` | `Date` | When the session is scheduled to start.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `gt` `lt` `gte` `lte`  |
+| `end_date` | `Date` | When the session is scheduled to end.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `gt` `lt` `gte` `lte`  |
 | `state` | **[`SessionState`](enums/session-state)** | The state of the session. |
 | `type` | **[`SessionType`](enums/session-type)** | The type of the session. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |

@@ -10,16 +10,16 @@ Many **[People](person)** can be **[Enrolled](enrollment)** in a **Class**.
 ## Properties
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `created_date` | `Date` | When the object was first seen by Edlink. |
-| `updated_date` | `Date` | When the object was last changed in Edlink. |
-| `name` | `string` | The name of the object. |
+| `updated_date` | `Date` | When the object was last changed in Edlink.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `gt` `lt` `gte` `lte` |
+| `name` | `string` | The name of the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown`  |
 | `description` | `string` | The description of the object. |
 | `picture_url` | `string` | The URL for the class's profile picture. |
 | `subjects` | **[`Subject[]`](enums/subject)** | The subjects this class is associated with. |
 | `grade_levels` | **[`GradeLevel[]`](enums/grade-level)** | The grade levels this class is associated with. |
 | `periods` | `string[]` | The periods this class is taught. |
-| `state` | **[`ClassState`](enums/class-state)** | The state of the class. |
+| `state` | **[`ClassState`](enums/class-state)** | The state of the class.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |

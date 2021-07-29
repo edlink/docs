@@ -6,7 +6,7 @@ represented in Edlink.
 ## Properties
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `relationship` | **[`Relationship`](enums/relationship)** | The relationship between the observer and the target. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
 | `observer_id` | `string` | The UUID of the **[Person](person)** who acts as the observer in the relationship. Typically, this is a parent or guardian. |
