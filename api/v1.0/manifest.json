@@ -69,10 +69,6 @@
                 "title": "User Data API",
                 "documents": [
                     {
-                        "slug": "authentication",
-                        "title": "Authentication"
-                    },
-                    {
                         "slug": "people",
                         "title": "People"
                     },
