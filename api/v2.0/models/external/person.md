@@ -5,7 +5,7 @@ A **Person** within a data source.
 
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>[Operators](../../../../guides/v2.0/filtering-results#strings) `equals` `in` `not in` |
 | `created_date` | `Date` | When the object was first seen by Edlink. |
 | `updated_date` | `Date` | When the object was last changed in Edlink. |
 | `first_name` | `string` | The person's first name. |
@@ -24,6 +24,20 @@ A **Person** within a data source.
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
 | `district_id` | `string` | The UUID of the associated **[District](district)**. |
 | `school_ids` | `string[]` | The UUIDs of the associated **[Schools](school)**. |
+
+## Filters
+The following fields [may be filtered](../../../../guides/v2.0/filtering-results) in any endpoint that returns **People**.
+
+| Property | Operators |
+| -------- | ------------------- |
+| `id` | `equals` `in` `not in` |
+| `first_name` | `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
+| `last_name` | `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
+| `display_name` | `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
+| `email` | `equals` `starts with` `contains` |
+| `roles` | `in` `not in` `is known` `is unknown` |
+| `updated_date` | `equals` `gt` `lt` `gte` `lte` |
+
 
 ## JSON Example
 
