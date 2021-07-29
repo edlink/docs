@@ -8,7 +8,7 @@ Retrieve a list of all **[Districts](../models/external/district)**. There shoul
 
 #### Request Parameters
 
-This query allows for [standard paging parameters](paginated-requests).
+This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
 #### Sample Request
 
@@ -84,7 +84,7 @@ axios.get('https://ed.link/api/v2/graph/districts/00000000-0000-0000-0000-000000
 
 ### *GET* https://ed.link/api/v2/graph/districts/:district\_id/administrators
 
-Retrieve a list of all **[People](../models/external/person)** with the [district-administrator role](../models/external/enums/role) in the specified **[District](../models/external/district)**.
+Retrieve a list of all **[People](../models/external/person)** with the [`district-administrator` role](../models/external/enums/role) in the specified **[District](../models/external/district)**.
 
 #### Sample Request
 

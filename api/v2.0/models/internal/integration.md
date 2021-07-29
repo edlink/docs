@@ -7,7 +7,7 @@ An **Integration** is a connection between a **[Source](source)** and an **[Appl
 | Property | Type | Description |
 | -------- | ---- | ----------- |
 | `id` | `string` | The UUID for the object. |
-| `created_date` | `Date` | When the object was first seen by Edlink. |
+| `created_date` | `Date` | When the object was first created by Edlink. |
 | `updated_date` | `Date` | When the object was last changed in Edlink. |
 | `state` | **[`IntegrationState`](enums/integration-state)** | The state of the integration.
 | `permissions` | `string[]` | 

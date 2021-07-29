@@ -11,7 +11,7 @@ Optionally, in systems that support **[Sections](section)**, an **Enrollment** c
 | `updated_date` | `Date` | When the object was last changed in Edlink. |
 | `start_date` | `Date` | When the enrollment period is scheduled to start. |
 | `end_date` | `Date` | When the enrollment period is scheduled to end. |
-| `role` | **[`Role[]`](enums/role)** | The **[Person](person)**'s role in this class. Note that this can differ from their `Person.roles`. For instance, a teacher could be listed as a student in a professional development course. |
+| `role` | **[`Role`](enums/role)** | The **[Person](person)**'s role in this class. Note that this can differ from their `Person.roles`. For instance, a teacher could be listed as a student in a professional development course. |
 | `primary` | `boolean` | If there are multiple teachers, this will indicate the primary teacher, if there is one. |
 | `state` | **[`EnrollmentState`](enums/enrollment-state)** | The state of the enrollment. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |

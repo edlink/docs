@@ -5,16 +5,16 @@ A **Person** within a data source.
 
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `created_date` | `Date` | When the object was first seen by Edlink. |
-| `updated_date` | `Date` | When the object was last changed in Edlink. |
-| `first_name` | `string` | The person's first name. |
+| `updated_date` | `Date` | When the object was last changed in Edlink.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `gt` `lt` `gte` `lte` |
+| `first_name` | `string` | The person's first name.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
 | `middle_name` | `string` | The person's middle name. |
-| `last_name` | `string` | The person's last name. | 
-| `display_name` | `string` | The person's display name. |
+| `last_name` | `string` | The person's last name.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` | 
+| `display_name` | `string` | The person's display name.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
 | `picture_url` | `string` | The URL for the person's profile picture. |
-| `roles` | **[`Role[]`](enums/role)** | The person's roles. |
-| `email` | `string` | The person's email address. |
+| `roles` | **[`Role[]`](enums/role)** | The person's roles. Note that not every data source has roles for a person.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `in` `not in` `is known` `is unknown` |
+| `email` | `string` | The person's email address.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` |
 | `phone` | `string` | The person's phone number. |
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |

@@ -22,20 +22,8 @@
                 "title": "Meta API",
                 "documents": [
                     {
-                        "slug": "integrations",
-                        "title": "Integrations"
-                    },
-                    {
-                        "slug": "providers",
-                        "title": "Providers"
-                    },
-                    {
-                        "slug": "permissions",
-                        "title": "Permissions"
-                    },
-                    {
-                        "slug": "webhooks",
-                        "title": "Webhooks"
+                        "slug": "introduction",
+                        "title": "Introduction"
                     }
                 ]
             },
@@ -266,18 +254,34 @@
                         "title": "Internal Data",
                         "documents": [
                             {
-                                "slug": "source",
-                                "title": "Source"
+                                "slug": "event",
+                                "title": "Event"
                             },
                             {
                                 "slug": "integration",
                                 "title": "Integration"
                             },
                             {
+                                "slug": "materialization",
+                                "title": "Materialization"
+                            },
+                            {
+                                "slug": "source",
+                                "title": "Source"
+                            },
+                            {
                                 "type": "section",
                                 "slug": "enums",
                                 "title": "Enumerated Types",
                                 "documents": [
+                                    {
+                                        "slug": "event-target",
+                                        "title": "Event Target"
+                                    },
+                                    {
+                                        "slug": "event-type",
+                                        "title": "Event Type"
+                                    },
                                     {
                                         "slug": "integration-scope",
                                         "title": "Integration Scope"
@@ -289,6 +293,10 @@
                                     {
                                         "slug": "source-state",
                                         "title": "Source State"
+                                    },
+                                    {
+                                        "slug": "materialization-state",
+                                        "title": "Materialization State"
                                     }
                                 ]
                             }
