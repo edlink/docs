@@ -10,8 +10,6 @@ line breaks and extra spaces) before you send it to the Edlink API.
 Let's say we wanted to search for all **[People](../../api/v2.0/models/external/person)** whose `first_name` starts
 with `Z`. The filter is composed of several parts. For each property/field you want to filter against, you should add a list containing each operator you want to apply to the field. 
 
-A full list of available operators with examples attached and instructions to determine which operators are applicable can be found in the following Operators section.
-
 ```json
 {
   "first_name": [
@@ -23,10 +21,10 @@ A full list of available operators with examples attached and instructions to de
 }
 ```
 
+A full list of available operators with examples attached and instructions to determine which operators are applicable can be found in the following Operators section.
+
 Let's try a more complex filter. Let's find all **[People](../../api/v2.0/models/external/person)** with the first
 name `Sofia` that have an email address that matches our criteria.
-
-As this example demonstrates, multiple operators can be applied to the same field.
 
 ```json
 {
@@ -48,6 +46,8 @@ As this example demonstrates, multiple operators can be applied to the same fiel
   ]
 }
 ```
+
+As this example demonstrates, multiple operators can be applied to the same field.
 
 Let's see an example of how to make a request using a filter in code.
 
