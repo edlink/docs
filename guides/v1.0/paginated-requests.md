@@ -24,7 +24,7 @@ It is highly encouraged that you only use the `$first` and `$after` parameters t
 
 # Example
 
-To give a concrete example, let's say we are importing a list of all of the courses that our application has access to, using the endpoint `https://ed.link/api/v1/graph/courses`. More information about this endpoint can be found at the [associated document](/docs/graph/courses).
+To give a concrete example, let's say we are importing a list of all of the courses that our application has access to, using the endpoint `https://ed.link/api/v1/graph/courses`. More information about this endpoint can be found at the [associated document](/docs/api/v1.0/graph/courses).
 
 Let's say we want a page size of 100 results per page. The way to achieve this is to append a parameter of `$first=100`.
 

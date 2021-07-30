@@ -11,9 +11,8 @@ the same as any other incoming authentication request.
 
 Edlink will receive the incoming LTI launch request from the learning management system, process the
 request, and generate an authorization code in accordance with the first leg of the standard OAuth 2.0 flow. We will then redirect the user to your specified
-redirect URI with the `code` query parameter set. Your application can then handle the remainder of the authentication process as described in our [Authentication](/docs/user/authentication) document.
+redirect URI with the `code` query parameter set. Your application can then handle the remainder of the authentication process as described in our [Authentication](/docs/guides/v1.0/authentication) document.
 
-
-``` javascript
+```
 https://<YOUR_REDIRECT_URI>?code=<AUTHORIZATION_CODE>
 ```
