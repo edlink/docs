@@ -3,7 +3,7 @@
 This document covers all V2 releases of the Edlink API. If you're looking for changes to the V1 system, please visit the [corresponding document](/docs/api/v1.0/changelog).
 
 ## Version 2.0.2
-#### July 26rd, 2021
+#### July 26th, 2021
 
 - Fixed an issue with a few of the Graph API calls where searching for users in a school with a specific role was not functioning correctly.
 - Fixed an issue where a person's birthday was also being returned in their `updated_date` property.

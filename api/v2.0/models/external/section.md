@@ -1,5 +1,5 @@
 # Section
-A **Section** is 
+A **Section** describes a group of students within a **[Class](class)**.
 
 ## Properties
 | Property | Type | Description |

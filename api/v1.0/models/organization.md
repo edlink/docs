@@ -9,7 +9,7 @@ One of the challenges of modeling organizational units in any abstract system is
 | Property | Type | Description |
 |---|---|---|
 | `id` | UUID | A stable UUID representing this integration. |
-| `type` | String | The type of this organization (e.g. a course). See the available types below. |
+| `type` | String | The type of this organization (e.g. a course). [See the available types here.](enums/organization-type) |
 | `name` | String | The display name of this organization. |
 | `description` | String | A short description for this organization. |
 | `icon_url` | String | A URL to an icon or profile picture for this organization. |
