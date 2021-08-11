@@ -379,8 +379,8 @@ axios.get('https://ed.link/api/v2/graph/people/00000000-0000-0000-0000-000000000
 
 ### *GET* https://ed.link/api/v2/graph/people/:person\_id/agents
 
-Retrieve a list of **[Agents](../models/external/agent)** associated with the
-specified **[Person](../models/external/person)**.
+Retrieve a list of **[Agents](../models/external/agent)** that reference the
+specified **[Person](../models/external/person)** in either the `observer_id` or `target_id` field.
 
 #### Request Parameters
 
