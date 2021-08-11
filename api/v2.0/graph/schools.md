@@ -50,7 +50,7 @@ axios.get('https://ed.link/api/v2/graph/schools', {
 }
 ```
 
-## Fetch District
+## Fetch School
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id
 
