@@ -27,4 +27,4 @@ The User Data API enables you to add single sign on, rostering, content, and gra
 
 The Edlink API provides a fast and easy way to integrate your platform with school data sources like the LMS or SIS. Instead of receiving raw student and teacher data on a nightly basis, you are able to interact with the LMS on-the-fly and in a bi-directional manner. Whether you want to access data at the district level or school level, Edlink makes it fast, easy, and consistent.
 
-For more help in getting started, check out the [Edlink Community](/community) section for guides and step-by-step tutorials.
+For more help in getting started, check out the [Edlink Community](https://ed.link/community) section for guides and step-by-step tutorials.

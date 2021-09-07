@@ -123,6 +123,8 @@ specified **[Person](../models/external/person)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -172,6 +174,8 @@ specified **[Person](../models/external/person)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -216,6 +220,8 @@ specified **[Person](../models/external/person)**.
 | `person_id` | `string` | The UUID of the desired **[Person](../models/external/person)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 
@@ -269,6 +275,8 @@ specified **[Person](../models/external/person)**.
 | `person_id` | `string` | The UUID of the desired **[Person](../models/external/person)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 
@@ -331,6 +339,8 @@ specified **[Person](../models/external/person)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -369,8 +379,8 @@ axios.get('https://ed.link/api/v2/graph/people/00000000-0000-0000-0000-000000000
 
 ### *GET* https://ed.link/api/v2/graph/people/:person\_id/agents
 
-Retrieve a list of **[Agents](../models/external/agent)** associated with the
-specified **[Person](../models/external/person)**.
+Retrieve a list of **[Agents](../models/external/agent)** that reference the
+specified **[Person](../models/external/person)** in either the `observer_id` or `target_id` field.
 
 #### Request Parameters
 
@@ -379,6 +389,8 @@ specified **[Person](../models/external/person)**.
 | `person_id` | `string` | The UUID of the desired **[Person](../models/external/person)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 

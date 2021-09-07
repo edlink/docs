@@ -10,6 +10,8 @@ Retrieve a list of all **[Courses](../models/external/course)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -104,6 +106,8 @@ specified **[Course](../models/external/course)**.
 | `course_id` | `string` | The UUID of the desired **[Course](../models/external/course)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 

@@ -6,7 +6,7 @@ A **Source** is a school's data source connected to Edlink. It can be a Learning
 ## Properties
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `created_date` | `Date` | When the object was first seen by Edlink. |
 | `updated_date` | `Date` | When the object was last changed in Edlink. |
 | `state` | **[`SourceState`](enums/source-state)** | The state of the source.

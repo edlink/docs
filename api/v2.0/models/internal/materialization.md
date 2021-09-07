@@ -11,7 +11,7 @@ During a materialization, the data returned by the Graph API updates.
 
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `created_date` | `Date` | When the object was first created by Edlink. |
 | `updated_date` | `Date` | When the object was last changed in Edlink. Typically, this is the time of completion. |
 | `state` | **[`MaterializationState`](enums/materialization-state)** | The state of the materialization. |

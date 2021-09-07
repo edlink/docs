@@ -10,10 +10,10 @@ are not associated with a school within the data source.
 
 | Property | Type | Description |
 | -------- | ---- | ----------- |
-| `id` | `string` | The UUID for the object. |
+| `id` | `string` | The UUID for the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `created_date` | `Date` | When the object was first seen by Edlink. |
-| `updated_date` | `Date` | When the object was last changed in Edlink. |
-| `name` | `string` | The name of the object. |
+| `updated_date` | `Date` | When the object was last changed in Edlink.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `gt` `lt` `gte` `lte` |
+| `name` | `string` | The name of the object.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
 | `grade_levels` | **[`GradeLevel[]`](enums/grade-level)** | The grade levels this school is associated with. |
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |

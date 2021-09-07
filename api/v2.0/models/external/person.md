@@ -13,7 +13,7 @@ A **Person** within a data source.
 | `last_name` | `string` | The person's last name.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` | 
 | `display_name` | `string` | The person's display name.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
 | `picture_url` | `string` | The URL for the person's profile picture. |
-| `roles` | **[`Role[]`](enums/role)** | The person's roles. Note that not every data source has roles for a person.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `in` `not in` `is known` `is unknown` |
+| `roles` | **[`Role[]`](enums/role)** | The person's roles. Note that not every data source has roles for a person. |
 | `email` | `string` | The person's email address.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` |
 | `phone` | `string` | The person's phone number. |
 | `locale` | `string` | The locale of the object. |

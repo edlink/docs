@@ -10,6 +10,8 @@ Retrieve a list of all **[Schools](../models/external/school)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -48,7 +50,7 @@ axios.get('https://ed.link/api/v2/graph/schools', {
 }
 ```
 
-## Fetch District
+## Fetch School
 
 ### *GET* https://ed.link/api/v2/graph/schools/:school\_id
 
@@ -111,6 +113,8 @@ specified **[School](../models/external/school)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -172,6 +176,8 @@ specified **[School](../models/external/school)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -222,6 +228,8 @@ specified **[School](../models/external/school)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -269,6 +277,8 @@ specified **[School](../models/external/school)**.
 | `school_id` | `string` | The UUID of the desired **[School](../models/external/school)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 
@@ -333,6 +343,8 @@ specified **[School](../models/external/school)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -395,6 +407,8 @@ associated with the specified **[School](../models/external/school)**.
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
 
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
+
 #### Sample Request
 
 ```javascript
@@ -456,6 +470,8 @@ associated with the specified **[School](../models/external/school)**.
 | `school_id` | `string` | The UUID of the desired **[School](../models/external/school)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
+
+This query allows for [filtering results](../../../guides/v2.0/filtering-results).
 
 #### Sample Request
 

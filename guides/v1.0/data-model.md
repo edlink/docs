@@ -36,4 +36,4 @@ typically data is imported as follows:
 
 ## Enrollment Types
 
-Enrollment types are further discussed in the [enrollments](/docs/graph/enrollments) document.
+Enrollment types are further discussed in the [enrollments](/docs/api/v1.0/graph/enrollments) document.

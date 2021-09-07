@@ -65,20 +65,12 @@
                 "title": "SSO Launches"
             },
             {
-                "type": "spacer",
-                "title": "Further Possibilities"
+                "type":"spacer",
+                "title": "Other Information"
             },
             {
-                "slug": "internal-data-model",
-                "title": "Internal Data Model"
-            },
-            {
-                "slug": "receiving-webhooks",
-                "title": "Receiving Webhooks"
-            },
-            {
-                "slug": "data-pipeline",
-                "title": "Data Pipeline"
+                "slug": "privacy",
+                "title": "Data Privacy"
             }
         ]
     }
