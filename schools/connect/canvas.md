@@ -39,7 +39,7 @@ developer keys (even when you wish to leverage Edlink's LTI capabilities). Here 
     <label>Key Name</label>
     <input type="text" readonly value="Edlink" />
     <label>Owner Email</label>
-    <input type="text" readonly value="dakota@ed.link" />
+    <input type="text" readonly value="support@ed.link" />
     <label>Redirect URIs</label>
     <textarea readonly>https://ed.link/api/authentication/canvas&#13;https://ed.link/sso/administrator</textarea>
     <label>Icon URL</label>

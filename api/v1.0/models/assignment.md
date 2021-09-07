@@ -15,6 +15,7 @@ Assignments have a variety of properties that can be used to achieve the learnin
 | `due_date` | Date | The timestamp when the assignment will be due for students. |
 | `lock_date` | Date | The timestamp when late submissions will no longer be accepted. |
 | `points_possible` | Number | The point value for the assignment. |
+| `grading_period` | Term ID | The grading period (term) ID that this item should be assigned into. |
 | `grading_type` | String | The grading scale. Typically `points`. |
 | `published` | Boolean | Whether or not the assignment is published. |
 | `title` | String | The assignment title. |
