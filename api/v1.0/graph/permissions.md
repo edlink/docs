@@ -32,7 +32,7 @@ const permissions = await axios.get('https://ed.link/api/v1/permissions');
 ```
 
 ## Fetch A Single Permission
-### *GET* https://ed.link/api/v1/permissions
+### *GET* https://ed.link/api/v1/permissions/:permission_id
 
 Retrieve information about a single permission. No additional data will be provided by this endpoint that is not also provided in the endpoint above. It is simply offered for convenience.
 

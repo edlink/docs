@@ -91,7 +91,7 @@ axios.get('https://ed.link/api/v1/my/courses', {
 ```
 
 ## Fetch Details About A Single Organization
-### *GET* https://ed.link/api/v1/my/:organization\_type/:course\_id
+### *GET* https://ed.link/api/v1/my/:organization\_type/:organization\_id
 
 This endpoint retrieves details about the requested course. The requesting user must be a member of the desired course.
 This endpoint is functionally equivalent to the Graph API method, but adds an additional check for user permission.
