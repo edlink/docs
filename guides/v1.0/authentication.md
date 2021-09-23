@@ -1,6 +1,6 @@
 # Authentication
 
-This page is not a guide to authentication (that can instead be found [here](/guides/v1.0/user-authentication.md)). Instead, it will just be a summary of the available endpoints for authentication. If you have experience with writing OAuth 2.0 connections, these endpoints (and this entire process) should be very familiar to you.
+This page is not a guide to authentication (that can instead be found [here](/docs/guides/v1.0/user-authentication)). Instead, it will just be a summary of the available endpoints for authentication. If you have experience with writing OAuth 2.0 connections, these endpoints (and this entire process) should be very familiar to you.
 
 ## Construct a Login URL
 
