@@ -22,6 +22,6 @@ Assignments have a variety of properties that can be used to achieve the learnin
 | `url` | String | The URL to the assignment within the LMS. |
 | `submission_types` | String [] | The allowed submission types. |
 | `personalized` | Boolean | Whether or not this is assigned to all students. |
-| `students` | Person [] | The students to whom this item is assigned (if `personalized` is `true`). |
+| `students` | UUID [] | An array of `person_id`s of the students to whom this item is assigned (if `personalized` is `true`). |
 | `course` | Organization | The course to which this item is assigned. |
 | `source` | Source | The data source for this assignment. |

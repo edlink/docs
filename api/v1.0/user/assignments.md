@@ -11,7 +11,7 @@ This endpoint retrieves a list of assignments that are visible to the authentica
 |---|---|---|
 | `course_id` | URL Parameter | The UUID for the course from which you want to retrieve assignments. |
 
-This request also allows for the [modified paging parameters](/docs/graph/paginated-requests).
+This request also allows for the [modified paging parameters](/docs/guides/v1.0/paginated-requests).
 
 #### Response Data
 
@@ -97,6 +97,8 @@ axios.post('https://ed.link/api/v1/my/courses/8ab9c040-d458-4746-9bea-99f4b5066f
 ### *PUT* https://ed.link/api/v1/my/courses/:course\_id/assignments/:assignment\_id
 
 This endpoint retrieves a single assignment from the specified course, if it is visible to the authenticated user.
+
+> Due to a limitation in the Google Classroom API, it is not possible to update attachments for Google Classroom assignments.
 
 #### Request Parameters
 

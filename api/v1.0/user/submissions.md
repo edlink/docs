@@ -12,7 +12,7 @@ For a given assignment in a given course, return a list of the student submissio
 | `course_id` | URL Parameter | The UUID for the course from which you want to retrieve assignments. |
 | `assignment_id` | URL Parameter | The ID of the assignment that you want to retrieve submissions for. |
 
-This request also allows for the [modified paging parameters](/docs/graph/paginated-requests).
+This request also allows for the [modified paging parameters](/docs/guides/v1.0/paginated-requests).
 
 #### Response Data
 
