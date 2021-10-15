@@ -21,3 +21,18 @@ The values of this enum are of type `string`.
 | `designer`<sup>&dagger;</sup> | Someone who can create or modify class content within the source system. |
 
 <sup>&dagger; These values are uncommon.</sup>
+
+## OneRoster Role Mappings
+Integrations made with a OneRoster-compatible source will be mapped to Edlink roles according to this table.
+ 
+| OneRoster Role | Edlink Role |
+| -------------- | ----------- |
+| `administrator` | `administrator` |
+| `aide` | `aide` |
+| `guardian` | `guardian` |
+| `invigilator` | `teacher` |
+| `parent` | `parent` |
+| `proctor` | `teacher` |
+| `relative` | `guardian` |
+| `student` | `student` |
+| `teacher` | `teacher` |
