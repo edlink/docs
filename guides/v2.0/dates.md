@@ -12,11 +12,7 @@ The format is as follows:
 YYYY-MM-DDThh:mm:ss.sssZ
 ```
 
-In the first 10 characters `YYYY` represents the year, `MM` represents the month, and `DD` represents the day. 
-
-`T` is a literal separator between the date and time-- it's always present, and it's always just a `T`.
-
-`hh` represents the hour, `mm` represents the minute, and `ss.sss` represents the second. `Z` indicates that the timezone used will be UTC.
+`YYYY` represents the year, `MM` represents the month, and `DD` represents the day. `T` is a literal separator between the date and time-- it's always present, and it's always just the letter T. `hh` represents the hour, `mm` represents the minute, and `ss.sss` represents the second. `Z` indicates that the timezone used will be UTC.
 
 Most languages have a built-in facility to create dates in this format. If you are using JavaScript or TypeScript, you can convert a `Date` to this format using [`Date.prototype.toISOString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString).
 
