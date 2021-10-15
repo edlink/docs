@@ -64,6 +64,11 @@
                 "slug": "sso-launches",
                 "title": "SSO Launches"
             },
+            },
+            {
+                "slug": "dates",
+                "title": "Dates"
+            },
             {
                 "type":"spacer",
                 "title": "Other Information"
