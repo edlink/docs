@@ -176,6 +176,10 @@
                                 "title": "Demographics"
                             },
                             {
+                                "slug": "identifier",
+                                "title": "Identifier"
+                            },
+                            {
                                 "type": "section",
                                 "slug": "enums",
                                 "title": "Enumerated Types",
@@ -243,6 +247,10 @@
                                     {
                                         "slug": "submission-type",
                                         "title": "Submission Type"
+                                    },
+                                    {
+                                        "slug": "identifier-type",
+                                        "title": "Identifier Type"
                                     }
                                 ]
                             }
