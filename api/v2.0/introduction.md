@@ -19,9 +19,9 @@ The Graph API enables you to access LMS information at the school or district le
 
 The User Data API enables you to add single sign on, rostering, content, and gradebook integration with school data sources. All requests documented in this section are scoped to the authenticated user. For example, when you make a call to retrieve a list of courses, you will receive a list of courses in which the requesting user is enrolled. You **will not** receive a list of all courses within an entire school or district.
 
-* The User Data API provides access to information relating to the user who is currently sign into your application.
+* The User Data API provides access to information relating to the user who is currently signed in to your application.
 * The API is bi-directional which allows you to perform functions like syncing grades or submitting assignments.
-* Edlink Sharing Rules also apply to user data here so you will not see data that you are not allowed to access.
+* Edlink Sharing Rules also apply to user data here, so you will not see data that you are not allowed to access.
 
 ## Conclusion
 

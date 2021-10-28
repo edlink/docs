@@ -17,6 +17,10 @@
                 "title": "Changelog"
             },
             {
+                "slug": "errors-warnings",
+                "title": "Errors & Warnings"
+            },
+            {
                 "type": "section",
                 "slug": "meta",
                 "title": "Meta API",

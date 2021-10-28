@@ -14,7 +14,7 @@ A **Person** within a data source.
 | `display_name` | `string` | The person's display name.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` `in` `not in` `is known` `is unknown` |
 | `picture_url` | `string` | The URL for the person's profile picture. |
 | `roles` | **[`Role[]`](enums/role)** | The person's roles. Note that not every data source has roles for a person. |
-| `email` | `string` | The person's email address.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` |
+| `email` | `string` | The person's email address. Many data sources do not require any sort of email verification for this field, so use caution.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `starts with` `contains` |
 | `phone` | `string` | The person's phone number. |
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
