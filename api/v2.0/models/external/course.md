@@ -27,6 +27,7 @@ actually **[Enrolled](enrollment)** in during the class registration period.
 | `grade_levels` | **[`GradeLevel[]`](enums/grade-level)** | The grade levels this course is associated with. |
 | `subjects` | **[`Subject[]`](enums/subject)** | The subjects this course is associated with. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
+| `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
 | `session_id` | `string` | The UUID of the associated **[Session](session)**. |
 | `school_id` | `string` | The UUID of the associated **[School](school)**.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `district_id` | `string` | The UUID of the associated **[District](district)**. |

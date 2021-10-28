@@ -19,6 +19,7 @@ are not associated with a school within the data source.
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
 | `location` | **[`Address`](address)** | The address location of the object.
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
+| `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
 | `district_id` | `string` | The UUID of the associated **[District](district)**. |
 
 ## JSON Example

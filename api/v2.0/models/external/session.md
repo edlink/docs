@@ -14,6 +14,7 @@ a semester, term, or school year.
 | `state` | **[`SessionState`](enums/session-state)** | The state of the session. |
 | `type` | **[`SessionType`](enums/session-type)** | The type of the session. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
+| `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
 | `school_id` | `string` | The UUID of the associated **[School](school)**. |
 | `district_id` | `string` | The UUID of the associated **[District](district)**. |
 
