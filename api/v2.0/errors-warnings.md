@@ -5,7 +5,7 @@ An **error** results when the API encounters a situation that it cannot handle.
 
 Every error returned by the API will include a `$code` and `$description` field to aid you in remedying the problem.
 
-We will return a `500` response code and a response body with the following structure when any errors occur.
+We will return a `500` status code and a response body with the following structure when any errors occur.
 ```json
 {
   "$request": "00000000-0000-0000-0000-000000000000",
@@ -23,7 +23,7 @@ A **warning** results when the API wants to let you know about a situation that 
 
 Like errors, every warning returned by the API will include a `$code` and `$description` field to aid you in remedying the problem.
 
-Warnings can be included in any API response, including errors. We recommend that you monitor all responses for warnings.
+Warnings can be included in any API response, including errors. We recommend that you monitor all responses for warnings. They appear in the following format:
 
 ```json
 {
