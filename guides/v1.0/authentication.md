@@ -90,7 +90,7 @@ const user = await axios.get('https://ed.link/api/v1/my/profile', {
 
 ## Refreshing the Bearer Token
 
-Bearer tokens expire after 3600 seconds (1 hour), as defined by the `expires_in` field returned during Step 5. After the one hour period has expired, any requests made using the token will result in a `401 Unauthorized` error. You may wish to refresh a user's bearer token to continue making requests on their behalf.
+Bearer tokens expire after 3600 seconds (1 hour), as defined by the `expires_in` field returned during Step 5. After the one-hour period has expired, any requests made using the token will result in a `401 Unauthorized` error. You may wish to refresh a user's bearer token to continue making requests on their behalf.
 
 To refresh a bearer token, you must save the `refresh_token` that was granted to you in Step 5. This token must be stored securely, as compromised refresh tokens can result in a breach of user data. Making another request to the OAuth endpoint from Step 5 (with some slightly different parameters) will grant you a new token.
 
