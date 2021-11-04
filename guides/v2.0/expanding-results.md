@@ -2,12 +2,13 @@
 
 v2.0 of the Edlink API provides a robust expansion system. This system allows you to pull related objects from the Edlink API without having to make several individual requests.
 
-For instance... <!-- todo probably an example about agents or enrollments, any situation where the point of interest is probably not the join object -->
+For instance, when retrieving a list of **[Agents](../../api/v2.0/models/external/agent)**, it's likely that you're mostly interested in the **[People](../../api/v2.0/models/external/person)** attached to them.
 
-Expanding works by using the `$expand` URL parameter against endpoints that support it. Typically, any endpoint that returns an array in `$data` can be expanded.
+Without expansion, you would have to make a separate request for each **[Agent](../../api/v2.0/models/external/agent)** in the array to get the information you're looking for.
 
-Without expansion, you would have to make a separate request for each **Agent** in the array.
-
+```
+https://ed.link/api/v2/my/agents
+```
 ```json
 {
   "id": "00000000-0000-0000-0000-000000000000",
@@ -17,8 +18,11 @@ Without expansion, you would have to make a separate request for each **Agent** 
 }
 ```
 
-Using expansion, you can retrieve the details of each **Agent**'s `observer` with one request.
+To use expansion, provide the `$expand` parameter. With this method, you can retrieve the details of each **[Agent](../../api/v2.0/models/external/agent)**'s `observer` with one request.
 
+```
+https://ed.link/api/v2/my/agents?$expand=observer
+```
 ```json
 {
   "id": "00000000-0000-0000-0000-000000000000",
@@ -37,7 +41,7 @@ Using expansion, you can retrieve the details of each **Agent**'s `observer` wit
 
 ## Expandable Fields
 
-As a general rule of thumb, most fields that end in `_id` or `_ids` can be expanded. For example, `school_ids` on a **Person** can be expanded with `$expand=schools` to return the `schools` array.
+As a general rule of thumb, most fields that end in `_id` or `_ids` can be expanded. For example, `school_ids` on a **Person** can be expanded with `$expand=schools` to include the `schools` array.
 
 View the appropriate model page (listed below) to see which fields are expandable. Any endpoint which returns these models supports the `$expand` parameter.
 
