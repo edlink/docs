@@ -18,3 +18,15 @@ Dotted lines indicate optional references. All providers might not support certa
 <li>There will always be at least one School in a source.</li>
 </ol>
 </sup>
+
+### Example Hierarchy
+The following is an example of a hierarchy for a traditional school's mapping to the Edlink data model.
+
+| Type | Example |
+| --- | --- |
+| **[District](../../api/v2.0/models/external/district)** | Springfield School District |
+| **[School](../../api/v2.0/models/external/school)** | Springfield Elementary School |
+| **[Session](../../api/v2.0/models/external/session)** | Fall 2021 |
+| **[Course](../../api/v2.0/models/external/course)** | English 101 |
+| **[Class](../../api/v2.0/models/external/class)** | Mrs. Krabappel's English 101 |
+| **[Section](../../api/v2.0/models/external/section)** | Mrs. Krabappel's English 101 Period 3 |
