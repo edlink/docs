@@ -13,10 +13,6 @@
                 "title": "Migrating from v1.0"
             },
             {
-                "slug": "changelog",
-                "title": "Changelog"
-            },
-            {
                 "type": "section",
                 "slug": "meta",
                 "title": "Meta API",

@@ -1,0 +1,24 @@
+{
+    "$data": {
+        "slug": "changelogs",
+        "title": "Changelogs",
+        "documents": [
+            {
+                "slug": "api",
+                "title": "API"
+            },
+            {
+                "slug": "dashboard",
+                "title": "Dashboard"
+            },
+            {
+                "type":"spacer",
+                "title": "Developer SDKs"
+            },
+            {
+                "slug": "typescript",
+                "title": "Typescript"
+            }
+        ]
+    }
+}
