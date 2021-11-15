@@ -14,6 +14,7 @@ A **Section** describes a group of students within a **[Class](class)**.
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
 | `periods` | `string[]` | The periods this section is taught. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
+| `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
 | `class_id` | `string` | The UUID of the associated **[Class](class)**. |
 
 ## JSON Example

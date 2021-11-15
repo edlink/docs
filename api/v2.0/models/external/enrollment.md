@@ -15,6 +15,7 @@ Optionally, in systems that support **[Sections](section)**, an **Enrollment** c
 | `primary` | `boolean` | If there are multiple teachers, this will indicate the primary teacher, if there is one. |
 | `state` | **[`EnrollmentState`](enums/enrollment-state)** | The state of the enrollment. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
+| `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
 | `person_id` | `string` | The UUID of the associated **[Person](person)**.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `class_id` | `string` | The UUID of the associated **[Class](class)**.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |
 | `section_id` | `string` | The UUID of the associated **[Section](section)**.<br/>**[$filter operators](../../../../guides/v2.0/filtering-results):** `equals` `in` `not in` |

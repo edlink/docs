@@ -23,6 +23,7 @@ Many **[People](person)** can be **[Enrolled](enrollment)** in a **Class**.
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
+| `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
 | `session_ids` | `string[]` | The UUIDs of the associated **[Sessions](session)**. |
 | `course_id` | `string` | The UUID of the associated **[Course](course)**. |
 | `school_id` | `string` | The UUID of the associated **[School](school)**. |

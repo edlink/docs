@@ -19,9 +19,10 @@ A **Person** within a data source.
 | `locale` | `string` | The locale of the object. |
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
 | `graduation_year` | `number` | The person's expected graduation year. |
-| `grade_levels` | **[`GradeLevel[]`](enums/grade-level)** | The grade levels this school is associated with. |
+| `grade_levels` | **[`GradeLevel[]`](enums/grade-level)** | The grade levels this person is associated with. |
 | `demographics` | **[`Demographics`](demographics)** | The person's demographics. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
+| `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
 | `district_id` | `string` | The UUID of the associated **[District](district)**. |
 | `school_ids` | `string[]` | The UUIDs of the associated **[Schools](school)**. |
 

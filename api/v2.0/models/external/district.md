@@ -14,6 +14,7 @@ for a source.
 | `time_zone` | `string` | The [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) name of the object. |
 | `location` | **[`Address`](address)** | The address location of the object.
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
+| `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
 
 ## JSON Example
 ```json
