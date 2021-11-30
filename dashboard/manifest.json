@@ -20,10 +20,6 @@
                 "title": "Account Settings"
             },
             {
-                "slug": "creating-a-team",
-                "title": "Creating A Team"
-            },
-            {
                 "slug": "switching-teams",
                 "title": "Switching Teams"
             },
@@ -36,16 +32,12 @@
                 "title": "Inviting Team Members"
             },
             {
-              "slug": "billing",
-              "title": "Billing Settings"
+                "slug": "billing",
+                "title": "Billing Settings"
             },
             {
                 "type": "spacer",
                 "title": "For Educators"
-            },
-            {
-                "slug": "connecting-sources",
-                "title": "Connecting Data Sources"
             },
             {
                 "slug": "school-integrations",
@@ -98,10 +90,6 @@
             {
                 "slug": "data-sources-dev",
                 "title": "School Data Sources"
-            },
-            {
-                "slug": "changelog",
-                "title": "Changelog"
             }
         ]
     }
