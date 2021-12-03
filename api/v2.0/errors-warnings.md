@@ -11,7 +11,7 @@ We will return a `500` status code and a response body with the following struct
   "$request": "00000000-0000-0000-0000-000000000000",
   "$errors": [
     {
-      "$code": "ERROR_EXAMPLE",
+      "$code": "ERROR_CODE_EXAMPLE",
       "$description": "This is a human-readable description of the error."
     }
   ]
@@ -31,7 +31,7 @@ Warnings can be included in any API response, including errors. We recommend tha
   "$data": [ ... ],
   "$warnings": [
     {
-      "$code": "WARNING_EXAMPLE",
+      "$code": "WARNING_CODE_EXAMPLE",
       "$description": "This is a human-readable description of the warning."
     }
   ]
