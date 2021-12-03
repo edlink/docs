@@ -1,3 +1,7 @@
+# Edlink Dashboard Changelog
+
+This document covers all releases of the Edlink Dashboard.
+
 ## Version 1.4.1
 
 - A number of sharing rules UI updates.

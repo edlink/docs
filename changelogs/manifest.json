@@ -1,0 +1,16 @@
+{
+    "$data": {
+        "slug": "changelogs",
+        "title": "Changelogs",
+        "documents": [
+            {
+                "slug": "api",
+                "title": "API"
+            },
+            {
+                "slug": "dashboard",
+                "title": "Dashboard"
+            }
+        ]
+    }
+}

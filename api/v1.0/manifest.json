@@ -9,10 +9,6 @@
                 "title": "Introduction"
             },
             {
-                "slug": "changelog",
-                "title": "Changelog"
-            },
-            {
                 "type": "section",
                 "slug": "graph",
                 "title": "Graph API",
