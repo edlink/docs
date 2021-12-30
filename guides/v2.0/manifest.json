@@ -50,11 +50,15 @@
             },
             {
                 "slug": "patch-requests",
-                "title": "PATCH Requests"
+                "title": "Patch Requests"
             },
             {
                 "slug": "filtering-results",
                 "title": "Filtering Results"
+            },
+            {
+                "slug": "limiting-fields",
+                "title": "Limiting Response Fields"
             },
             {
                 "slug": "expanding-results",
@@ -62,7 +66,7 @@
             },
             {
                 "slug": "idempotency",
-                "title": "Ensuring Idempotency"
+                "title": "Idempotent Requests"
             },
             {
                 "type": "spacer",
@@ -86,7 +90,7 @@
             },
             {
                 "slug": "dates",
-                "title": "Dates"
+                "title": "Working With Dates"
             },
             {
                 "type":"spacer",

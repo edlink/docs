@@ -1,3 +1,3 @@
-# PATCH Requests
+# Patch Requests
 
 > This page is under construction.

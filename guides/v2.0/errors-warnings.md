@@ -3,7 +3,7 @@
 ## Errors
 An **error** results when the API encounters a situation that it cannot handle.
 
-Every error returned by the API will include a `$code` and `$description` field to aid you in remedying the problem.
+Every error returned by the API will include a `code` and `message` field to aid you in remedying the problem.
 
 We will return a `500` status code and a response body with the following structure when any errors occur.
 ```json
@@ -11,8 +11,8 @@ We will return a `500` status code and a response body with the following struct
   "$request": "00000000-0000-0000-0000-000000000000",
   "$errors": [
     {
-      "$code": "ERROR_CODE_EXAMPLE",
-      "$description": "This is a human-readable description of the error."
+      "code": "ERROR_CODE_EXAMPLE",
+      "message": "This is a human-readable description of the error."
     }
   ]
 }
@@ -31,8 +31,8 @@ Warnings can be included in any API response, including errors. We recommend tha
   "$data": [ ... ],
   "$warnings": [
     {
-      "$code": "WARNING_CODE_EXAMPLE",
-      "$description": "This is a human-readable description of the warning."
+      "code": "WARNING_CODE_EXAMPLE",
+      "description": "This is a human-readable description of the warning."
     }
   ]
 }
