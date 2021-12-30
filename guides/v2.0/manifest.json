@@ -26,7 +26,7 @@
             },
             {
                 "slug": "external-data-model",
-                "title": "School Data Model"
+                "title": "External Data Model"
             },
             {
                 "slug": "security",
@@ -38,19 +38,19 @@
             },
             {
                 "type": "spacer",
-                "title": "In Depth Guides"
+                "title": "API Features"
+            },
+            {
+                "slug": "errors-warnings",
+                "title": "Errors & Warnings"
             },
             {
                 "slug": "paginated-requests",
                 "title": "Paginated Requests"
             },
             {
-                "slug": "class-rostering",
-                "title": "Class Rostering"
-            },
-            {
-                "slug": "events",
-                "title": "Events API"
+                "slug": "patch-requests",
+                "title": "PATCH Requests"
             },
             {
                 "slug": "filtering-results",
@@ -59,6 +59,22 @@
             {
                 "slug": "expanding-results",
                 "title": "Expanding Results"
+            },
+            {
+                "slug": "idempotency",
+                "title": "Ensuring Idempotency"
+            },
+            {
+                "type": "spacer",
+                "title": "In-Depth Guides"
+            },
+            {
+                "slug": "class-rostering",
+                "title": "Class Rostering"
+            },
+            {
+                "slug": "events",
+                "title": "Events API"
             },
             {
                 "slug": "lti-configuration",

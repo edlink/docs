@@ -13,10 +13,6 @@
                 "title": "Migrating from v1.0"
             },
             {
-                "slug": "errors-warnings",
-                "title": "Errors & Warnings"
-            },
-            {
                 "type": "section",
                 "slug": "meta",
                 "title": "Meta API",
@@ -97,7 +93,7 @@
                 "documents": [
                     {
                         "type":"spacer",
-                        "title": "Rostering Endpoints"
+                        "title": "Rostering"
                     },
                     {
                         "slug": "profile",
@@ -129,7 +125,7 @@
                     },
                     {
                         "type":"spacer",
-                        "title": "Assignment Sync Endpoints"
+                        "title": "Class Content"
                     },
                     {
                         "slug": "categories",
@@ -196,6 +192,10 @@
                                 "title": "Class Content"
                             },
                             {
+                                "slug": "category",
+                                "title": "Category"
+                            },
+                            {
                                 "slug": "assignment",
                                 "title": "Assignment"
                             },
@@ -204,12 +204,8 @@
                                 "title": "Submission"
                             },
                             {
-                                "slug": "grade",
-                                "title": "Grade"
-                            },
-                            {
-                                "slug": "tag",
-                                "title": "Tag"
+                                "slug": "standard",
+                                "title": "Standard"
                             },
                             {
                                 "type": "spacer",

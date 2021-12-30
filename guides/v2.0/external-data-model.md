@@ -1,6 +1,6 @@
-# School Data Model
+# External Data Model
 
-Our school data model enforces a strict set of rules for how objects in our database connect and relate to one another.
+Our external (school) data model enforces a strict set of rules for how objects in our database connect and relate to one another.
 
 ## Diagram
 
