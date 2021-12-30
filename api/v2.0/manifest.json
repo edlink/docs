@@ -13,10 +13,6 @@
                 "title": "Migrating from v1.0"
             },
             {
-                "slug": "changelog",
-                "title": "Changelog"
-            },
-            {
                 "slug": "errors-warnings",
                 "title": "Errors & Warnings"
             },

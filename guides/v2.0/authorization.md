@@ -8,7 +8,7 @@ not made via HTTPS.
 
 ## Graph API Authorization
 
-Your application's secret key can be used to [retrieve a list of active integrations](../../api/v2.0/meta/introduction).
+Your application's secret key can be used to [retrieve a list of active integrations](../../api/v1.0/graph/integrations).
 This list contains all the different individual school data sources that have connected to your application.
 
 When school administrators grant access to their data source (e.g. Canvas), a new integration will appear on the list.

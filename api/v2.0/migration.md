@@ -74,5 +74,3 @@ We've made some changes to our data model to improve consistency and clarity.
 * All sources are now forced to have exactly one District.
 * All sources are now forced to have at least one School.
 * Various enums have new or changed values. All enums now have their values documented in the Models section of the API documentation.
-
-You can [view the complete changelog for more details](changelog).

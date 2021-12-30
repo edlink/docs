@@ -1,162 +1,111 @@
 {
-    "$data": {
-        "slug": "schools",
-        "title": "Edlink For Schools",
+  "$data": {
+    "slug": "schools",
+    "title": "Edlink For Schools",
+    "type": "section",
+    "documents": [
+      {
+        "slug": "connect",
+        "title": "Connect A Source",
         "type": "section",
         "documents": [
-            {
-                "slug": "introduction",
-                "title": "Introduction"
-            },
-            {
-                "slug": "what-is-edlink",
-                "title": "What Is Edlink"
-            },
-            {
-                "slug": "data-privacy",
-                "title": "Data Privacy"
-            },
-            {
-                "slug": "features",
-                "title": "Primary Features",
-                "type": "section",
-                "documents": [
-                    {
-                        "slug": "integration",
-                        "title": "Data Integration"
-                    },
-                    {
-                        "slug": "sso",
-                        "title": "Single Sign On"
-                    },
-                    {
-                        "slug": "rostering",
-                        "title": "Class Rostering"
-                    },
-                    {
-                        "slug": "content",
-                        "title": "Content Integration"
-                    },
-                    {
-                        "slug": "grades",
-                        "title": "Gradebook Sync"
-                    },
-                    {
-                        "slug": "enrichment",
-                        "title": "Data Enrichment"
-                    },
-                    {
-                        "slug": "sharing-rules",
-                        "title": "Sharing Rules"
-                    }
-                ]
-            },
-            {
-                "slug": "connect",
-                "title": "Connect A Source",
-                "type": "section",
-                "documents": [
-                    {
-                        "slug": "google",
-                        "title": "G Suite Integration"
-                    },
-                    {
-                        "slug": "microsoft",
-                        "title": "Office 365 Integration"
-                    },
-                    {
-                        "slug": "canvas",
-                        "title": "Canvas Integration"
-                    },
-                    {
-                        "slug": "blackboard",
-                        "title": "Blackboard Integration"
-                    },
-                    {
-                        "slug": "schoology",
-                        "title": "Schoology Integration"
-                    },
-                    {
-                        "slug": "moodle",
-                        "title": "Moodle Integration"
-                    },
-                    {
-                        "slug": "brightspace",
-                        "title": "Brightspace Integration"
-                    },
-                    {
-                        "slug": "clever",
-                        "title": "Clever Integration"
-                    },
-                    {
-                        "slug": "classlink",
-                        "title": "Classlink Integration"
-                    },
-                    {
-                        "slug": "oneroster",
-                        "title": "OneRoster Integration"
-                    }
-                ]
-            },
-            {
-                "slug": "teachers",
-                "title": "Guides For Teachers",
-                "type": "section",
-                "documents": [
-                    {
-                        "slug": "about-single-sign-on",
-                        "title": "About Single Sign On"
-                    },
-                    {
-                        "slug": "sign-in-issues",
-                        "title": "Sign In Issues"
-                    },
-                    {
-                        "type": "spacer",
-                        "title": "Single Sign On Guides"
-                    },
-                    {
-                        "slug": "sign-in-with-google",
-                        "title": "Sign In With Google"
-                    },
-                    {
-                        "slug": "sign-in-with-microsoft-teams",
-                        "title": "Sign In With Microsoft Teams"
-                    },
-                    {
-                        "slug": "sign-in-with-canvas",
-                        "title": "Sign In With Canvas"
-                    },
-                    {
-                        "slug": "sign-in-with-schoology",
-                        "title": "Sign In With Schoology"
-                    },
-                    {
-                        "slug": "sign-in-with-brightspace",
-                        "title": "Sign In With Brightspace"
-                    },
-                    {
-                        "slug": "sign-in-with-blackboard",
-                        "title": "Sign In With Blackboard"
-                    },
-                    {
-                        "slug": "sign-in-with-moodle",
-                        "title": "Sign In With Moodle"
-                    },
-                    {
-                        "slug": "sign-in-with-clever",
-                        "title": "Sign In With Clever"
-                    },
-                    {
-                        "slug": "sign-in-with-classlink",
-                        "title": "Sign In With Classlink"
-                    },
-                    {
-                        "slug": "lti-launch",
-                        "title": "Launching With LTI"
-                    }
-                ]
-            }
+          {
+            "slug": "google",
+            "title": "G Suite Integration"
+          },
+          {
+            "slug": "microsoft",
+            "title": "Office 365 Integration"
+          },
+          {
+            "slug": "canvas",
+            "title": "Canvas Integration"
+          },
+          {
+            "slug": "blackboard",
+            "title": "Blackboard Integration"
+          },
+          {
+            "slug": "schoology",
+            "title": "Schoology Integration"
+          },
+          {
+            "slug": "moodle",
+            "title": "Moodle Integration"
+          },
+          {
+            "slug": "brightspace",
+            "title": "Brightspace Integration"
+          },
+          {
+            "slug": "clever",
+            "title": "Clever Integration"
+          },
+          {
+            "slug": "classlink",
+            "title": "Classlink Integration"
+          },
+          {
+            "slug": "oneroster",
+            "title": "OneRoster Integration"
+          }
         ]
-    }
+      },
+      {
+        "slug": "teachers",
+        "title": "Guides For Teachers",
+        "type": "section",
+        "documents": [
+          {
+            "slug": "about-single-sign-on",
+            "title": "About Single Sign On"
+          },
+          {
+            "slug": "sign-in-issues",
+            "title": "Sign In Issues"
+          },
+          {
+            "type": "spacer",
+            "title": "Single Sign On Guides"
+          },
+          {
+            "slug": "sign-in-with-google",
+            "title": "Sign In With Google"
+          },
+          {
+            "slug": "sign-in-with-microsoft-teams",
+            "title": "Sign In With Microsoft Teams"
+          },
+          {
+            "slug": "sign-in-with-canvas",
+            "title": "Sign In With Canvas"
+          },
+          {
+            "slug": "sign-in-with-schoology",
+            "title": "Sign In With Schoology"
+          },
+          {
+            "slug": "sign-in-with-brightspace",
+            "title": "Sign In With Brightspace"
+          },
+          {
+            "slug": "sign-in-with-blackboard",
+            "title": "Sign In With Blackboard"
+          },
+          {
+            "slug": "sign-in-with-moodle",
+            "title": "Sign In With Moodle"
+          },
+          {
+            "slug": "sign-in-with-clever",
+            "title": "Sign In With Clever"
+          },
+          {
+            "slug": "sign-in-with-classlink",
+            "title": "Sign In With Classlink"
+          }
+        ]
+      }
+    ]
+  }
 }
