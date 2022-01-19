@@ -15,7 +15,7 @@ The `$fields` parameter is available for both Graph API requests and User Data A
 
 Let's say we wanted to list all [`People`](../../api/v2.0/models/external/person) at a given district or university, but we did not want to receive all of the metadata that Edlink stores about a `Person` in the API response. In this case, we might only want to list their Edlink ID, first name, and last name. The request URL would be as follows:
 
-`https://ed.link/api/v2/graph/people?$fields=id,first_name,last_name`
+`GET https://ed.link/api/v2/graph/people?$fields=id,first_name,last_name`
 
 Note, the `$fields` query parameter is a list of comma-separated values. The response body will contain only those fields:
 
