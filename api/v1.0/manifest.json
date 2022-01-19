@@ -145,6 +145,10 @@
                                 "title": "Role"
                             },
                             {
+                                "slug": "grade-level",
+                                "title": "Grade Level"
+                            },
+                            {
                                 "slug": "event-type",
                                 "title": "Event Type"
                             }
