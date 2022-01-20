@@ -6,19 +6,21 @@ One of the challenges of modeling organizational units in any abstract system is
 
 ## Properties
 
-| Property | Type | Description |
-|---|---|---|
-| `id` | UUID | A stable UUID representing this integration. |
-| `type` | String | The type of this organization (e.g. a course). [See the available types here.](enums/organization-type) |
-| `name` | String | The display name of this organization. |
-| `description` | String | A short description for this organization. |
-| `icon_url` | String | A URL to an icon or profile picture for this organization. |
-| `state` | String | The state in which the organization is located. |
-| `time_zone` | String | The time zone in which the organization is located. |
-| `ancestry` | Array | An array of organization UUIDs representing the parents of this organization. |
-| `terms` | Array | An array of term UUIDs to which the course belongs. |
-| `entity` | Entity | Metadata about the physical entity (e.g. a school building). |
-| `source` | Source | Metadata about the source to which this organization belongs. |
+| Property       | Type                                         | Description                                                                   |
+|----------------|----------------------------------------------|-------------------------------------------------------------------------------|
+| `id`           | UUID                                         | A stable UUID representing this integration.                                  |
+| `type`         | [Organization Type](enums/organization-type) | The type of this organization (e.g. a course).                                |
+| `name`         | String                                       | The display name of this organization.                                        |
+| `description`  | String                                       | A short description for this organization.                                    |
+| `icon_url`     | String                                       | A URL to an icon or profile picture for this organization.                    |
+| `state`        | String                                       | The state in which the organization is located.                               |
+| `time_zone`    | String                                       | The time zone in which the organization is located.                           |
+| `ancestry`     | Array                                        | An array of organization UUIDs representing the parents of this organization. |
+| `terms`        | Array                                        | An array of term UUIDs to which the organization belongs.                     |
+| `grades`       | [Grade Level](enums/grade-level) Array       | The course's grade levels.                                                    |
+| `grade_levels` | [Grade Level](enums/grade-level) Array       | The course's grade levels. Identical to `grades`.                             |
+| `entity`       | Entity                                       | Metadata about the physical entity (e.g. a school building).                  |
+| `source`       | Source                                       | Metadata about the source to which this organization belongs.                 |
 
 ## Additional Notes
 
