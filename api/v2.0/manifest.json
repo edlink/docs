@@ -229,16 +229,16 @@
                                 "title": "Enumerated Types",
                                 "documents": [
                                     {
-                                        "slug": "assignee-type",
-                                        "title": "Assignee Type"
+                                        "slug": "assignment-state",
+                                        "title": "Assignment State"
+                                    },
+                                    {
+                                        "slug": "assignee-mode",
+                                        "title": "Assignee Mode"
                                     },
                                     {
                                         "slug": "class-state",
                                         "title": "Class State"
-                                    },
-                                    {
-                                        "slug": "content-state",
-                                        "title": "Content State"
                                     },
                                     {
                                         "slug": "enrollment-state",
