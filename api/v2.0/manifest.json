@@ -293,6 +293,10 @@
                                         "title": "Submission Type"
                                     },
                                     {
+                                        "slug": "submission-flag",
+                                        "title": "Submission Flag"
+                                    },
+                                    {
                                         "slug": "identifier-type",
                                         "title": "Identifier Type"
                                     }
