@@ -1,6 +1,6 @@
 # Filtering Results
 
-v2.0 of the Edlink API provides a robust filtering system. Filtering works by using the `$filter` URL parameter against endpoints that support it. Typically, any endpoint that returns an array in `$data` can be filtered.
+v2.0 of the Edlink API provides a robust filtering system. Filtering works by using the `$filter` URL parameter against endpoints that support it. Typically, any Graph API endpoint that returns an array in `$data` can be filtered.
 
 ## Constructing a Filter
 
@@ -8,7 +8,7 @@ It's easier to understand what `$filter` is doing when it's fully expanded. You'
 line breaks and extra spaces) before you send it to the Edlink API.
 
 Let's say we wanted to search for all **[People](../../api/v2.0/models/external/person)** whose `first_name` starts
-with `Z`. The filter is composed of several parts. For each property/field you want to filter against, you should add a list containing each operator you want to apply to the field. 
+with the letter `z`. The filter is composed of several parts. For each field you want to filter against, you should add a list containing each operator you want to apply to the field. 
 
 ```json
 {
@@ -52,7 +52,7 @@ As this example demonstrates, multiple operators can be applied to the same fiel
 Let's see an example of how to make a request using a filter in code.
 
 ```javascript
-// Get the first 5 people whose display_name starts with A
+// List up to 5 people whose display_name starts with A
 axios.get('https://ed.link/api/v2/graph/people', {
   headers: {
     authorization: `Bearer ${integration_access_token}`

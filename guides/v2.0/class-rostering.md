@@ -35,7 +35,7 @@ while (url) {
 	schools.push(...result.$data);
 
 	// Set the url variable so we get the next page on the next loop
-	// If $next is undefined, our pagination is over & the loop will end
+	// (If $next is undefined, our pagination is over & the loop will end)
 	url = result.$next;
 }
 
@@ -44,7 +44,7 @@ while (url) {
 // other data model types.
 ```
 
-It's recommended to access the school data models in the following order:
+If you're performing a full sync, it's recommended to access the school data models in the following order:
 
 1. [District](../../api/v2.0/models/external/district) [`https://ed.link/api/v2/graph/districts`](../../api/v2.0/graph/districts)
 1. [School](../../api/v2.0/models/external/school) [`https://ed.link/api/v2/graph/schools`](../../api/v2.0/graph/schools)

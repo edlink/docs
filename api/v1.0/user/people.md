@@ -8,7 +8,7 @@ to the corresponding user objects in the Graph API. This makes it very simple to
 ### *GET* https://ed.link/api/v1/my/profile
 
 This endpoint retrieves the personal information of the user that corresponds to the provided bearer token. There are no special permissions
-required to access this endpoint, as a user can always retrieve their own details. This endpoint returns a [standard user object](/docs/graph/people).
+required to access this endpoint, as a user can always retrieve their own details. This endpoint returns a [standard user object](/docs/api/v1.0/models/person).
 <!-- This endpoint is a convenience method for developers, and is
 functionally equivalent to the method below (if called with the user's own ID). -->
 
