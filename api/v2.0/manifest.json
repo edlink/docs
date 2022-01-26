@@ -152,10 +152,6 @@
                                 "title": "Submission"
                             },
                             {
-                                "slug": "grade",
-                                "title": "Grade"
-                            },
-                            {
                                 "slug": "standard",
                                 "title": "Standard"
                             },
