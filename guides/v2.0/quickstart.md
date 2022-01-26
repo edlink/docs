@@ -1,10 +1,5 @@
 # Quickstart
 
-<!--
- add a step 0 that discusses
- - how to 
--->
-
 This guide will teach you how to set up a quick Node.js application to load a list of schools and the students that
 belong to them. This guide requires a basic understanding of Node.js and the Javascript language.
 
@@ -60,7 +55,7 @@ while (url) {
 	schools.push(...result.$data);
 
 	// Set the url variable so we get the next page on the next loop
-	// If $next is undefined, our pagination is over & the loop will end
+	// (If $next is undefined, our pagination is over & the loop will end)
 	url = result.$next;
 }
 

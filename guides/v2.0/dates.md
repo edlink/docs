@@ -1,4 +1,4 @@
-# Dates
+# Working With Dates
 
 Edlink uses [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) formatted dates in its API. They look like this:
 

@@ -10,8 +10,8 @@ represented in Edlink.
 | `relationship` | **[`Relationship`](enums/relationship)** | The relationship between the observer and the target. |
 | `properties` | `object` | Non-standard properties that may be of interest to the developer. |
 | `identifiers` | **[`Identifier[]`](identifier)** | Additional IDs associated with the object. |
-| `observer_id` | `string` | The UUID of the **[Person](person)** who acts as the observer in the relationship. Typically, this is a parent or guardian. |
-| `target_id` | `string` | The UUID of the **[Person](person)** who acts as the target in this relationship. Typically, this is a student.
+| `observer_id` | `string` | The UUID of the **[Person](person)** who acts as the observer in the relationship. Typically, this is a parent or guardian.<br/>**[$expand](../../../../guides/v2.0/expanding-results):** `observer` |
+| `target_id` | `string` | The UUID of the **[Person](person)** who acts as the target in this relationship. Typically, this is a student.<br/>**[$expand](../../../../guides/v2.0/expanding-results):** `target`
 
 ## JSON Example
 ```json
