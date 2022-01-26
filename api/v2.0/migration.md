@@ -55,8 +55,8 @@ As a result of this, V1.0's `/organizations` Graph API endpoints no longer exist
 
 ### Courses
 
-**[v1.0's Courses](../v1.0/models/course)** have been renamed to **[Classes](models/external/class)** to fall more in
-line with industry expectations. The old name **[Course](models/external/course)** has been given a new meaning, described in further detail below.
+**[v1.0's Courses](../v1.0/models/organization)** have been renamed to **[Classes](models/external/class)** to fall more in
+line with industry expectations. The old name **[Course](models/external/course)** has been given a new meaning, described in further detail above under "Courses Data Type".
 
 ### Terms
 **[v1.0's Terms](../v1.0/models/term)** have been renamed to **[Sessions](models/external/session)** to fall more in
