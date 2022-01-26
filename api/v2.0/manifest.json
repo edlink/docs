@@ -30,7 +30,7 @@
                 "documents": [
                     {
                         "type":"spacer",
-                        "title": "Endpoints"
+                        "title": "Rostering Data"
                     },
                     {
                         "slug": "districts",
@@ -92,52 +92,8 @@
                 "title": "User API",
                 "documents": [
                     {
-                        "type":"spacer",
-                        "title": "Rostering"
-                    },
-                    {
-                        "slug": "profile",
-                        "title": "Profile"
-                    },
-                    {
-                        "slug": "classes",
-                        "title": "Classes"
-                    },
-                    {
-                        "slug": "sections",
-                        "title": "Sections"
-                    },
-                    {
-                        "slug": "enrollments",
-                        "title": "Enrollments"
-                    },
-                    {
-                        "slug": "districts",
-                        "title": "Districts"
-                    },
-                    {
-                        "slug": "schools",
-                        "title": "Schools"
-                    },
-                    {
-                        "slug": "agents",
-                        "title": "Agents"
-                    },
-                    {
-                        "type":"spacer",
-                        "title": "Class Content"
-                    },
-                    {
-                        "slug": "categories",
-                        "title": "Categories"
-                    },
-                    {
-                        "slug": "assignments",
-                        "title": "Assignments"
-                    },
-                    {
-                        "slug": "submissions",
-                        "title": "Submissions"
+                        "slug": "introduction",
+                        "title": "Introduction"
                     }
                 ]
             },
@@ -151,6 +107,10 @@
                         "slug": "external",
                         "title": "External Data",
                         "documents": [
+                            {
+                                "type": "spacer",
+                                "title": "Rostering Data"
+                            },
                             {
                                 "slug": "district",
                                 "title": "District"
