@@ -1,1 +1,2 @@
-> Version 2.0 of the Edlink User API will be available in Spring 2022.
+# Introduction 
+> This page is under construction. User API v2 is in beta and is subject to change.
