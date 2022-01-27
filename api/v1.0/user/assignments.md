@@ -7,8 +7,8 @@ This endpoint retrieves a list of assignments that are visible to the authentica
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter   | Type          | Description                                                          |
+|-------------|---------------|----------------------------------------------------------------------|
 | `course_id` | URL Parameter | The UUID for the course from which you want to retrieve assignments. |
 
 This request also allows for the [modified paging parameters](/docs/guides/v1.0/paginated-requests).
@@ -19,7 +19,7 @@ This endpoint returns an array of assignment objects.
 
 #### Sample Request
 
-``` javascript
+```javascript
 axios.get('https://ed.link/api/v1/my/courses/8ab9c040-d458-4746-9bea-99f4b5066f17/assignments', {
     headers: {
         'Authorization': `Bearer ${user_access_token}`

@@ -47,9 +47,9 @@ Retrieve information about a specific **[Agent](../models/external/agent)**.
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
-| `session_id` | `string` | The UUID of the desired **[Agent](../models/external/agent)**. |
+| Parameter  | Type     | Description                                                    |
+|------------|----------|----------------------------------------------------------------|
+| `agent_id` | `string` | The UUID of the desired **[Agent](../models/external/agent)**. |
 
 #### Sample Request
 
