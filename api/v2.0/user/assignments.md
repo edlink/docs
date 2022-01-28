@@ -104,6 +104,8 @@ axios.get('https://ed.link/api/v2/my/classes/00000000-0000-0000-0000-00000000000
 
 ### *POST* https://ed.link/api/v2/my/classes/:class_id/assignments
 
+Create a new assignment in the given **[Class](../models/external/class)**.
+
 The user must be enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class to use this endpoint.
 
 #### Request Parameters
@@ -162,6 +164,8 @@ The response contains the newly created **[Assignment](../models/external/assign
 
 ### `PATCH` https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id
 
+Update an existing assignment in the given **[Class](../models/external/class)**.
+
 The user must be enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class to use this endpoint.
 
 Please review [our guide on patch requests](../../../guides/v2.0/patch-requests) for more information regarding their use.
@@ -177,7 +181,7 @@ Please review [our guide on patch requests](../../../guides/v2.0/patch-requests)
 
 The request body should contain a partial **[Assignment](../models/external/assignment)** object.
 
-The following fields are allowed: `title`, `description`, `due_date`, `grading_type`.
+The following fields are allowed: `title`, `description`, `description_plaintext`, `state`, `due_date`, `display_date`, `start_date`, `end_date`, `assignee_mode`, `assignee_ids`, `points_possible`, `grading_type`, `submission_types`, `max_attempts`, `session_id`, `category_id`.
 
 ```json
 {
@@ -211,3 +215,32 @@ The response contains the updated **[Assignment](../models/external/assignment)*
   "$request": "00000000-0000-0000-0000-000000000000"
 }
 ```
+
+## Delete Assignment
+
+### *DELETE* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id
+
+Delete an existing assignment in the given **[Class](../models/external/class)**.
+
+The user must be enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class to use this endpoint.
+
+#### Request Parameters
+
+| Parameter       | Type     | Description                                                              |
+|-----------------|----------|--------------------------------------------------------------------------|
+| `class_id`      | `string` | The UUID of the desired **[Class](../models/external/class)**.           |
+| `assignment_id` | `string` | The UUID of the desired **[Assignment](../models/external/assignment)**. |
+
+#### Sample Request
+
+```javascript
+axios.delete(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}`, {
+	headers: {
+		authorization: `Bearer ${person_access_token}`
+	}
+});
+```
+
+#### Sample Response
+
+The response is empty, with a status code of `200`.

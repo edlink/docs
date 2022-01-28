@@ -15,7 +15,6 @@ In addition to the `$data` parameter returned by all requests from our system, p
         ...
     ],
     $next: String,
-    $count: Number,
     $request: UUID
 }
 ```
