@@ -22,7 +22,7 @@ In addition to the `$data` parameter returned by all requests from our system, p
 
 The `$next` parameter will contain a URL that can be used to load the next page of results. If there are no more pages to load, this parameter will not be present.
 
-To give a concrete example, let's say we are importing a list of all classes that our application has access to, using the endpoint `https://ed.link/api/v2/graph/classes`. More information about this endpoint can be found in the [associated document](/docs/api/v2.0/graph/classes).
+To give a concrete example, let's say we are importing a list of all classes that our application has access to, using the endpoint `https://ed.link/api/v2/graph/classes`. More information about this endpoint can be found in the [associated document](../../api/v2.0/graph/classes).
 
 Let's say we want a page size of 100 results per page. The way to achieve this is to append a parameter of `$first=100`. Any parameter you append will affect all following pages.
 
@@ -40,7 +40,7 @@ const next_page = await axios.get($next);
 
 **This is the preferred way to paginate results.**
 
-> You may notice that the provided `$next` URL is missing some of your query parameters. Do not fret! Edlink's `$cursor` stores all the information necessary for Edlink to understand those parameters.
+> You may notice that the provided `$next` URL is missing some of your query parameters. Do not fret! Edlink's `$cursor` stores all the information necessary for Edlink to remember those parameters from the initial request.
 >
 > For example, if you provide a `$filter` parameter to the first page, it will still affect the following pages, even though it isn't included in the `$next` URL.
 
