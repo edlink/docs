@@ -14,17 +14,6 @@
             },
             {
                 "type": "section",
-                "slug": "meta",
-                "title": "Meta API",
-                "documents": [
-                    {
-                        "slug": "introduction",
-                        "title": "Introduction"
-                    }
-                ]
-            },
-            {
-                "type": "section",
                 "slug": "graph",
                 "title": "Graph API",
                 "documents": [
@@ -138,6 +127,17 @@
                     {
                         "slug": "submissions",
                         "title": "Submissions"
+                    }
+                ]
+            },
+            {
+                "type": "section",
+                "slug": "meta",
+                "title": "Meta API",
+                "documents": [
+                    {
+                        "slug": "introduction",
+                        "title": "Introduction"
                     }
                 ]
             },
