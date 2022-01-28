@@ -92,9 +92,136 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignmen
         "body": {
           "type": "link",
           "url": "https://google.com"
-        }
+        },
+        "created_date": "2022-01-27T17:10:09.702Z"
       }
     ],
+    "id": "00000000-0000-0000-0000-000000000000",
+    "person_id": "00000000-0000-0000-0000-000000000000"
+  }
+}
+```
+
+## Update Submission Metadata
+
+### *PATCH* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/submissions/:submission_id
+
+Update metadata for a specific **[Submission](../models/external/submission)**. This includes submitting grades, comments, or altering due date overrides (setting the due date for an individual student to be different than that of the other assignees.)
+
+The user must be enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class to use this endpoint.
+
+Please review [our guide on patch requests](../../../guides/v2.0/patch-requests) for more information regarding their use.
+
+#### Request Parameters
+
+| Parameter       | Type     | Description                                                              |
+|-----------------|----------|--------------------------------------------------------------------------|
+| `class_id`      | `string` | The UUID of the desired **[Class](../models/external/class)**.           |
+| `assignment_id` | `string` | The UUID of the desired **[Assignment](../models/external/assignment)**. |
+| `submission_id` | `string` | The UUID of the desired **[Submission](../models/external/submission)**. |
+
+#### Request Body
+
+The request body should contain a partial **[Submission](../models/external/submission)** object.
+
+The following fields are allowed: `grader_id`, `flags`, `grade_comment`, `grade_points`, `grade`, `extra_attempts`, `override_due_date`.
+
+```json
+{
+  "grade_points": "12",
+  "override_due_date": "2022-01-27T17:10:09.702Z"
+}
+```
+
+#### Sample Response
+
+The response contains the updated **[Submission](../models/external/submission)** object.
+
+```json
+{
+  "$request": "00000000-0000-0000-0000-000000000000",
+  "$data": {
+    "flags": [],
+    "state": "reclaimed",
+    "created_date": "2022-01-27T17:10:09.702Z",
+    "attempts": [
+      {
+        "body": {
+          "type": "link",
+          "url": "https://google.com"
+        },
+        "created_date": "2022-01-27T17:10:09.702Z"
+      }
+    ],
+    "grade_points": "12",
+    "override_due_date": "2022-01-27T17:10:09.702Z",
+    "id": "00000000-0000-0000-0000-000000000000",
+    "person_id": "00000000-0000-0000-0000-000000000000"
+  }
+}
+```
+
+## Submit Submission
+
+### *POST* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/submit
+
+As a student, submit an attempt for your **[Submission](../models/external/submission)**. This will add it to the `attempts` array seen when retrieving a submission. It will also update the `state` of the submission to `submitted`.
+
+#### Request Parameters
+
+| Parameter       | Type     | Description                                                              |
+|-----------------|----------|--------------------------------------------------------------------------|
+| `class_id`      | `string` | The UUID of the desired **[Class](../models/external/class)**.           |
+| `assignment_id` | `string` | The UUID of the desired **[Assignment](../models/external/assignment)**. |
+
+#### Request Body
+
+The request body should be one of the following formats.
+
+##### Submitting a Link
+```json
+{
+  "type": "link",
+  "url": "https://google.com"
+}
+```
+
+##### Submitting Text
+```json
+{
+  "type": "text",
+  "text": "This is the body of a text submission."
+}
+```
+
+#### Sample Response
+
+The response contains the updated **[Submission](../models/external/submission)** object.
+
+```json
+{
+  "$request": "00000000-0000-0000-0000-000000000000",
+  "$data": {
+    "flags": [],
+    "state": "submitted",
+    "created_date": "2022-01-27T17:10:09.702Z",
+    "attempts": [
+      {
+        "body": {
+          "type": "link",
+          "url": "https://google.com"
+        },
+        "created_date": "2022-01-27T17:10:09.702Z"
+      },
+      {
+        "body": {
+          "type": "text",
+          "url": "This is the body of a text submission."
+        },
+        "created_date": "2022-01-27T17:10:09.702Z"
+      }
+    ],
+    "override_due_date": "2022-01-29T23:59:59.000Z",
     "id": "00000000-0000-0000-0000-000000000000",
     "person_id": "00000000-0000-0000-0000-000000000000"
   }

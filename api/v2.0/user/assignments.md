@@ -162,7 +162,7 @@ The response contains the newly created **[Assignment](../models/external/assign
 
 ## Update Assignment
 
-### `PATCH` https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id
+### *PATCH* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id
 
 Update an existing assignment in the given **[Class](../models/external/class)**.
 
