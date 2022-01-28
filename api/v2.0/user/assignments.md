@@ -19,7 +19,7 @@ This query allows for [standard paging parameters](../../../guides/v2.0/paginate
 #### Sample Request
 
 ```javascript
-axios.get('https://ed.link/api/v2/my/classes/00000000-0000-0000-0000-000000000000/assignments', {
+axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments`, {
 	headers: {
 		authorization: `Bearer ${person_access_token}`
 	}
@@ -68,7 +68,7 @@ Retrieve information about a specific **[Assignment](../models/external/assignme
 #### Sample Request
 
 ```javascript
-axios.get('https://ed.link/api/v2/my/classes/00000000-0000-0000-0000-000000000000/assignments/00000000-0000-0000-0000-000000000000', {
+axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}`, {
 	headers: {
 		authorization: `Bearer ${person_access_token}`
 	}

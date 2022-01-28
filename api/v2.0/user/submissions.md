@@ -37,16 +37,9 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignmen
   "$data": [
     {
       "flags": [],
-      "state": "reclaimed",
+      "state": "created",
       "created_date": "2022-01-27T17:10:09.702Z",
-      "attempts": [
-        {
-          "body": {
-            "type": "link",
-            "url": "https://google.com"
-          }
-        }
-      ],
+      "attempts": [],
       "id": "00000000-0000-0000-0000-000000000000",
       "person_id": "00000000-0000-0000-0000-000000000000"
     }
@@ -85,17 +78,9 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignmen
   "$request": "00000000-0000-0000-0000-000000000000",
   "$data": {
     "flags": [],
-    "state": "reclaimed",
+    "state": "created",
     "created_date": "2022-01-27T17:10:09.702Z",
-    "attempts": [
-      {
-        "body": {
-          "type": "link",
-          "url": "https://google.com"
-        },
-        "created_date": "2022-01-27T17:10:09.702Z"
-      }
-    ],
+    "attempts": [],
     "id": "00000000-0000-0000-0000-000000000000",
     "person_id": "00000000-0000-0000-0000-000000000000"
   }
@@ -142,7 +127,7 @@ The response contains the updated **[Submission](../models/external/submission)*
   "$request": "00000000-0000-0000-0000-000000000000",
   "$data": {
     "flags": [],
-    "state": "reclaimed",
+    "state": "submitted",
     "created_date": "2022-01-27T17:10:09.702Z",
     "attempts": [
       {
@@ -204,6 +189,57 @@ The response contains the updated **[Submission](../models/external/submission)*
   "$data": {
     "flags": [],
     "state": "submitted",
+    "created_date": "2022-01-27T17:10:09.702Z",
+    "attempts": [
+      {
+        "body": {
+          "type": "text",
+          "url": "This is the body of a text submission."
+        },
+        "created_date": "2022-01-27T17:10:09.702Z"
+      }
+    ],
+    "override_due_date": "2022-01-29T23:59:59.000Z",
+    "id": "00000000-0000-0000-0000-000000000000",
+    "person_id": "00000000-0000-0000-0000-000000000000"
+  }
+}
+```
+
+## Reclaim Submission
+
+### *POST* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/reclaim
+
+As a student, reclaim your **[Submission](../models/external/submission)**. This will update the `state` of the submission to `reclaimed`. In order to reclaim the submission, it must be in the `submitted` state.
+
+#### Request Parameters
+
+| Parameter       | Type     | Description                                                              |
+|-----------------|----------|--------------------------------------------------------------------------|
+| `class_id`      | `string` | The UUID of the desired **[Class](../models/external/class)**.           |
+| `assignment_id` | `string` | The UUID of the desired **[Assignment](../models/external/assignment)**. |
+
+
+#### Sample Request
+
+```javascript
+axios.post(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}/reclaim`, {
+	headers: {
+		authorization: `Bearer ${person_access_token}`
+	}
+});
+```
+
+#### Sample Response
+
+The response contains the updated **[Submission](../models/external/submission)** object.
+
+```json
+{
+  "$request": "00000000-0000-0000-0000-000000000000",
+  "$data": {
+    "flags": [],
+    "state": "reclaimed",
     "created_date": "2022-01-27T17:10:09.702Z",
     "attempts": [
       {
