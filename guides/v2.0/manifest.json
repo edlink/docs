@@ -26,7 +26,7 @@
             },
             {
                 "slug": "external-data-model",
-                "title": "School Data Model"
+                "title": "External Data Model"
             },
             {
                 "slug": "security",
@@ -38,11 +38,39 @@
             },
             {
                 "type": "spacer",
-                "title": "In Depth Guides"
+                "title": "API Features"
+            },
+            {
+                "slug": "errors-warnings",
+                "title": "Errors & Warnings"
             },
             {
                 "slug": "paginated-requests",
                 "title": "Paginated Requests"
+            },
+            {
+                "slug": "patch-requests",
+                "title": "Patch Requests"
+            },
+            {
+                "slug": "filtering-results",
+                "title": "Filtering Results"
+            },
+            {
+                "slug": "limiting-fields",
+                "title": "Limiting Response Fields"
+            },
+            {
+                "slug": "expanding-results",
+                "title": "Expanding Results"
+            },
+            {
+                "slug": "idempotency",
+                "title": "Idempotent Requests"
+            },
+            {
+                "type": "spacer",
+                "title": "In-Depth Guides"
             },
             {
                 "slug": "class-rostering",
@@ -51,10 +79,6 @@
             {
                 "slug": "events",
                 "title": "Events API"
-            },
-            {
-                "slug": "filtering-results",
-                "title": "Filtering Results"
             },
             {
                 "slug": "lti-configuration",
@@ -66,7 +90,7 @@
             },
             {
                 "slug": "dates",
-                "title": "Dates"
+                "title": "Working With Dates"
             },
             {
                 "type":"spacer",

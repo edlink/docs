@@ -1,10 +1,12 @@
 # Agents
 
+> This page is under construction. User API v2 is in beta and is subject to change.
+
 ## List Agents
 
-### *GET* https://ed.link/api/v2/graph/agents
+### *GET* https://ed.link/api/v2/my/agents
 
-Retrieve a list of all **[Agents](../models/external/agent)**.
+Retrieve a list of **[Agents](../models/external/agent)** that the current user is associated with.
 
 #### Request Parameters
 
@@ -17,7 +19,7 @@ This query allows for [filtering results](../../../guides/v2.0/filtering-results
 ```javascript
 axios.get('https://ed.link/api/v2/graph/agents', {
 	headers: {
-		authorization: `Bearer ${integration_access_token}`
+		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
@@ -39,11 +41,11 @@ axios.get('https://ed.link/api/v2/graph/agents', {
 }
 ```
 
-## Fetch Agent
+## List Agents
 
-### *GET* https://ed.link/api/v2/graph/agent/:agent\_id
+### *GET* https://ed.link/api/v2/my/agents/:agent_id
 
-Retrieve information about a specific **[Agent](../models/external/agent)**.
+Retrieve information about a specific **[Agent](../models/external/agent)** that the current user is associated with.
 
 #### Request Parameters
 
@@ -56,12 +58,12 @@ Retrieve information about a specific **[Agent](../models/external/agent)**.
 ```javascript
 axios.get('https://ed.link/api/v2/graph/agents/00000000-0000-0000-0000-000000000000', {
 	headers: {
-		authorization: `Bearer ${integration_access_token}`
+		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
 
-#### Sample Response
+### Sample Response
 
 ```json
 {

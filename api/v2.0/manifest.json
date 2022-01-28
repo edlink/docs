@@ -29,6 +29,10 @@
                 "title": "Graph API",
                 "documents": [
                     {
+                        "type":"spacer",
+                        "title": "Rostering Data"
+                    },
+                    {
                         "slug": "districts",
                         "title": "Districts"
                     },
@@ -85,11 +89,74 @@
             {
                 "type": "section",
                 "slug": "user",
-                "title": "User Data API",
+                "title": "User API",
                 "documents": [
                     {
-                        "slug": "introduction",
-                        "title": "Introduction"
+                        "type":"spacer",
+                        "title": "Rostering Data"
+                    },
+                    {
+                        "slug": "profile",
+                        "title": "Profile"
+                    },
+                    {
+                        "slug": "classes",
+                        "title": "Classes"
+                    },
+                    {
+                        "slug": "sections",
+                        "title": "Sections"
+                    },
+                    {
+                        "slug": "enrollments",
+                        "title": "Enrollments"
+                    },
+                    {
+                        "slug": "districts",
+                        "title": "Districts"
+                    },
+                    {
+                        "slug": "schools",
+                        "title": "Schools"
+                    },
+                    {
+                        "slug": "agents",
+                        "title": "Agents"
+                    },
+                    {
+                        "type":"spacer",
+                        "title": "Class Content"
+                    },
+                    {
+                        "slug": "categories",
+                        "title": "Categories"
+                    },
+                    {
+                        "slug": "assignments",
+                        "title": "Assignments"
+                    },
+                    {
+                        "slug": "submissions",
+                        "title": "Submissions"
+                    }
+                ]
+            },
+            {
+                "type": "section",
+                "slug": "responses",
+                "title": "API Responses",
+                "documents": [
+                    {
+                        "slug": "success",
+                        "title": "Success"
+                    },
+                    {
+                        "slug": "warnings",
+                        "title": "Warnings"
+                    },
+                    {
+                        "slug": "errors",
+                        "title": "Errors"
                     }
                 ]
             },
@@ -103,6 +170,10 @@
                         "slug": "external",
                         "title": "External Data",
                         "documents": [
+                            {
+                                "type": "spacer",
+                                "title": "Rostering Data"
+                            },
                             {
                                 "slug": "district",
                                 "title": "District"
@@ -144,6 +215,10 @@
                                 "title": "Class Content"
                             },
                             {
+                                "slug": "category",
+                                "title": "Category"
+                            },
+                            {
                                 "slug": "assignment",
                                 "title": "Assignment"
                             },
@@ -152,12 +227,8 @@
                                 "title": "Submission"
                             },
                             {
-                                "slug": "grade",
-                                "title": "Grade"
-                            },
-                            {
-                                "slug": "tag",
-                                "title": "Tag"
+                                "slug": "standard",
+                                "title": "Standard"
                             },
                             {
                                 "type": "spacer",
@@ -181,16 +252,16 @@
                                 "title": "Enumerated Types",
                                 "documents": [
                                     {
-                                        "slug": "assignee-type",
-                                        "title": "Assignee Type"
+                                        "slug": "assignment-state",
+                                        "title": "Assignment State"
+                                    },
+                                    {
+                                        "slug": "assignee-mode",
+                                        "title": "Assignee Mode"
                                     },
                                     {
                                         "slug": "class-state",
                                         "title": "Class State"
-                                    },
-                                    {
-                                        "slug": "content-state",
-                                        "title": "Content State"
                                     },
                                     {
                                         "slug": "enrollment-state",
@@ -243,6 +314,10 @@
                                     {
                                         "slug": "submission-type",
                                         "title": "Submission Type"
+                                    },
+                                    {
+                                        "slug": "submission-flag",
+                                        "title": "Submission Flag"
                                     },
                                     {
                                         "slug": "identifier-type",

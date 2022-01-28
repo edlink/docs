@@ -2,7 +2,7 @@
 
 Whenever an item in our database changes, we generate an event. We are working with large datasets and it is much easier for developers to stay in sync with Edlink when we provide a list of deltas (i.e. changes) to indicate what has changed. For integrations where the sharing is set to "rules", events will be automatically generated when items come in and out of "visibility" to the developer. For example, sharing a new person will result in a `person.created` event, even though the person may have already existed in the Edlink database. If that same person is unshared, Edlink will generate a `person.deleted` event and the user will no longer be visible to the developer - even though Edlink is still aware of this user.
 
-Edlink stores events in chronological order and retains them for up to 30 days, after which they are permenantly destroyed.
+Edlink stores events in chronological order and retains them for up to 30 days, after which they are permanently destroyed.
 
 ## Properties
 
