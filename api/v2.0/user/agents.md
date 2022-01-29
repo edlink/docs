@@ -6,7 +6,7 @@
 
 ### *GET* https://ed.link/api/v2/my/agents
 
-Retrieve a list of **[Agents](../models/external/agent)** that the current user is associated with.
+Retrieve a list of **[Agents](../models/external/agent)** that the current user is associated with. This includes all agent relationships in which the current user is the `observer` or the `target`.
 
 #### Request Parameters
 
@@ -17,14 +17,14 @@ This query allows for [filtering results](../../../guides/v2.0/filtering-results
 #### Sample Request
 
 ```javascript
-axios.get('https://ed.link/api/v2/graph/agents', {
+axios.get('https://ed.link/api/v2/my/agents', {
 	headers: {
 		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
 
-### Sample Response
+#### Sample Response
 
 ```json
 {
@@ -41,7 +41,7 @@ axios.get('https://ed.link/api/v2/graph/agents', {
 }
 ```
 
-## List Agents
+## Fetch Agent
 
 ### *GET* https://ed.link/api/v2/my/agents/:agent_id
 
@@ -56,14 +56,14 @@ Retrieve information about a specific **[Agent](../models/external/agent)** that
 #### Sample Request
 
 ```javascript
-axios.get('https://ed.link/api/v2/graph/agents/00000000-0000-0000-0000-000000000000', {
+axios.get('https://ed.link/api/v2/my/agents/00000000-0000-0000-0000-000000000000', {
 	headers: {
 		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
 
-### Sample Response
+#### Sample Response
 
 ```json
 {

@@ -66,8 +66,8 @@ Retrieve information about a specific **[Class](../models/external/class)**.
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter  | Type     | Description                                                    |
+|------------|----------|----------------------------------------------------------------|
 | `class_id` | `string` | The UUID of the desired **[Class](../models/external/class)**. |
 
 #### Sample Request
@@ -123,8 +123,8 @@ specified **[Class](../models/external/class)**.
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter  | Type     | Description                                                    |
+|------------|----------|----------------------------------------------------------------|
 | `class_id` | `string` | The UUID of the desired **[Class](../models/external/class)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
@@ -176,8 +176,8 @@ specified **[Class](../models/external/class)**.
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter  | Type     | Description                                                    |
+|------------|----------|----------------------------------------------------------------|
 | `class_id` | `string` | The UUID of the desired **[Class](../models/external/class)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
@@ -227,8 +227,8 @@ specified **[Class](../models/external/class)**.
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter  | Type     | Description                                                    |
+|------------|----------|----------------------------------------------------------------|
 | `class_id` | `string` | The UUID of the desired **[Class](../models/external/class)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
@@ -287,8 +287,8 @@ specified **[Class](../models/external/class)**.
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter  | Type     | Description                                                    |
+|------------|----------|----------------------------------------------------------------|
 | `class_id` | `string` | The UUID of the desired **[Class](../models/external/class)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
@@ -347,8 +347,8 @@ specified **[Class](../models/external/class)**.
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter  | Type     | Description                                                    |
+|------------|----------|----------------------------------------------------------------|
 | `class_id` | `string` | The UUID of the desired **[Class](../models/external/class)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).

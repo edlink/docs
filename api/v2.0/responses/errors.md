@@ -38,7 +38,7 @@ The integration associated with the provided access token is not in the correct 
 
 ### `400 INVALID_UUID`
 
-You have provided a UUID in an invalid format. UUIDs must be in the UUID v4 format `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`, where each x is a hexadecimal digit. All Edlink IDs are valid v4 UUIDs.
+You have provided a UUID in an invalid format. UUIDs must be in the UUID v4 format `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`, where each `x` is a hexadecimal digit. All Edlink IDs are valid v4 UUIDs.
 
 ### `400 UNSUPPORTED_OPERATION`
 

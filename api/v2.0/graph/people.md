@@ -333,8 +333,8 @@ specified **[Person](../models/external/person)**.
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter   | Type     | Description                                                      |
+|-------------|----------|------------------------------------------------------------------|
 | `person_id` | `string` | The UUID of the desired **[Person](../models/external/person)**. |
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
