@@ -263,3 +263,66 @@ The response contains the updated **[Submission](../models/external/submission)*
   }
 }
 ```
+
+## Return Submission
+
+### *POST* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/submissions/:submission_id/return
+
+As a teacher, finalize the grade for a **[Submission](../models/external/submission)** and send it back to the assignee.
+
+The user must be enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class to use this endpoint.
+
+
+#### Request Parameters
+
+| Parameter       | Type     | Description                                                              |
+|-----------------|----------|--------------------------------------------------------------------------|
+| `class_id`      | `string` | The UUID of the desired **[Class](../models/external/class)**.           |
+| `assignment_id` | `string` | The UUID of the desired **[Assignment](../models/external/assignment)**. |
+| `submission_id` | `string` | The UUID of the desired **[Submission](../models/external/submission)**. |
+
+
+#### Sample Request
+
+```javascript
+axios.post(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}/submissions/${submission_id}/return`, {
+	headers: {
+		authorization: `Bearer ${person_access_token}`
+	}
+});
+```
+
+#### Sample Response
+
+The response contains the updated **[Submission](../models/external/submission)** object.
+
+```json
+{
+  "$request": "00000000-0000-0000-0000-000000000000",
+  "$data": {
+    "flags": [],
+    "state": "returned",
+    "created_date": "2022-01-27T17:10:09.702Z",
+    "attempts": [
+      {
+        "body": {
+          "type": "link",
+          "url": "https://google.com"
+        },
+        "created_date": "2022-01-27T17:10:09.702Z"
+      },
+      {
+        "body": {
+          "type": "text",
+          "url": "This is the body of a text submission."
+        },
+        "created_date": "2022-01-27T17:10:09.702Z"
+      }
+    ],
+    "grade_points": "12",
+    "override_due_date": "2022-01-29T23:59:59.000Z",
+    "id": "00000000-0000-0000-0000-000000000000",
+    "person_id": "00000000-0000-0000-0000-000000000000"
+  }
+}
+```
