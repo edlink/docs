@@ -4,7 +4,7 @@
 
 ## List Assignments
 
-### *GET* https://ed.link/api/v2/my/classes/:class_id/assignments
+### *GET* https://ed.link/api/v2/my/classes/:class\_id/assignments
 
 Retrieve a list of **[Assignments](../models/external/assignment)** for a given class.
 
@@ -54,7 +54,7 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments`, {
 
 ## Fetch Assignment
 
-### *GET* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id
+### *GET* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id
 
 Retrieve information about a specific **[Assignment](../models/external/assignment)**.
 
@@ -102,7 +102,7 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignmen
 
 ## Create Assignment
 
-### *POST* https://ed.link/api/v2/my/classes/:class_id/assignments
+### *POST* https://ed.link/api/v2/my/classes/:class\_id/assignments
 
 Create a new assignment in the given **[Class](../models/external/class)**.
 
@@ -162,7 +162,7 @@ The response contains the newly created **[Assignment](../models/external/assign
 
 ## Update Assignment
 
-### *PATCH* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id
+### *PATCH* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id
 
 Update an existing assignment in the given **[Class](../models/external/class)**.
 
@@ -218,7 +218,7 @@ The response contains the updated **[Assignment](../models/external/assignment)*
 
 ## Delete Assignment
 
-### *DELETE* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id
+### *DELETE* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id
 
 Delete an existing assignment in the given **[Class](../models/external/class)**.
 

@@ -4,7 +4,7 @@
 
 ## List Submissions
 
-### *GET* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/submissions
+### *GET* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id/submissions
 
 Retrieve a list of **[Submissions](../models/external/submission)** for a given **[Assignment](../models/external/assignment)**.
 
@@ -49,7 +49,7 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignmen
 
 ## Fetch Submission
 
-### *GET* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/submissions/:submission_id
+### *GET* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id/submissions/:submission\_id
 
 Retrieve information about a specific **[Submission](../models/external/submission)**.
 
@@ -89,7 +89,7 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignmen
 
 ## Update Submission Metadata
 
-### *PATCH* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/submissions/:submission_id
+### *PATCH* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id/submissions/:submission\_id
 
 Update metadata for a specific **[Submission](../models/external/submission)**. This includes submitting grades, comments, or altering due date overrides (setting the due date for an individual student to be different than that of the other assignees.)
 
@@ -148,7 +148,7 @@ The response contains the updated **[Submission](../models/external/submission)*
 
 ## Submit Submission
 
-### *POST* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/submit
+### *POST* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id/submit
 
 As a student, submit an attempt for your **[Submission](../models/external/submission)**. This will add it to the `attempts` array seen when retrieving a submission. It will also update the `state` of the submission to `submitted`.
 
@@ -208,7 +208,7 @@ The response contains the updated **[Submission](../models/external/submission)*
 
 ## Reclaim Submission
 
-### *POST* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/reclaim
+### *POST* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id/reclaim
 
 As a student, reclaim your **[Submission](../models/external/submission)**. This will update the `state` of the submission to `reclaimed`. In order to reclaim the submission, it must be in the `submitted` state.
 
@@ -266,7 +266,7 @@ The response contains the updated **[Submission](../models/external/submission)*
 
 ## Return Submission
 
-### *POST* https://ed.link/api/v2/my/classes/:class_id/assignments/:assignment_id/submissions/:submission_id/return
+### *POST* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id/submissions/:submission\_id/return
 
 As a teacher, finalize the grade for a **[Submission](../models/external/submission)** and send it back to the assignee.
 
