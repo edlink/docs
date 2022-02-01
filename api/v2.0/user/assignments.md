@@ -164,7 +164,7 @@ The response contains the newly created **[Assignment](../models/external/assign
 
 ### *PATCH* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id
 
-Update an existing assignment in the given **[Class](../models/external/class)**.
+Update an existing **[Assignment](../models/external/assignment)** in the given **[Class](../models/external/class)**.
 
 The user must be enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class to use this endpoint.
 
@@ -220,7 +220,7 @@ The response contains the updated **[Assignment](../models/external/assignment)*
 
 ### *DELETE* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id
 
-Delete an existing assignment in the given **[Class](../models/external/class)**.
+Delete an existing **[Assignment](../models/external/class)** in the given **[Class](../models/external/class)**.
 
 The user must be enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class to use this endpoint.
 
