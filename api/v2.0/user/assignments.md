@@ -104,7 +104,7 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignmen
 
 ### *POST* https://ed.link/api/v2/my/classes/:class\_id/assignments
 
-Create a new assignment in the given **[Class](../models/external/class)**.
+Create a new **[Assignment](../models/external/assignment)** in the given **[Class](../models/external/class)**.
 
 The user must be enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class to use this endpoint.
 

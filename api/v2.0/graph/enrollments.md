@@ -54,8 +54,8 @@ Retrieve information about a specific **[Enrollment](../models/external/enrollme
 
 #### Request Parameters
 
-| Parameter | Type | Description |
-|---|---|---|
+| Parameter       | Type     | Description                                                              |
+|-----------------|----------|--------------------------------------------------------------------------|
 | `enrollment_id` | `string` | The UUID of the desired **[Enrollment](../models/external/enrollment)**. |
 
 #### Sample Request

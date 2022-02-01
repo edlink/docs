@@ -97,10 +97,6 @@
                         "title": "Sections"
                     },
                     {
-                        "slug": "enrollments",
-                        "title": "Enrollments"
-                    },
-                    {
                         "slug": "districts",
                         "title": "Districts"
                     },
