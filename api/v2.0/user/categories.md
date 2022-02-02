@@ -37,8 +37,7 @@ axios.get(`https://ed.link/api/v2/my/classes/${class_id}/categories`, {
       "updated_date": "2021-12-27T18:53:45.077Z",
       "id": "00000000-0000-0000-0000-000000000000"
     }
-  ],
-  "$count": 1
+  ]
 }
 ```
 
