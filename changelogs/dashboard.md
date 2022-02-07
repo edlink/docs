@@ -2,6 +2,96 @@
 
 This document covers all releases of the Edlink Dashboard.
 
+## Version 1.6.7
+### 29 January 2022
+
+- Changed the style of the "beta" alert banner on the V2 documentation.
+## Version 1.6.6
+### 24 January 2022
+
+- Fixed the broken help link on the district admin onboarding flow.
+
+## Version 1.6.5
+### 23 January 2022
+
+- Updated the OIDC connection JSON URL for LTI 1.3 integrations.
+
+## Version 1.6.4
+### 5 January 2022
+
+- Fixed the broken help link on the district admin onboarding flow.
+
+## Version 1.6.3
+### 15 December 2021
+
+- Fixed a few broken documentation links caused by a URL restructuring a few months back.
+
+## Version 1.6.2
+### 1 December 2021
+
+- Fixed the button to delete an integration (it was previously erroring if you clicked it as a developer).
+
+## Version 1.6.1
+### 20 November 2021
+
+- Added a command palette available with `Ctrl+K` or `CMD+K`.
+
+## Version 1.6.0
+### 17 November 2021
+
+- Fixed a couple of broken links on the account settings, login, and register pages.
+- Added the guide documentation panel.
+- Added a guide button to every page that needed one.
+- Fixed the source validation error message issue.
+- Quality of life fixes.
+    - Made a few things click-to-copy that were previously annoying to highlight.
+    - Integration status is now available and changeable from the header.
+    - Added information about the enrichment status of sources / integrations.
+
+## Version 1.5.2
+### 9 September 2021
+
+- The SSO login page will now handle edge cases better (e.g. when no redirect_uri is specified by the developer).
+- Fixed a bug in the sharing rules creation UI.
+- Added some additional sharing rules options (share by course or course code).
+
+## Version 1.5.1
+### 15 August 2021
+
+- Fixed a bug with enrolllments not appearing in the details pane of the integration data browser.
+
+## Version 1.5.0
+### 12 August 2021
+
+- Fixed a number of small issues and began rework of the sharing rules UI.
+
+## Version 1.4.4
+### 5 August 2021
+
+- There is now a bolt icon that appears next to enriched sources.
+
+## Version 1.4.3
+### 4 August 2021
+
+- Added class state as a property available to use in sharing rules.
+- Fixed a few bugs in the creation of sharing rules.
+- Slightly changed the visual styles of the administrator onboarding flow.
+- Removed the integration ID from the Integrations page (you can now find it by clicking on the integration itself).
+- Updated the applications page to the new visual styles.
+- Moved the documentation to a new Github repo.
+- Account settings is now a modal instead of its own page.
+- After going through the administrator onboarding flow, you can now have administrators be redirected to a URL of your choosing.
+- Fixed an issue with enrollments not appearing in the details pane of the integration data browser.
+- Fixed a few bugs with the logged request viewer.
+- Renamed `Imports` to `Syncs`.
+- Added page title to the login screen.
+- Added some customization options to the team settings page (e.g. setting a primary color).
+
+## Version 1.4.2
+### 7 April 2021
+
+- Added a new SSO route for launching when you have a previously saved session cookie.
+
 ## Version 1.4.1
 
 - A number of sharing rules UI updates.
