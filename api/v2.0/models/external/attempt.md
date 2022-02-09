@@ -60,7 +60,7 @@ A link to some other resource.
 ### File
 A file uploaded to another system.
 
-> Currently, Edlink does not support the **creation** of `upload` attachments, only reading existing `upload`s.
+> Currently, Edlink does not support the **creation** of `file` attachments, only reading existing `file`s.
 
 #### Additional Properties
 | Property           | Type     | Description                                                                              |
