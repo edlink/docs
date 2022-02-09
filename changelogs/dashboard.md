@@ -2,41 +2,41 @@
 
 This document covers all releases of the Edlink Dashboard.
 
-#### 29 January 2022
+##### 29 January 2022
 ## Version 1.6.7
 
 - Changed the style of the "beta" alert banner on the V2 documentation.
-#### 24 January 2022
+##### 24 January 2022
 ## Version 1.6.6
 
 - Fixed the broken help link on the district admin onboarding flow.
 
-#### 23 January 2022
+##### 23 January 2022
 ## Version 1.6.5
 
 - Updated the OIDC connection JSON URL for LTI 1.3 integrations.
 
-#### 5 January 2022
+##### 5 January 2022
 ## Version 1.6.4
 
 - Fixed the broken help link on the district admin onboarding flow.
 
-#### 15 December 2021
+##### 15 December 2021
 ## Version 1.6.3
 
 - Fixed a few broken documentation links caused by a URL restructuring a few months back.
 
-#### 1 December 2021
+##### 1 December 2021
 ## Version 1.6.2
 
 - Fixed the button to delete an integration (it was previously erroring if you clicked it as a developer).
 
-#### 20 November 2021
+##### 20 November 2021
 ## Version 1.6.1
 
 - Added a command palette available with `Ctrl+K` or `CMD+K`.
 
-#### 17 November 2021
+##### 17 November 2021
 ## Version 1.6.0
 
 - Fixed a couple of broken links on the account settings, login, and register pages.
@@ -48,29 +48,29 @@ This document covers all releases of the Edlink Dashboard.
     - Integration status is now available and changeable from the header.
     - Added information about the enrichment status of sources / integrations.
 
-#### 9 September 2021
+##### 9 September 2021
 ## Version 1.5.2
 
 - The SSO login page will now handle edge cases better (e.g. when no redirect_uri is specified by the developer).
 - Fixed a bug in the sharing rules creation UI.
 - Added some additional sharing rules options (share by course or course code).
 
-#### 15 August 2021
+##### 15 August 2021
 ## Version 1.5.1
 
 - Fixed a bug with enrolllments not appearing in the details pane of the integration data browser.
 
-#### 12 August 2021
+##### 12 August 2021
 ## Version 1.5.0
 
 - Fixed a number of small issues and began rework of the sharing rules UI.
 
-#### 5 August 2021
+##### 5 August 2021
 ## Version 1.4.4
 
 - There is now a bolt icon that appears next to enriched sources.
 
-#### 4 August 2021
+##### 4 August 2021
 ## Version 1.4.3
 
 - Added class state as a property available to use in sharing rules.
@@ -87,7 +87,7 @@ This document covers all releases of the Edlink Dashboard.
 - Added page title to the login screen.
 - Added some customization options to the team settings page (e.g. setting a primary color).
 
-#### 7 April 2021
+##### 7 April 2021
 ## Version 1.4.2
 
 - Added a new SSO route for launching when you have a previously saved session cookie.
