@@ -10,6 +10,7 @@ associated with an **[Assignment](assignment)**.
 | `updated_date`      | `Date`                                          | When the object was last updated in the source.                                                                  |
 | `state`             | **[`SubmissionState`](enums/submission-state)** | The state of the submission.                                                                                     |
 | `flags`             | **[`SubmissionFlag[]`](enums/submission-flag)** | The flags for the submission. All, some, or none of the possible flags may be included.                          |
+| `attempts`          | **[`Attempt[]`](attempt)**                      | All of the attempts the assignee has made for this submission.                                                   |
 | `grade_comment`     | `string`                                        | An optional comment left by the grader.                                                                          |
 | `grade_points`      | `number`                                        | The numerical representation of the grade, if applicable. (i.e. `96`)                                            |
 | `grade`             | `string`                                        | The string representation of the grade, if applicable. (i.e. `A+`)                                               |
