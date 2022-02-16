@@ -161,22 +161,25 @@ As a student, submit an attempt for your **[Submission](../models/external/submi
 
 #### Request Body
 
-The request body should be one of the following formats.
+The request body should contain an **[Attempt](../models/external/attempt)** object, optionally including one or more attachments. [You can see a list of all possible attachment types here](../models/external/attempt).
 
-##### Submitting a Link
-```json
-{
-  "type": "link",
-  "url": "https://google.com"
-}
-```
+#### Sample Request
 
-##### Submitting Text
-```json
-{
-  "type": "text",
-  "text": "This is the body of a text submission."
-}
+```javascript
+axios.post(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}/reclaim`, {
+	headers: {
+		authorization: `Bearer ${person_access_token}`
+	},
+    data: {
+        attachments: [
+            {
+                "type": "link",
+                "url": "https://google.com",
+                "title": "Google"
+            }
+        ]
+    }
+});
 ```
 
 #### Sample Response
