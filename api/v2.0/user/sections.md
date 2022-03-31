@@ -192,7 +192,7 @@ axios.get('https://ed.link/api/v2/my/sections/00000000-0000-0000-0000-0000000000
       "time_zone": "America/Los_Angeles",
       "graduation_year": 1996,
       "grade_levels": [ "PS" ],
-      "demomyics": {},
+      "demographics": {},
       "properties": {},
       "district_id": "00000000-0000-0000-0000-000000000000",
       "school_ids": [ "00000000-0000-0000-0000-000000000000" ]
@@ -252,7 +252,7 @@ axios.get('https://ed.link/api/v2/my/sections/00000000-0000-0000-0000-0000000000
       "time_zone": "America/Los_Angeles",
       "graduation_year": 1996,
       "grade_levels": [ "PS" ],
-      "demomyics": {},
+      "demographics": {},
       "properties": {},
       "district_id": "00000000-0000-0000-0000-000000000000",
       "school_ids": [ "00000000-0000-0000-0000-000000000000" ]
@@ -312,7 +312,7 @@ axios.get('https://ed.link/api/v2/my/sections/00000000-0000-0000-0000-0000000000
       "time_zone": "America/Los_Angeles",
       "graduation_year": 1996,
       "grade_levels": [ "PS" ],
-      "demomyics": {},
+      "demographics": {},
       "properties": {},
       "district_id": "00000000-0000-0000-0000-000000000000",
       "school_ids": [ "00000000-0000-0000-0000-000000000000" ]
