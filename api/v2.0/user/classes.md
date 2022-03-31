@@ -123,7 +123,7 @@ This query allows for [filtering results](../../../guides/v2.0/filtering-results
 ```javascript
 axios.get('https://ed.link/api/v2/my/classes/00000000-0000-0000-0000-000000000000/sections', {
 	headers: {
-		authorization: `Bearer ${integration_access_token}`
+		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
@@ -175,7 +175,7 @@ This query allows for [filtering results](../../../guides/v2.0/filtering-results
 ```javascript
 axios.get('https://ed.link/api/v2/my/classes/00000000-0000-0000-0000-000000000000/enrollments', {
 	headers: {
-		authorization: `Bearer ${integration_access_token}`
+		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
@@ -226,7 +226,7 @@ This query allows for [filtering results](../../../guides/v2.0/filtering-results
 ```javascript
 axios.get('https://ed.link/api/v2/my/classes/00000000-0000-0000-0000-000000000000/people', {
 	headers: {
-		authorization: `Bearer ${integration_access_token}`
+		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
@@ -286,7 +286,7 @@ This query allows for [filtering results](../../../guides/v2.0/filtering-results
 ```javascript
 axios.get('https://ed.link/api/v2/my/classes/00000000-0000-0000-0000-000000000000/teachers', {
 	headers: {
-		authorization: `Bearer ${integration_access_token}`
+		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
@@ -346,7 +346,7 @@ This query allows for [filtering results](../../../guides/v2.0/filtering-results
 ```javascript
 axios.get('https://ed.link/api/v2/my/classes/00000000-0000-0000-0000-000000000000/students', {
 	headers: {
-		authorization: `Bearer ${integration_access_token}`
+		authorization: `Bearer ${person_access_token}`
 	}
 });
 ```
