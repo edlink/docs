@@ -10,6 +10,8 @@ Retrieve a list of **[Submissions](../models/external/submission)** for a given 
 
 If the user is enrolled as a `teacher`, `ta`, `designer`, `administrator`, or `district-administrator` in the class, this will return all submissions. If not, this will return only the user's own submission.
 
+Any `student` users who are actively enrolled in a class will have a **Submission** created for them by default.
+
 #### Request Parameters
 
 This query allows for [standard paging parameters](../../../guides/v2.0/paginated-requests).
