@@ -6,13 +6,13 @@ An example of an **Attempt** might be their submission for
 an essay assignment.
 
 ## Properties
-| Property       | Type           | Description                                |
-|----------------|----------------|--------------------------------------------|
-| `created_date` | `Date`         | When the object was created in the source. |
-| `attachments`  | `Attachment[]` | The attachments for this attempt.          |
+| Property       | Type                     | Description                                  |
+|----------------|--------------------------|----------------------------------------------|
+| `created_date` | `Date`                   | When the object was created in the source.   |
+| `attachments`  | `SubmissionAttachment[]` | The submission attachments for this attempt. |
 
-# Attachments
-Each **Attempt** contains one or more **Attachments**.
+# Submission Attachments
+Each **Attempt** contains one or more **Submission Attachments**.
 
 ## Properties
 | Property | Type     | Description                                                              |
@@ -20,9 +20,9 @@ Each **Attempt** contains one or more **Attachments**.
 | `type`   | `string` | The type of the attachment. Required.                                    |
 | `title`  | `string` | The title of the attachment. Optional, and not supported by all systems. |
 
-Each type of attachment has additional properties that are specific to that type. Read on for more details.
+Each type of submission attachment has additional properties that are specific to that type. Read on for more details.
 
-## Attachment Types
+## Submission Attachment Types
 
 ### Text
 Rich or plain text, such as the body of an essay or a response to a question.
