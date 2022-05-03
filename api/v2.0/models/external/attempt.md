@@ -1,6 +1,6 @@
 # Attempt
-An **Attempt** is a record of a **[Person](person.md)**'s
-submitted work for an **[Assignment](assignment.md)**.
+An **Attempt** is a record of a **[Person](person)**'s
+submitted work for an **[Assignment](assignment)**.
 
 An example of an **Attempt** might be their submission for
 an essay assignment.
