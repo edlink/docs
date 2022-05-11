@@ -89,6 +89,10 @@
                         "title": "Profile"
                     },
                     {
+                        "slug": "source",
+                        "title": "Source"
+                    },
+                    {
                         "slug": "classes",
                         "title": "Classes"
                     },
