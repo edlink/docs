@@ -57,7 +57,7 @@ axios.get('https://ed.link/api/v2/graph/requests?$last=5', {
 
 ## Fetch Request
 
-### *GET* https://ed.link/api/v2/graph/request/:request\_id
+### *GET* https://ed.link/api/v2/graph/requests/:request\_id
 
 Retrieve information about a specific request.
 
