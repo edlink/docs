@@ -1,7 +1,5 @@
 # Source
 
-> This page is under construction. User API v2 is in beta and is subject to change.
-
 ## Fetch My Source
 
 ### *GET* https://ed.link/api/v2/my/source

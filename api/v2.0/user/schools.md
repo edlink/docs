@@ -1,7 +1,5 @@
 # Schools
 
-> User API v2 is in beta and is subject to change.
-
 ## List Schools
 
 ### *GET* https://ed.link/api/v2/my/schools

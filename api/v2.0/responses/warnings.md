@@ -2,8 +2,6 @@
 
 This page contains a list of common warnings you might come across while using the Edlink API. For a breakdown of how to process warnings, [check out our guide on errors and warnings](../../../guides/v2.0/errors-warnings).
 
-> This page is under construction. User API v2 is in beta and is subject to change.
-
 ### `PAGING_IGNORED`
 
 When the `$cursor` parameter is used, it overrides all other paging parameters. We recommend using the `$next` url exactly as it comes out of the Edlink API, without any adjustments. [Please review our guide on pagination](../../../guides/v2.0/paginated-requests).

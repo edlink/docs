@@ -1,7 +1,5 @@
 # Assignments
 
-> This page is under construction. User API v2 is in beta and is subject to change.
-
 ## List Assignments
 
 ### *GET* https://ed.link/api/v2/my/classes/:class\_id/assignments

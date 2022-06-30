@@ -1,7 +1,5 @@
 # Submissions
 
-> This page is under construction. User API v2 is in beta and is subject to change.
-
 ## List Submissions
 
 ### *GET* https://ed.link/api/v2/my/classes/:class\_id/assignments/:assignment\_id/submissions

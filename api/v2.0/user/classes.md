@@ -1,7 +1,5 @@
 # Classes
 
-> User API v2 is in beta and is subject to change.
-
 ## List Classes
 
 ### *GET* https://ed.link/api/v2/my/classes

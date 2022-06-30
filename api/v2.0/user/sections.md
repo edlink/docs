@@ -1,7 +1,5 @@
 # Sections
 
-> User API v2 is in beta and is subject to change.
-
 ## List My Sections
 
 ### *GET* https://ed.link/api/v2/my/sections

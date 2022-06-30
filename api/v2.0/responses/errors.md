@@ -2,8 +2,6 @@
 
 This page contains a list of common error responses you might come across while using the Edlink API. For a breakdown of how to process error responses, [check out our guide on errors and warnings](../../../guides/v2.0/errors-warnings).
 
-> This page is under construction. User API v2 is in beta and is subject to change.
-
 ### `400 UNKNOWN`
 
 The server encountered an unexpected condition which prevented it from fulfilling the request.

@@ -1,7 +1,5 @@
 # Districts
 
-> User API v2 is in beta and is subject to change.
-
 ## List Districts
 
 ### *GET* https://ed.link/api/v2/my/districts
