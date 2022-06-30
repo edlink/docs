@@ -9,7 +9,6 @@ Edlink integrates with the following LMS, SIS, and data providers (collectively 
 - Clever
 - Classlink
 - PowerSchool
-- Global Grid 4 Learning (GG4L)
 
 ##For how long does Edlink retain data?
 Edlink will only access and retain specific data from a school’s data platform if it has been connected by a school technology administrator. Edlink gives granular control to the school and third-parties to ensure only the required data is shared and accessed. The data is frequently updated to ensure that Edlink only retains up-to-date data. If a record is removed from within the data platform it will be removed from Edlink during the next sync. Additionally, Edlink retains data backups for 7 days, and retains audit logs for up to 30 days.
