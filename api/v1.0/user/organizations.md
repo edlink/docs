@@ -12,10 +12,8 @@ Any of the following types can be used as an alias for the word `organizations` 
 | Organization Type | Typical Parent Type | Description |
 |---|---|---|
 | `school` | District or None | A school or campus. |
-| `department` | School | A department within a school (less common within K-12). |
 | `course` | Department or School | A course that is taught at the school. |
 | `section` | Course | Groups of students that are taught by the same teacher. |
-| `group` | Course | Groups of students created by the teacher for collaboration. |
 
 Typically, you will be using the retrieving items of the `course` and `school` types. Other organization types are less frequently used unless your application has a specific need.
 

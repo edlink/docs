@@ -19,8 +19,6 @@ The Graph API enables you to access information at the school or district level.
 
 The User Data API enables you to add single sign on, rostering, content, and gradebook integration with school data sources. All requests documented in this section are scoped to the authenticated user. For example, when you make a call to retrieve a list of courses, you will receive a list of courses in which the requesting user is enrolled. You **will not** receive a list of all courses within an entire school or district.
 
-> Version 2.0 of the Edlink User API will be available in Fall 2021.
-
 * The User Data API provides access to information relating to the user who is currently sign in to your application.
 * The API is bi-directional which allows you to perform functions like syncing grades or submitting assignments.
 * Sharing Rules apply here, so you will not see data that you are not allowed to access.
@@ -29,7 +27,7 @@ The User Data API enables you to add single sign on, rostering, content, and gra
 
 The Meta API enables you to access the inner workings of the Edlink dashboard.
 
-> Version 2.0 of the Edlink Meta API will be available in Fall 2021.
+> Version 2.0 of the Edlink Meta API will be available in Spring 2022.
 
 * The Meta API provides access to information relating to your Edlink team, applications, and integrations.
 * The API is bi-directional, which allows you to perform functions like creating applications.

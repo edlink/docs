@@ -89,6 +89,10 @@
                         "title": "Profile"
                     },
                     {
+                        "slug": "source",
+                        "title": "Source"
+                    },
+                    {
                         "slug": "classes",
                         "title": "Classes"
                     },
@@ -278,6 +282,18 @@
                                     {
                                         "slug": "public-school-residence-status",
                                         "title": "Public School Residence Status"
+                                    },
+                                    {
+                                        "slug": "race",
+                                        "title": "Race"
+                                    },
+                                    {
+                                        "slug": "disability",
+                                        "title": "Disability"
+                                    },
+                                    {
+                                        "slug": "food-service-program-eligibility",
+                                        "title": "Food Service Program Eligibility"
                                     },
                                     {
                                         "slug": "relationship",

@@ -47,11 +47,11 @@ https://ed.link/sso/login
 &response_type=code
 ```
 
-| Parameter | Description |
-|---|---|
-| `client_id` | This should be set to the **Application ID** listed in the **Application Keys** section of your application configuration. 
-| `redirect_uri` | This is where we'll send users after a login attempt. This URI must be explicitly specified in your application settings, or we won't allow it. 
-| `state` | While not required, it's good practice to set a random variable here and check that it's the same in the next step.
+| Parameter      | Description                                                                                                                                     |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| `client_id`    | This should be set to the **Application ID** listed in the **Application Keys** section of your application configuration.                      |
+| `redirect_uri` | This is where we'll send users after a login attempt. This URI must be explicitly specified in your application settings, or we won't allow it. |
+| `state`        | While not required, it's good practice to set a random variable here and check that it's the same in the next step.                             |
 
 ### 2. Receiving a Response from Edlink
 
@@ -111,13 +111,13 @@ application's secret key.
 
 #### Sample Token Exchange Request
 
-| Field | Description |
-| --- | --- |
-| `code` | This should be set to the authorization code you received in step 2. |
-| `client_id` | This should be set to the **Application ID** listed in the **Application Keys** section of your application configuration. |
-| `client_secret` | This should be set to the **Secret Key** listed in the **Application Keys** section of your application configuration. |
-| `redirect_uri` | This should be set to the `redirect_uri` you used in step 1. |
-| `grant_type` | This should be set to `authorization_code`. |
+| Field           | Description                                                                                                                |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------|
+| `code`          | This should be set to the authorization code you received in step 2.                                                       |
+| `client_id`     | This should be set to the **Application ID** listed in the **Application Keys** section of your application configuration. |
+| `client_secret` | This should be set to the **Secret Key** listed in the **Application Keys** section of your application configuration.     |
+| `redirect_uri`  | This should be set to the `redirect_uri` you used in step 1.                                                               |
+| `grant_type`    | This should be set to `authorization_code`.                                                                                |
 
 The request body must be of type `application/json`.
 
@@ -187,14 +187,12 @@ We can make another request to the `/authentication/token` endpoint with slightl
 
 #### Sample Token Refresh Request
 
-| Field | Description |
-| --- | --- |
-| `client_id` | This should be set to the **Application ID** listed in the **Application
-Keys** section of your application configuration. |
-| `client_secret` | This should be set to the **Secret Key** listed in the **Application
-Keys** section of your application configuration. |
-| `grant_type` | This should be set to `refresh_token`. |
-| `refresh_token` | This should be set to the refresh token you obtained in step 3.
+| Field           | Description                                                                                                                |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------|
+| `client_id`     | This should be set to the **Application ID** listed in the **Application Keys** section of your application configuration. | 
+| `client_secret` | This should be set to the **Secret Key** listed in the **Application Keys** section of your application configuration.     |
+| `grant_type`    | This should be set to `refresh_token`.                                                                                     |
+| `refresh_token` | This should be set to the refresh token you obtained in step 3.                                                            |
 
 The request body must be of type `application/json`.
 

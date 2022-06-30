@@ -11,6 +11,7 @@ An **Assignment** can accept a **[Submission](submission)**.
 | `description`           | `string`                                        | The description of the assignment. This will be used for LMS systems that support special formatting.                            |
 | `description_plaintext` | `string`                                        | The description without special formatting. This will be used for LMS systems that do not support special formatting.            |
 | `state`                 | **[`AssignmentState`](enums/assignment-state)** | The state of the assignment.                                                                                                     |
+| `attachments`           | **[`Attachment[]`](attachment)**                | The attachments associated with the assignment.                                                                                  |
 | `assignee_mode`         | **[`AssigneeMode`](enums/assignee-mode)**       | The method by which the assignment's assignees are determined.                                                                   |
 | `assignee_ids`          | `string[]`                                      | If `assignee_mode` is set to `individuals`, this should be a list of **[Person](person)** `id`s.                                 |
 | `due_date`              | `Date`                                          | The time at which new submissions are late for the assignment.                                                                   |
