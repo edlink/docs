@@ -52,10 +52,6 @@
                 "title": "Application Permissions"
             },
             {
-                "slug": "marketplace",
-                "title": "Marketplace"
-            },
-            {
                 "type": "spacer",
                 "title": "For Developers"
             },
