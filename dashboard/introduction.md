@@ -1,1 +1,1 @@
-Introduction.
+This section contains user guides for the Edlink Dashboard. If you are looking for technical documentation such as developer guides or API reference docs, please visit the appropriate sections.
