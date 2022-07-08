@@ -13,11 +13,11 @@ On this page, you will create a connection with Canvas. This process requires th
 </p>
 
 <p class="application_id">
-    This field is the application ID that Canvas provides to you on the "Developer Keys" page. It is typically a number that is 10-20 digits long, and it will probably contain a lot of zeros.
+    The next is the application ID that Canvas provides to you on the "Developer Keys" page. It is typically a number that is 10-20 digits long, and it will probably contain a lot of zeros.
 </p>
 
 <p class="application_secret">
-    This field is the application secret that Canvas provides to you on the "Developer Keys" page. It will be hidden behind the "Show Key" button. It is usually about 64 characters long and will contain numbers and letters (both upper and lower case).
+    Lastly is the application secret that Canvas provides to you on the "Developer Keys" page. It will be hidden behind the "Show Key" button. It is usually about 64 characters long and will contain numbers and letters (both upper and lower case).
 </p>
 
 The next page will ask you to connect your Canvas administrator account. This confirms that the above configuration is correct, and grants Edlink the required permissions to sync data with Canvas. To complete this step, click the blue "Connect" button and then select "Authorize" on the following page. After approving Edlink, you will be redirected back to Edlink.
