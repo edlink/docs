@@ -221,3 +221,19 @@ const response = await axios.post('https://ed.link/api/authentication/token', re
 ```
 
 This response has the same structure as the one from step 3. Note that the `refresh_token` always stays the same, so you don't need to store it again.
+
+# Special Authentication Routes
+
+Edlink provides a number of special routes to developers in order to deliver the best possible user experience for end user. These routes are fundamentally identical to the standard process of authentication, but can result in fewer clicks for the end user if your application can provide Edlink with "hints" about the user (e.g. what district they're coming from). Here are the two cases that we see most commonly.
+
+## Sign In With Google, Clever, or Classlink
+
+Many developers choose to employ a separate button for users to sign in with Google, Clever, or Classlink. If a user clicks one of these buttons, Edlink doesn't need to know any additional details about their school district or data source. As a result, we can "skip" the Edlink screen that asks for their email address. If you want to utilize this experience, you can simply append the application name to the end of the standard Edlink SSO URL.
+
+For example, sending the user to `https://ed.link/api/v1/authentication/provider/google` will direct them straight to Google, without seeing the standard Edlink login page. Simply replace `google` in the preceding example with `clever` or `classlink` to achieve the same effect for those systems. This URL still expects the standard login parameters of `state`, `redirect_uri` and `client_id`.
+
+## District Subdomains
+
+If (for some reason) your application is aware of what school district the user is coming from, you can save them some time by giving Edlink a heads up. The most common situation in which this can occur is when your districts each have their own subdomain. Some developers choose to store the Edlink Integration ID alongside the subdomain name in their database. When the user wants to sign in from that subdomain, they will direct the user to the following URL: `https://ed.link/api/v1/authentication/integrations/:integration_id`.
+
+By directing the user to this URL instead of the standard login page, they will not be prompted to enter their email address. This URL still expects the standard login parameters of `state`, `redirect_uri` and `client_id`.
