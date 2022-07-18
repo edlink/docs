@@ -1,5 +1,23 @@
 # Edlink Dashboard Changelog
 
+##### July 18th, 2022
+
+- Added a new tab to the source page that allows you to view all of the integrations for a given source.
+
+##### July 15th, 2022
+
+- You can now write your own custom transformation functions.
+- Reenabled the tab that lists class enrollments.
+- Clicking on a class or person enrollment will now expand details about that enrollment.
+- You can now override school, session, class, and section values.
+- Fixed a bug that was preventing entity matches from correctly loading.
+
+##### July 15th, 2022
+
+- Removed a number of old files to reduce build size and page load times.
+- Added more details about a sync including information about staged changes.
+- Fixed the command palette. It was previously not loading due to a failing API call.
+
 ##### July 7th, 2022
 
 - Added support for adding multiple enrichment sources to a primary source.

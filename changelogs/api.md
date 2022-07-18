@@ -1,13 +1,373 @@
 # Edlink API Changelog
 
-##### September 2nd, 2021
+##### July 18th, 2022
 
-- Internal changes.
+- Enabled custom transformations.
+- Fixed a meta API call that was used by the dashboard to list matches for a given entity.
+- Added `school_id`, `course_id`, and `session_ids` as fields that can be overridden for a class.
+- Enabled RapidIdentity as a top-level provider in Edlink.
+- Fixed an issue that was resulting in an error when you specified a `$fields` query parameter and the result was an empty array.
+- Added an endpoint to list integrations by source.
+- Fixed an issue with the `/v1/my/profile` call for users outside of the United States region.
+
+##### July 15th, 2022
+
+- Fixed an issue where a school's profile picture was not being returned in some v1 API calls.
+- Added support for Moodle LTI 1.3 SSO.
+- Fixed a Canvas attachment issue where the API request could fail if the description was null.
+- Enabled outbound request logging for v2 user endpoints (to match v1 support of this feature).
+- Fixed an issue where materializations would fail due to an override that would point to an object that no longer exists.
+- Added endpoints to retrieve staged changes for a sync (prior to the changes being flushed).
+
+##### July 13th, 2022
+
+- Fixed an error that would cause an API request to hang on the `/api/v1/organizations/:id` call when you sent an invalid organization ID.
+- Improved the visual style of attachments added to Canvas assignments.
+- Improved the error message users receive when they attempt to create a category in a Google Classroom class that does not exist upstream.
+- Added validation for CSV sources.
+- Fixed a sync error that was causing some Microsoft jobs to fail.
+
+##### July 12th, 2022
+
+- Fixed a couple of issues in the LTI 1.3 launch process.
+- Added support for Canvas submission extensions.
+- Corrected a time zone issue with some Schoology assignment due dates.
+- Improved the "assignment not found" error from Canvas.
+
+##### July 11th, 2022
+
+- Restored proper error messages for invalid routes in API v2.
+- When searching through objects for sharing rules, search is now case-insensitive.
+- Teacher names are now expanded to be human-readable in the sharing rules UI.
+
+##### July 8th, 2022
+
+- Fixed a number of issues with our new sharing rule preview system (codenamed `Blink`).
+
+##### July 7th, 2022
+
+- Added a number of endpoints to support the retrieval of matches coming from our data enrichment engine.
+    - You can now manually add or remove matches if they are incorrect.
+- Fixed a bad database query for LTI 1.3 launching into our Toronto region.
+- Fixed an issue where we were accidentally rematerializing some paused syncs.
+- Fixed an issue with Microsoft assignment attachments in API v2.
+
+##### July 6th, 2022
+
+- Increased support for Clever admins and contacts.
+
+##### July 5th, 2022
+
+- You can now make roster requests against a person in the v2 user API, even if that person has invalid LMS tokens (e.g. because you impersonated them).
+    - This brings v2 into line with v1.
+- Provide additional details in the API response when you receive a 500 error from Edlink.
+
+##### July 2nd, 2022
+
+- Improved our Blackboard validation function to better understand if the source has been configured correctly.
+- Added support for agents (i.e. parental contacts) in Google Classroom.
+- Fixed our autofill defaults feature for Schoology in API v2.
+- Added several new warning / error codes for situations that can arise around Microsoft attachments.
+
+##### June 30th, 2022
+
+- Improved our logic that deals with Schoology rate limits to make faster requests (on average).
+
+##### June 24th, 2022
+
+- Fixed a few issues related to assignment attachment support in Schoology and Canvas.
+
+##### June 23th, 2022
+
+- Properly parse OneRoster course subject codes during syncs.
+- Added a number of new identifiers across almost all supported systems.
+    - You can find these identifiers (when they are available) in the `entity.identifiers` array.
+
+##### June 21th, 2022
+
+- You can now see your position in the queue when you're waiting to preview a sharing rule.
+- Added support for agents (e.g. parental relationships) in Schoology.
+- Changed the URL structure for our LTI 1.3 configuration JSON / JWK endpoints.
+
+##### June 17th, 2022
+
+- Released our new system for previewing sharing rules (codenamed `Blink`).
+    - This should offer a way faster and more accurate experience for creating sharing rules.
+    - It takes into account transformations and overrides, which our old system did not.
+
+##### June 16th, 2022
+
+- Improved OneRoster sync performance.
+
+##### June 13th, 2022
+
+- Released LTI 1.3 support for launches in Canvas, Blackboard, and Brighspace.
+
+##### June 3rd, 2022
+
+- Improved error message when you send an invalid session_id while creating an assignment.
+- Added a warning message in v2 when the autofill features fills out a missing field for you.
+
+##### June 2nd, 2022
+
+- Fixed a bug that was preventing standard API requests against paused integrations.
+    - Note, only `disabled` integrations should return an error.
+- Fixed an issue in Schoology & Canvas assignments where we were not properly handling individualized assignments.
+
+##### May 30th, 2022
+
+- Added a set of mirror endpoints for the Clever v2.1 API.
+- Entity identifiers will now be returned in API v1.
+    - They were previously only returned in v2.
+
+##### May 27th, 2022
+
+- Fixed an issue with Canvas assignment `points_possible` not updating correctly.
+- Fixed an issue with listing integrations when you have none to list.
+- Improved some sync code to map things to only `CEDS` grade levels.
+- Fixed our import of Clever student grade levels and class subjects.
+- Fixed an API v1 issue preventing submission feedback from correctly submitting to Brightspace.
+
+##### May 24th, 2022
+
+- Updated v2 Google draft submission grade behavior to match v1.
+- Added `gender_identity` to the list of valid person overrides.
+- Fixed a couple of issues related to grading LTI-based assignments in Canvas.
+    - Canvas only allows LTI grading of LTI assignments so a special case needed to be implemented.
+
+##### May 20th, 2022
+
+- Removed our `properties.identifiers` backwards compatibility in lieu of the new `identifiers` array.
+    - Any affected clients were transitioned to the new structure.
+- Person races array in v2 will now default to an empty array instead of `null`.
+- Fixed an issue that affected the $expand parameter's handling of array expansions.
+
+##### May 19th, 2022
+
+- Fixed an issue with the login history method that was caused by a person being unshared or deleted from an upstream source.
+- Fixed an issue that prevented changes to the identifiers arrays from being staged.
+
+##### May 17th, 2022
+
+- Updated Google Classroom integration to support multiple attachment objects on an assignment.
+- We're now syncing various new demographics fields.
+- Added support for alternative login URLs for unusual Schoology setups.
+
+##### May 15th, 2022
+
+- Released broader 2FA support for Edlink dashboard users.
+- Newly created applications will automatically have an LTI 1.3 JWK created for them.
+- Application `anonymous_providers` is now an array of provider UUIDs and not a boolean.
+    - This will be more flexible as we expand support for anonymous providers.
+
+##### May 11th, 2022
+
+- Introduced multiregion support for compliance with data sovereignty laws.
+    - With this, we released our first region, Toronto.
+
+##### May 10th, 2022
+
+- Fixed an issue with Clever anonymous user logins.
+
+##### May 6th, 2022
+
+- Created an `/api/v2/my/source` endpoint for loading information about your own district and LMS.
+- Fixed some issues with Canvas assignment states in API v2.
+- Created a Clever compatibility block to make any data backwards compatible with what comes out of Clever API v2.1.
+
+##### May 4th, 2022
+
+- Clever sync will now include contacts.
+- Fixed an issue with Canvas assignment grading types in v2.
+- Added match introspection capabilities.
+
+##### April 29th, 2022
+
+- Improvements to our data enrichment matching algorithm.
+
+##### April 22nd, 2022
+
+- Added `starts with` and `ends with` to `course_code` sharing rule field.
+- Added support for Clever roster sync lite rostering.
+    - Previously, we only supported full roster syncing with Clever and Clever library.
+
+##### April 20th, 2022
+
+- Added kebab case and phone number formatting transform blocks.
+
+##### April 18th, 2022
+
+- Significantly expanded our Clever identifier syncing.
+- Performance improvements for when you use the `$expand` parameter.
+
+##### April 13th, 2022
+
+- Edlink will no longer share observer enrollments to classes if we are not sharing guardians with your application.
+- Released an intial version of integration overrides.
+    - You can manually insert, update, and delete data from the Edlink dataset without it being clobbered by future syncs.
+
+##### April 8th, 2022
+
+- Added `rural_residency` permission.
+
+##### April 3rd, 2022
+
+- Added a privacy block that can conceal certain fields in the dataset if they are unused by the developer.
+
+##### March 28th, 2022
+
+- Simplified the Edlink permission to give broader permissions around entities and more specific permissions around user data.
+- Expanded the number of available demographic fields.
+
+##### March 24th, 2022
+
+- Fixed an issue with Brightspace assignment submission types.
+
+##### March 20th, 2022
+
+- Edlink will now properly update source states to reflect their respective Clever / Classlink integration states.
+
+##### March 16th, 2022
+
+- Fixed a couple of issues with the API endpoints to create transformations.
+- Released a number of improvements to the data enrichment algorithm.
+
+##### March 10th, 2022
+
+- Implemented the correct Microsoft submissions lifecycle in API v2.
+- Fixed a couple of issues related to Brightspace assignment submissions.
+
+##### March 7th, 2022
+
+- Made improvements to our OneRoster CSV sync.
+    - These improvements are mostly dealing with the scale of massive districts (250k+ users).
+
+##### February 28th, 2022
+
+- Switched the `PROVISIONED` state in Google Classroom to map to `inactive` in Edlink.
+
+##### February 13th, 2022
+
+- V1 endpoints will now log outbound requests made from Edlink to the LMS.
+
+##### January 22nd, 2022
+
+- Beta release of user API v2.
+
+##### January 7th, 2022
+
+- Beta release of new data enrichment engine (codenamed `Tango`).
+- Fixed a couple of LTI launch issues.
+
+##### December 29th, 2021
+
+- Fixed a bug in assignee aliasing.
+- Added `/my/classes/:id/enrollments` endpoint.
+
+##### December 15th, 2021
+
+- Beta release of Graph API v2.
+- Fixed an issue that was causing Blackboard syncs to fail after an hour.
+
+##### December 3th, 2021
+
+- Fixed a few Classlink syncs that were not comforming to the OneRoster specification.
+- Corrected some empty string situations in Classlink syncs.
+- Fixed an issue with Brightspace user roles.
+
+##### November 30th, 2021
+
+- Set Brightspace default points possible.
+- Properly parse person roles in `/v1/my/profile`.
+    - This isn't strictly a feature in our documentation, but we wanted it to be available nonetheless.
+- Fixed some missing agent roles in the Bromcom SIS sync.
+
+##### November 24th, 2021
+
+- Reenabled Edlink SFTP provider.
+
+##### October 21st, 2021
+
+- Minor change to Illuminate Education to add addtional standards info.
+
+##### October 17th, 2021
+
+- Assign a default grading period and category to Schoology assignments.
+- Send a 200 instead of a 204 for delete assignment endpoint.
+
+##### October 15th, 2021
+
+- Fixed an Illuminate Education issue (race condition with token refresh).
+- Expanded our demographics models.
+
+##### October 12th, 2021
+
+- Send a 200 instead of a 204 for delete submission endpoint.
+
+##### October 11th, 2021
+
+- Google assignment submission can now contain a URL.
+
+##### October 10th, 2021
+
+- Sync classes and enrollments for Clever Library users.
+
+##### October 8th, 2021
+
+- Added Bromcom roster sync support.
+- Updated a few OneRoster role mappings.
+
+##### September 29th, 2021
+
+- OneRoster courses will now properly sync subjects.
+
+##### September 28th, 2021
+
+- Added HelloID as a top-level SSO provider.
+- Fixed OneRoster subject codes when they don't match CEDS standard.
+- Greatly improved Canvas sync speed.
+
+##### September 23th, 2021
+
+- Fixed Clever sync validation.
+- Fixed an issue with Moodle login.
+- Added support for Clever identifiers and grade levels.
+
+##### September 19th, 2021
+
+- Added a few endpoints to handle sharing rule previews.
+- Added GraphQL pagination for Canvas syncs.
+- We are now tracking the number of sync attempts in the event that a job fails.
+
+##### September 16th, 2021
+
+- Implemented a cleaner solution for validating Schoology sources with custom URLs.
+
+##### September 15th, 2021
+
+- Patched a v1 submissions list issue in Canvas.
+
+##### September 14th, 2021
+
+- Return enrollment state wherever we retrieve enrollments.
+- Add source validation for some additional sources.
+
+##### September 10th, 2021
+
+- Fixed enrollments paging issue.
+
+##### September 9th, 2021
+
+- Fixed an issue with fetching single Schoology submissions.
+
+##### September 8th, 2021
+
+- The `state` parameter is no longer a required parameter for Edlink SSO.
 
 ##### September 1st, 2021
 
 - Also retrieve the support website URL when you load the public details for an application.
-- Fixed request filtering on V2.
+- Fixed request filtering on v2.
 
 ##### August 31st, 2021
 
@@ -16,7 +376,7 @@
 - Added more Open API documentation.
 - Allow creating assignments for a particular section in API v1.
 - Bugfixes for creating and updating assignments assigned to a specific Schoology section's students.
-- Allow updating assignments to be assigned to a particular section in API V1.
+- Allow updating assignments to be assigned to a particular section in API v1.
 
 ##### August 27th, 2021
 
@@ -26,7 +386,7 @@
 ##### August 24th, 2021
 
 - Added more UUID validation for better error messages.
-- Fixed an issue with the V1 events API endpoint.
+- Fixed an issue with the v1 events API endpoint.
 - Added an email & password sign in method.
 - Fixed a couple of issues with assignments.
 - Fixed an issue with organization expansion.
@@ -73,21 +433,21 @@
 ##### July 21st, 2021
 
 - Initial release of 2.0.0.
-    - We **do not** have plans to deprecate V1 at this time.
-    - We will continue to make improvements and fix issues in the V1 API.
+    - We **do not** have plans to deprecate v1 at this time.
+    - We will continue to make improvements and fix issues in the v1 API.
 - Lexical updates:
     - Organizations have been split into several new types: `Districts`, `Schools`, `Classes`, and `Sections`.
-    - V1.0 `Courses` have been renamed to `Classes` to fall more in line with industry expectations.
+    - v1.0 `Courses` have been renamed to `Classes` to fall more in line with industry expectations.
     - We have added a brand new type `Courses` to represent the concept of a course "template".
         - Courses are designed to capture the concept of "Algebra 1", rather than a specific instantiation of a `class`.
         - Classes differ as they are comprised of teachers and students in a room (i.e. at a specific time).
         - Classes may reference a course.
     - We have added the type `agents` to describe the parent/guardian to student relationship.
-    - We have renamed V1.0 `Terms` to V2.0 `Sessions` in order to represent a wider array of time-bound objects.
+    - We have renamed v1.0 `Terms` to v2.0 `Sessions` in order to represent a wider array of time-bound objects.
     - Enrollments are now only between a Person and a corresponding Class.
         - They may optionally include a reference to a `section` which is a group of students within a class.
     - All sources will now have a single `district` object and one or more `school` objects.
-        - This was not necessarily the case in V1.0 where this was determined by the LMS that the district used.
+        - This was not necessarily the case in v1.0 where this was determined by the LMS that the district used.
     - A number of name changes were made to improve consistency across the API.
 - You will now find a reference to the district and zero or more schools on each person object.
     - This replaced the old style of having enrollments connect users to their school or district.
@@ -95,9 +455,9 @@
 - People may now have more than one global `role`.
 - We have improved the way we handle our event deltas to make them more clear for developers.
 - Additional notes:
-    - Authentication and authorization have not changed. You can use the same tokens to call V1 and V2 endpoints.
-    - At the end of the day, you should receive the same information from V1 as V2, just in a considerably different format.
-    - New features like agents or courses will not be available through the V1 API.
+    - Authentication and authorization have not changed. You can use the same tokens to call v1 and v2 endpoints.
+    - At the end of the day, you should receive the same information from v1 as v2, just in a considerably different format.
+    - New features like agents or courses will not be available through the v1 API.
 
 ##### July 14th, 2021
 
