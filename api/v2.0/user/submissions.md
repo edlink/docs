@@ -166,7 +166,7 @@ The request body should contain an **[Attempt](../models/external/attempt)** obj
 #### Sample Request
 
 ```javascript
-axios.post(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}/reclaim`, {
+axios.post(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}/submit`, {
 	headers: {
 		authorization: `Bearer ${person_access_token}`
 	},
