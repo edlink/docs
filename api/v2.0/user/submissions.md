@@ -64,7 +64,7 @@ Retrieve information about a specific **[Submission](../models/external/submissi
 #### Sample Request
 
 ```javascript
-axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}`, {
+axios.get(`https://ed.link/api/v2/my/classes/${class_id}/assignments/${assignment_id}/submissions/:submission\_id`, {
 	headers: {
 		authorization: `Bearer ${person_access_token}`
 	}

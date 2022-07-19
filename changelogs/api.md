@@ -3,6 +3,7 @@
 ##### July 19th, 2022
 
 - Added Adult Learning and Continued Learning grade levels to our grade level enum.
+- Fixed an issue with v2 Canvas submissions.
 
 ##### July 18th, 2022
 
