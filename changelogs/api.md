@@ -1,5 +1,9 @@
 # Edlink API Changelog
 
+##### July 19th, 2022
+
+- Added Adult Learning and Continued Learning grade levels to our grade level enum.
+
 ##### July 18th, 2022
 
 - Enabled custom transformations.
