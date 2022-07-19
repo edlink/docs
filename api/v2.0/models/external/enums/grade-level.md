@@ -27,5 +27,7 @@ The values of this enum are of type `string`.
 | `12` | Twelfth grade. |
 | `13` | Grade thirteen. |
 | `PS` | Postsecondary. |
+| `AL` | Adult Learning. |
+| `CL` | Continued Learning. |
 | `UG` | Ungraded. |
 | `Other` | Other. |
