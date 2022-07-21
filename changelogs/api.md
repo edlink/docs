@@ -1,5 +1,11 @@
 # Edlink API Changelog
 
+##### July 20th, 2022
+
+- Added a nicer error message for when you are sending an assignment to an unpublished Canvas course.
+- Fixed an issue with syncing agents (parents) from Google Classroom.
+- Ported our Canvas attachment shim backwards into API v1.
+
 ##### July 19th, 2022
 
 - Added Adult Learning and Continued Learning grade levels to our grade level enum.
