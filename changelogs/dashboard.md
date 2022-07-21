@@ -1,5 +1,9 @@
 # Edlink Dashboard Changelog
 
+##### July 21st, 2022
+
+- We've fixed some issues with changing team member permissions and removing members from your team.
+
 ##### July 18th, 2022
 
 - Added a new tab to the source page that allows you to view all of the integrations for a given source.

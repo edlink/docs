@@ -2,6 +2,11 @@
 
 ##### July 20th, 2022
 
+- Fixed an issue where outbound request bodies were not being logged correctly for v2 requests.
+- Released a bugfix to our Moodle plugin.
+
+##### July 20th, 2022
+
 - Added a nicer error message for when you are sending an assignment to an unpublished Canvas course.
 - Fixed an issue with syncing agents (parents) from Google Classroom.
 - Ported our Canvas attachment shim backwards into API v1.
